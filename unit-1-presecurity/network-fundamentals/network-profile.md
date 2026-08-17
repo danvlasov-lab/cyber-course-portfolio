@@ -56,11 +56,11 @@ The difference is IP address shows where is your device in the network and MAC a
 ## Q5:
 Default gateway: 10.210.168.1 . Yes, the default gateway is on the same subnet as my machine.
 ### How I can tell:
-### My Subnet: With a /21 subnet mask (255.255.248.0), my local network spans from the Network address 10.210.168.0 to the Broadcast address 10.210.175.255.
+My Subnet: With a /21 subnet mask (255.255.248.0), my local network spans from the Network address 10.210.168.0 to the Broadcast address 10.210.175.255.
 
-### Comparison:My machine's IP address is 10.210.172.184My gateway's IP address is 10.210.168.1
+Comparison:My machine's IP address is 10.210.172.184My gateway's IP address is 10.210.168.1
 
-### Conclusion: Both IP addresses fall perfectly within the 10.210.168.0 — 10.210.175.255 range. Because they share this exact address block, they are on the same local subnet and can interact directly without needing an external router.
+Conclusion: Both IP addresses fall perfectly within the 10.210.168.0 — 10.210.175.255 range. Because they share this exact address block, they are on the same local subnet and can interact directly without needing an external router.
 
 ## Q6:
 ## Q7:
