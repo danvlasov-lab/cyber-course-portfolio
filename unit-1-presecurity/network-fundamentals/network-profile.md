@@ -54,7 +54,9 @@ The difference is IP address shows where is your device in the network and MAC a
 /24 contain 256 addresses. 254 of those are usable for devices(less 2 address are Network address and broadcast address). If my IP address is 192.168.1.37/24, the network address is 192.168.1.0, and broadcast address is 192.168.1.255 .
 
 ## Q5:
-Default gateway: 10.210.168.1 . 
+Default gateway: 10.210.168.1 . Yes, the default gateway is on the same subnet as my machine.
+### How I can tell:
+
 ## Q6:
 ## Q7:
 ## Q8:
