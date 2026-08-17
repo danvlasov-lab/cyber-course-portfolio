@@ -90,7 +90,8 @@ Port 5000 (TCP): Listening on * (All interfaces / reachable from the network).
 Port 7000 (TCP): Listening on * (All interfaces / reachable from the network).
 Port 49178 (TCP): Listening on * (All interfaces / reachable from the network).
 
-## Q14: .
+## Q14: 
+.
 ## Common uses for two ports:
 Port 22 (SSH): Commonly used for Secure Shell access. It allows a user to securely connect to a remote machine, run command-line tools, and manage the system.
 Port 445 (SMB): Commonly used for Server Message Block. This protocol enables file sharing, printer sharing, and local network communication between devices (especially between Windows and Mac systems).
