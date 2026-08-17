@@ -41,8 +41,7 @@
 | 445  | TCP      | all(*)                          | smbd        |
 
 ## Q1:
-IPv4 address: 10.210.172.xxx
-MAC address: 86:3d:8b:af:41:xx
+IPv4 address: 10.210.172.xxx, MAC address: 86:3d:8b:af:41:xx
 
 ## Q2:
 A private IP address cannot reach or be reached from the outside world, while public IP address can. That's why my home router use private addresses inside my network for security and protection against hackers.
