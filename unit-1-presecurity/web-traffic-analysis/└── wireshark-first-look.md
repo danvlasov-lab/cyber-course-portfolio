@@ -22,7 +22,7 @@
 
 1. Because of the tls security-protocol, that encrypts data in a flow.
 
-2. For example connecting to a public Wi-Fi network in a coffee shop or airport on a smartphone.
+2. For example connecting to a public Wi-Fi network in a coffee shop or airport on a smartphone:
 
 ## What protects me: HTTPS/TLS encryption protects the content of web traffic, such as usernames, passwords, and sensitive personal data.
 
