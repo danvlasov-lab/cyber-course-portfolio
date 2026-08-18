@@ -30,4 +30,6 @@
 
 
 ## Reflection (20-30 words):
+- What surprised you most about the difference between the two captures?
+
 The most shocking part is how tls on HTTPS capture hides most of all data in a flow and how easy to monitore info from HTTP capture. 
