@@ -1,9 +1,9 @@
 ## Wireshark First Look
 
-## Part A:
+## Part A — the HTTP capture (U1-03a_http_login.pcap):
 
-## Part B:
+## Part B — the HTTPS capture (U1-03a_https_login.pcap)
 
-## Part C:
+## Part C — making sense of it
 
 
