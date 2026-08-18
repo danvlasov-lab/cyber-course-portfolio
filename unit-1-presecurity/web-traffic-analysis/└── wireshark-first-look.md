@@ -14,12 +14,15 @@
 
 1. I can't see a username and a password because all payload traffic is encrypted with TLS protocol.
 
-2. 
+2. lab-portal.local and Pohjola Logistics Lab1
 
-3. 
-
-4.
+3. An eavesdropper can still learn the destination IP address and the domain name (hostname/SNI) of the website the user is visiting.
 
 ## Part C — making sense of it:
+
+1. 
+
+2. 
+
 
 ## Reflection (20-30 words):
