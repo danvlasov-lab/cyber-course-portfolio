@@ -1,4 +1,4 @@
-## wireshark-first-look
+## Wireshark First Look
 
 ## Part A:
 
