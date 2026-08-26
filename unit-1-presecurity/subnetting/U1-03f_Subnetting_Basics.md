@@ -59,7 +59,8 @@ C	/24
 
 ## Task 3 - The five key values - the main event
 
-3.1 - 172.16.0.0/16
+### 3.1 - 172.16.0.0/16
+
 subnet mask:       255.255.255.0
   network address:   192.168.0.0
   default gateway:   192.168.0.1
@@ -68,7 +69,8 @@ subnet mask:       255.255.255.0
   broadcast:         192.168.0.255
 (B-class default - should feel familiar)
 
-3.2 - 10.10.0.0/26
+### 3.2 - 10.10.0.0/26
+
 subnet mask:       255.255.255.0
   network address:   192.168.0.0
   default gateway:   192.168.0.1
@@ -77,7 +79,7 @@ subnet mask:       255.255.255.0
   broadcast:         192.168.0.255
 (worked in class - do it again to confirm you can reproduce it)
 
-3.3 - 192.168.5.0/28
+### 3.3 - 192.168.5.0/28
 subnet mask:       255.255.255.0
   network address:   192.168.0.0
   default gateway:   192.168.0.1
@@ -86,7 +88,8 @@ subnet mask:       255.255.255.0
   broadcast:         192.168.0.255
 (new block size - how many hosts fit?)
 
-3.4 - 10.0.0.0/30
+### 3.4 - 10.0.0.0/30
+
 subnet mask:       255.255.255.0
   network address:   192.168.0.0
   default gateway:   192.168.0.1
@@ -95,7 +98,8 @@ subnet mask:       255.255.255.0
   broadcast:         192.168.0.255
 (the smallest useful subnet - think about why network engineers use /30 for point-to-point links)
 
-3.5 - 192.168.100.128/25
+### 3.5 - 192.168.100.128/25
+
 subnet mask:       255.255.255.0
   network address:   192.168.0.0
   default gateway:   192.168.0.1
