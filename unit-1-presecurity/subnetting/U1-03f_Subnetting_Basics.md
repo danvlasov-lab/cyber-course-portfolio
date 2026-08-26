@@ -3,14 +3,23 @@
 
 ### 1.1 - Decimal to binary
 Decimal	Binary
+
 10	00001010 (example — done for you)
+
 210	 
+
 168	 
+
 16	 
+
 255	 
+
 128	 
+
 192	 
+
 248	 
+
 0	 
 
 ### 1.2 - Binary to decimal
