@@ -25,16 +25,23 @@ Decimal	Binary
 ### 1.2 - Binary to decimal
 Binary	Decimal
 11000000	(example - 192)
+
 11111111	 
+
 10101000	 
+
 00010000	 
+
 11111000	 
+
 11010010	 
 
 ### 1.3 - Full-address conversion
 
 10.210.168.16 → (example from the lesson — do it again to confirm)
+
 192.168.0.1 →
+
 172.16.5.100 →
 
 ## Task 2 - Recognize the class and CIDR
