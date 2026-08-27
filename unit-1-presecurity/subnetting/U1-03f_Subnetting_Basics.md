@@ -74,12 +74,18 @@ Address		     | Class	|	Default mask (dotted)	|	Default mask (CIDR)
 ### 2.2 - Mask ↔ CIDR ↔ binary
 
 Dotted-decimal	CIDR	Binary (32 bits, dots between octets)
+
 255.255.255.0	/24	11111111.11111111.11111111.00000000
+
 255.255.0.0	 	 
+
  	/8	 
-255.255.255.192	 	 
+  
+255.255.255.192	
+
  	/21	 
-255.255.255.128	 	 
+  
+255.255.255.128	 
 
 ### 2.3 - Networks and hosts per class
 
