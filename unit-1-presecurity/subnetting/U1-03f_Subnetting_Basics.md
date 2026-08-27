@@ -288,26 +288,31 @@ Broadcast address: 192.168.10.255
 (You should end up with subnets starting at .0, .64, .128, and .192 — matching the block sizes you calculated in class: /24 = 256, /25 = 128, /26 = 64.)
 
 ### 5.2 - Enough hosts?
+
 Department sizes are:
 
 Department A: 50 hosts
+
 Department B: 25 hosts
+
 Department C: 10 hosts
+
 Department D: 2 hosts (a point-to-point link)
-Would a /26 fit all four departments? Which departments have "too much" address space and could use a smaller subnet (higher CIDR number, fewer host bits)?
+
+Would a /26 fit all four departments? Which departments have "too much" address space and could use a smaller subnet (higher CIDR number, fewer host bits)? No. A single /26 provides only 62 usable addresses in total. The sum of all host requirements is 87 hosts ($50 + 25 + 10 + 2 = 87$), so one /26 cannot accommodate all four departments.
 
 Suggest a better CIDR (e.g. /26, /27, /28, /29, /30) for each department. You don't need to redo the full division - just pick the smallest subnet that fits.
 
 Reminder - usable hosts per subnet size (fill in from your notes):
 
-CIDR	Total addresses	Usable hosts (total − 2)
-/24	256	254
-/25	128	126
-/26	64	 
-/27	32	 
-/28	16	 
-/29	8	 
-/30	4	 
+CIDR |	Total addresses |	Usable hosts (total − 2)
+/24  |	256	            |  254
+/25  |	128	            |  126
+/26  |	64              |	 62
+/27  |	32	            |  30
+/28  |	16	            |  14
+/29  |	8	              |  6
+/30  |	4	              |  2
 
 ## Task 6 - IPv6, briefly
 IPv6 addresses are 128 bits long - four times as long as IPv4. They're written as 8 groups of 4 hex digits separated by colons.
