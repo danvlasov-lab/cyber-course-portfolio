@@ -180,7 +180,7 @@ subnet mask:       255.255.255.128
 
 ## Task 4 - Which subnet does this host belong to?
 
-4.1 - 10.10.0.75/26
+### 4.1 - 10.10.0.75/26
 
 Network address of this subnet: 10.10.0.64
 
@@ -188,7 +188,7 @@ Broadcast of this subnet: 10.10.0.127
 
 Is this address a valid host address, or is it the network/broadcast? It is a valid host address, because this address 10.10.0.75 falls within this range; it is neither the network address (.64) nor the broadcast address (.127).
 
-4.2 - 192.168.1.200/26
+### 4.2 - 192.168.1.200/26
 
 Network address: 192.168.1.192
 
@@ -196,16 +196,20 @@ Broadcast: 192.168.1.255
 
 Valid host? Yes (yes/no + reason)
 
-4.3 - 172.16.5.130/25
+### 4.3 - 172.16.5.130/25
 
 Network address: 172.16.5.128
 
 Broadcast: 172.16.5.255
+
 Valid host? Yes (yes/no + reason)
 
-4.4 - 10.0.0.0/30
+### 4.4 - 10.0.0.0/30
+
 Network address: 10.0.0.0
+
 Broadcast: 10.0.0.3
+
 Valid host?No, because 10.0.0.0 is the network address itself, not a usable host. (In a /30 subnet, the usable host range is only 10.0.0.1 and 10.0.0.2). (yes/no + reason - this one is a trap; think carefully about a /30)
 
 ## Task 5 - Slicing up a /24
