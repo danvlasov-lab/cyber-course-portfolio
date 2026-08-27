@@ -357,4 +357,6 @@ Compress:
 fe80:0000:0000:0000:0000:0000:0000:0001 → fe80::1
 
 ### 6.3 - A conceptual question
-In your own words, in 2–3 sentences: why do we need IPv6? (You covered this in class — this is a chance to write it down in a way you'd explain to a classmate who missed the lesson.)
+- In your own words, in 2–3 sentences: why do we need IPv6?
+  
+We need IPv6 because the older IPv4 standard ran out of unique IP addresses to assign to the billions of phones, computers, and smart devices connected to the internet today. IPv6 provides a practically limitless supply of addresses ($2^{128}$) so every device can have its own permanent, direct connection without relying on workarounds like NAT
