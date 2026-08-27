@@ -39,13 +39,14 @@ Binary	Decimal
 
 ### 1.3 - Full-address conversion
 (example 0000010.11010010.10101000.00010000)
+
 10.210.168.16 → 00001010.11010010.10101000.00010000 
 
 192.168.0.1 → 11000000.10101000.00000000.00000001
 
 172.16.5.100 → 10101100.00010000.00000101.01100100
 
-And the reverse — write these binary IPs in dotted-decimal:
+### And the reverse — write these binary IPs in dotted-decimal:
 
 11000000.10101000.00000001.00000001 → 192.168.1.1
 
