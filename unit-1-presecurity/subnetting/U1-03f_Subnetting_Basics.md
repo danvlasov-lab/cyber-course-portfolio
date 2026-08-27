@@ -237,10 +237,54 @@ You've been given the network 192.168.10.0/24 and need to divide it into smaller
 5.1 - Four equal /26 subnets
 Divide 192.168.10.0/24 into four equal /26 subnets. For each of the four resulting subnets, write out:
 
-Network address
-Default gateway
-Host range (start–end)
-Broadcast address
+### 1) 192.168.10.0/26:
+
+Network address: 192.168.10.0
+
+Default gateway: 192.168.10.1
+
+host range start: 192.168.10.2 
+  
+host range end: 192.168.10.62   
+
+Broadcast address: 192.168.10.63
+
+### 2) 192.168.10.64/26:
+
+Network address: 192.168.10.64
+
+Default gateway: 192.168.10.65
+
+host range start: 192.168.10.66  
+  
+host range end: 192.168.10.126    
+
+Broadcast address: 192.168.10.127
+
+### 3) 192.168.10.128/26:
+
+Network address: 192.168.10.128
+
+Default gateway: 192.168.10.129
+
+host range start: 192.168.10.130  
+  
+host range end: 192.168.10.190    
+
+Broadcast address: 192.168.10.191
+
+### 4) 192.168.10.192/26:
+
+Network address: 192.168.10.192
+
+Default gateway: 192.168.10.193
+
+host range start: 192.168.10.194  
+  
+host range end: 192.168.10.254    
+
+Broadcast address: 192.168.10.255
+
 (You should end up with subnets starting at .0, .64, .128, and .192 — matching the block sizes you calculated in class: /24 = 256, /25 = 128, /26 = 64.)
 
 5.2 - Enough hosts?
