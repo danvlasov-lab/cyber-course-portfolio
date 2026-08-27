@@ -323,26 +323,38 @@ CIDR |	Total addresses |	Usable hosts (total − 2)
 
 
 ## Task 6 - IPv6, briefly
+
 IPv6 addresses are 128 bits long - four times as long as IPv4. They're written as 8 groups of 4 hex digits separated by colons.
 
-6.1 - Hex ↔ decimal ↔ binary refresher
+### 6.1 - Hex ↔ decimal ↔ binary refresher
+
 Fill in the missing values (just three rows to confirm you remember the pattern from class):
 
-Hex	Decimal	Binary (4 bits)
-0	0	0000
-5	 	 
-a	 	 
-f	 	 
+Hex |	Decimal |	Binary (4 bits)
 
-6.2 - Compress these IPv6 addresses
+0   |	0       |	0000
+
+5   |	5       | 0101	 
+
+a   |	10      | 1010	 
+
+f   |	16      | 1111	 
+
+### 6.2 - Compress these IPv6 addresses
+
 Apply the zero-compression rules from class:
 
 Leading zeros in each group can be dropped: 0df8 → df8
+
 One run of consecutive all-zero groups can be replaced with :: (only once per address, otherwise it's ambiguous)
+
 Compress:
 
-2001:0df8:23f2:0000:0000:0000:0000:0f11 →
-2001:0000:00d0:00f2:0000:0000:0000:0f11 →
-fe80:0000:0000:0000:0000:0000:0000:0001 →
-6.3 - A conceptual question
+2001:0df8:23f2:0000:0000:0000:0000:0f11 → 2001:df8:23f2::f11
+
+2001:0000:00d0:00f2:0000:0000:0000:0f11 → 2001:0:d0:f2::f11
+
+fe80:0000:0000:0000:0000:0000:0000:0001 → fe80::1
+
+### 6.3 - A conceptual question
 In your own words, in 2–3 sentences: why do we need IPv6? (You covered this in class — this is a chance to write it down in a way you'd explain to a classmate who missed the lesson.)
