@@ -306,13 +306,21 @@ Suggest a better CIDR (e.g. /26, /27, /28, /29, /30) for each department. You do
 Reminder - usable hosts per subnet size (fill in from your notes):
 
 CIDR |	Total addresses |	Usable hosts (total − 2)
+
 /24  |	256	            |  254
+
 /25  |	128	            |  126
+
 /26  |	64              |	 62
+
 /27  |	32	            |  30
+
 /28  |	16	            |  14
+
 /29  |	8	              |  6
+
 /30  |	4	              |  2
+
 
 ## Task 6 - IPv6, briefly
 IPv6 addresses are 128 bits long - four times as long as IPv4. They're written as 8 groups of 4 hex digits separated by colons.
