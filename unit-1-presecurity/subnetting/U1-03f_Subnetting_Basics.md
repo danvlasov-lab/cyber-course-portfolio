@@ -117,48 +117,48 @@ subnet mask:       255.255.0.0
 
 ### 3.2 - 10.10.0.0/26
 
-subnet mask:       255.255.255.0
+subnet mask:       255.255.255.192
 
-  network address:   192.168.0.0
+  network address:   10.10.0.0
   
-  default gateway:   192.168.0.1
+  default gateway:   10.10.0.1
   
-  host range start:  192.168.0.2
+  host range start:  10.10.0.2
   
-  host range end:    192.168.0.254
+  host range end:    10.10.0.62
   
-  broadcast:         192.168.0.255
+  broadcast:         10.10.0.63
   
 (worked in class - do it again to confirm you can reproduce it)
 
 ### 3.3 - 192.168.5.0/28
-subnet mask:       255.255.255.0
+subnet mask:       255.255.255.240
 
-  network address:   192.168.0.0
+  network address:   192.168.5.0
   
   default gateway:   192.168.0.1
   
-  host range start:  192.168.0.2
+  host range start:  192.168.5.2
   
-  host range end:    192.168.0.254
+  host range end:    192.168.5.14
   
-  broadcast:         192.168.0.255
+  broadcast:         192.168.5.15
   
 (new block size - how many hosts fit?)
 
 ### 3.4 - 10.0.0.0/30
 
-subnet mask:       255.255.255.0
+subnet mask:       255.255.255.252
 
-  network address:   192.168.0.0
+  network address:   10.0.0.0
   
-  default gateway:   192.168.0.1
+  default gateway:   10.0.0.1
   
-  host range start:  192.168.0.2
+  host range start:  10.0.0.2
   
-  host range end:    192.168.0.254
+  host range end:    10.0.0.2
   
-  broadcast:         192.168.0.255
+  broadcast:         10.0.0.3
   
 (the smallest useful subnet - think about why network engineers use /30 for point-to-point links)
 
