@@ -24,6 +24,7 @@ Decimal	Binary
 
 ### 1.2 - Binary to decimal
 Binary	Decimal
+
 11000000	(example - 192)
 
 11111111	 
