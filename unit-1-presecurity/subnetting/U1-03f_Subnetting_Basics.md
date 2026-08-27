@@ -58,7 +58,6 @@ Binary	Decimal
 ### 2.1 - What class is it?
 
 Address		     | Class	|	Default mask (dotted)	|	Default mask (CIDR)
--------------------------------------------------------------------
 
 10.0.0.5	     |	 	 	 	|                      	|
 
