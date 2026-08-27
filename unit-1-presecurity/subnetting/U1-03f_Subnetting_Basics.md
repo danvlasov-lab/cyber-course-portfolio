@@ -287,7 +287,7 @@ Broadcast address: 192.168.10.255
 
 (You should end up with subnets starting at .0, .64, .128, and .192 — matching the block sizes you calculated in class: /24 = 256, /25 = 128, /26 = 64.)
 
-5.2 - Enough hosts?
+### 5.2 - Enough hosts?
 Department sizes are:
 
 Department A: 50 hosts
