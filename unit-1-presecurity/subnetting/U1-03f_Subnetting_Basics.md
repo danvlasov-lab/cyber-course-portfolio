@@ -57,12 +57,13 @@ Binary	Decimal
 
 ### 2.1 - What class is it?
 
-Address	Class	Default mask (dotted)	Default mask (CIDR)
-10.0.0.5	 	 	 
-192.168.1.1	 	 	 
-172.16.4.20	 	 	 
-8.8.8.8	 	 	 
-200.100.50.25	 	 	 
+Address		     | Class	|	Default mask (dotted)	|	Default mask (CIDR)
+-------------------------------------------------------------------
+10.0.0.5	     |	 	 	 	|                      	|
+192.168.1.1	  |	 	 	 	|                       |
+172.16.4.20	  |	 	 	 	|                       |
+8.8.8.8	      |	 	 	 	|                     	 |
+200.100.50.25	|	 	 	 	|                       |
 (Reminder: A = first octet 1–126, B = 128–191, C = 192–223.)
 
 ### 2.2 - Mask ↔ CIDR ↔ binary
