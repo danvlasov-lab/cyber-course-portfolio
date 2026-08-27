@@ -23,6 +23,7 @@ Decimal	Binary
 
 0	  |	00000000 
 
+
 ### 1.2 - Binary to decimal
 Binary	Decimal
 
@@ -38,6 +39,7 @@ Binary	Decimal
 
 11010010	|	 210
 
+
 ### 1.3 - Full-address conversion
 (example 0000010.11010010.10101000.00010000)
 
@@ -47,13 +49,16 @@ Binary	Decimal
 
 172.16.5.100 → 10101100.00010000.00000101.01100100
 
+
 ### And the reverse — write these binary IPs in dotted-decimal:
 
 11000000.10101000.00000001.00000001 → 192.168.1.1
 
 00001010.00001010.00000000.01001011 → 10.10.0.75
 
+
 ## Task 2 - Recognize the class and CIDR
+
 
 ### 2.1 - What class is it?
 
@@ -71,6 +76,7 @@ Address		     | Class	|	Default mask (dotted)	|	Default mask (CIDR)
 
 (Reminder: A = first octet 1–126, B = 128–191, C = 192–223.)
 
+
 ### 2.2 - Mask ↔ CIDR ↔ binary
 
 Dotted-decimal	 |	CIDR	|	Binary (32 bits, dots between octets)
@@ -87,6 +93,7 @@ Dotted-decimal	 |	CIDR	|	Binary (32 bits, dots between octets)
   
 255.255.255.128	|	/25 |	11111111.11111111.11111111.10000000 
 
+
 ### 2.3 - Networks and hosts per class
 
 Class	|	Default CIDR	|	Number of possible networks	Number of hosts per network
@@ -96,8 +103,10 @@ Class	|	Default CIDR	|	Number of possible networks	Number of hosts per network
   B	  |	/16	          |	16k nets 64k hosts 	 
 
   C	  |	/24	          |	2 million nets 254 hosts 	 
+  
 
 ## Task 3 - The five key values - the main event
+
 
 ### 3.1 - 172.16.0.0/16
 
@@ -115,6 +124,7 @@ subnet mask:       255.255.0.0
   
 (B-class default - should feel familiar)
 
+
 ### 3.2 - 10.10.0.0/26
 
 subnet mask:       255.255.255.192
@@ -131,6 +141,7 @@ subnet mask:       255.255.255.192
   
 (worked in class - do it again to confirm you can reproduce it)
 
+
 ### 3.3 - 192.168.5.0/28
 subnet mask:       255.255.255.240
 
@@ -145,6 +156,7 @@ subnet mask:       255.255.255.240
   broadcast:         192.168.5.15
   
 (new block size - how many hosts fit?)
+
 
 ### 3.4 - 10.0.0.0/30
 
@@ -162,6 +174,7 @@ subnet mask:       255.255.255.252
   
 (the smallest useful subnet - think about why network engineers use /30 for point-to-point links)
 
+
 ### 3.5 - 192.168.100.128/25
 
 subnet mask:       255.255.255.128
@@ -178,7 +191,9 @@ subnet mask:       255.255.255.128
   
 (the network doesn't start on a .0 boundary - pay attention to which half of the /24 this is)
 
+
 ## Task 4 - Which subnet does this host belong to?
+
 
 ### 4.1 - 10.10.0.75/26
 
@@ -188,6 +203,7 @@ Broadcast of this subnet: 10.10.0.127
 
 Is this address a valid host address, or is it the network/broadcast? It is a valid host address, because this address 10.10.0.75 falls within this range; it is neither the network address (.64) nor the broadcast address (.127).
 
+
 ### 4.2 - 192.168.1.200/26
 
 Network address: 192.168.1.192
@@ -195,6 +211,7 @@ Network address: 192.168.1.192
 Broadcast: 192.168.1.255
 
 Valid host? Yes (yes/no + reason)
+
 
 ### 4.3 - 172.16.5.130/25
 
@@ -204,13 +221,15 @@ Broadcast: 172.16.5.255
 
 Valid host? Yes (yes/no + reason)
 
+
 ### 4.4 - 10.0.0.0/30
 
 Network address: 10.0.0.0
 
 Broadcast: 10.0.0.3
 
-Valid host?No, because 10.0.0.0 is the network address itself, not a usable host. (In a /30 subnet, the usable host range is only 10.0.0.1 and 10.0.0.2). (yes/no + reason - this one is a trap; think carefully about a /30)
+Valid host? No, because 10.0.0.0 is the network address itself, not a usable host. (In a /30 subnet, the usable host range is only 10.0.0.1 and 10.0.0.2). (yes/no + reason - this one is a trap; think carefully about a /30)
+
 
 ## Task 5 - Slicing up a /24
 You've been given the network 192.168.10.0/24 and need to divide it into smaller subnets for four departments.
