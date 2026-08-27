@@ -59,15 +59,15 @@ Binary	Decimal
 
 Address		     | Class	|	Default mask (dotted)	|	Default mask (CIDR)
 
-10.0.0.5	     |	 	 	 	|                      	|
+10.0.0.5	     |	A 	 	 |                      	|
 
-192.168.1.1	  |	 	 	 	|                       |
+192.168.1.1	  |	C 	 	 |                       |
 
-172.16.4.20	  |	 	 	 	|                       |
+172.16.4.20	  |	B 	 	 |                       |
 
-8.8.8.8	      |	 	 	 	|                     	 |
+8.8.8.8	      |	A 	 	 |                     	 |
 
-200.100.50.25	|	 	 	 	|                       |
+200.100.50.25	|	C 	 	 |                       |
 
 (Reminder: A = first octet 1–126, B = 128–191, C = 192–223.)
 
