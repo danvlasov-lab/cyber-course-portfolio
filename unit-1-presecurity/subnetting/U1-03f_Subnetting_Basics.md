@@ -164,17 +164,17 @@ subnet mask:       255.255.255.252
 
 ### 3.5 - 192.168.100.128/25
 
-subnet mask:       255.255.255.0
+subnet mask:       255.255.255.128
 
-  network address:   192.168.0.0
+  network address:   192.168.100.128
   
-  default gateway:   192.168.0.1
+  default gateway:   192.168.100.129
   
-  host range start:  192.168.0.2
+  host range start:  192.168.100.130
   
-  host range end:    192.168.0.254
+  host range end:    192.168.100.254
   
-  broadcast:         192.168.0.255
+  broadcast:         192.168.100.255
   
 (the network doesn't start on a .0 boundary - pay attention to which half of the /24 this is)
 
