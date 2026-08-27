@@ -89,10 +89,13 @@ Dotted-decimal	 |	CIDR	|	Binary (32 bits, dots between octets)
 
 ### 2.3 - Networks and hosts per class
 
-Class	Default CIDR	Number of possible networks	Number of hosts per network
-A	/8	128 nets	16 million hosts
-B	/16	 	 
-C	/24	 	 
+Class	|	Default CIDR	|	Number of possible networks	Number of hosts per network
+
+  A	  |	/8	          |	128 nets	16 million hosts
+
+  B	  |	/16	          |	 	 
+
+  C	  |	/24	          |	 	 
 
 ## Task 3 - The five key values - the main event
 
