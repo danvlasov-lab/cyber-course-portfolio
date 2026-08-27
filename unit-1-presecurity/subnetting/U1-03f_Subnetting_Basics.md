@@ -101,17 +101,17 @@ Class	|	Default CIDR	|	Number of possible networks	Number of hosts per network
 
 ### 3.1 - 172.16.0.0/16
 
-subnet mask:       255.255.255.0
+subnet mask:       255.255.0.0
 
-  network address:   192.168.0.0
+  network address: 172.16.0.0  
   
-  default gateway:   192.168.0.1
+  default gateway: 172.16.0.1  
   
-  host range start:  192.168.0.2
+  host range start:  
   
-  host range end:    192.168.0.254
+  host range end:    
   
-  broadcast:         192.168.0.255
+  broadcast:         
   
 (B-class default - should feel familiar)
 
