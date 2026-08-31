@@ -39,9 +39,13 @@ Companies that have recently invested millions of euros in building their own ph
 
 ## 6. Cloud in an entry-level tech role
 
-Situation 1 (Helpdesk / User Identity): A employee submits a ticket saying they are locked out of their work email and Microsoft 365 apps. As a junior tech, you log into Microsoft Entra ID (Azure AD) in the cloud portal to check their authentication logs, verify if multi-factor authentication (MFA) was triggered, and perform a secure password or MFA reset. 
+### Situation 1 (Helpdesk / User Identity):
 
-Situation 2 (IT Support / Access Control): A client contacts support stating they suddenly lost access to critical shared project files. You investigate and discover that access permissions on an Amazon S3 bucket (or Azure Storage Account) were accidentally modified during a routine update, requiring you to navigate the cloud management console to re-apply proper Identity and Access Management (IAM) policies.  
+An employee contacts support saying they can't log into their work email or apps. As a junior tech, you log into the cloud management portal, check their sign-in history, and see that they were locked out due to an issue with two-factor authentication (MFA). You simply click a few buttons to reset their login settings so they can get back to work.  
+
+### Situation 2 (IT Support / File Access):
+
+Employees report that they suddenly lost access to a folder containing important project files. You open the cloud service where the files are stored and notice that the access permissions were accidentally changed during a recent update. You go into the security settings and restore the employees' rights to view and open those files.
 
 ## 7. Your personal takeaway
 
