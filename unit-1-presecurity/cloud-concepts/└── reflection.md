@@ -1,10 +1,10 @@
 ## 1. Cloud in your own words
 
-Cloud is a on-demand delivery technology for renting data, resources and etc. Instead of buying physical computers, storing them in your office, and worrying about hardware failures, you are renting processing power, file storage, and software from massive tech companies (like Microsoft or Amazon) over the internet. You only pay for what you actually use. It differs from buying your own computer because you never have to repair broken hardware, upgrade parts, or worry about running out of room—you just request more resources digitally, and they appear instantly.
+Cloud is on-demand delivery technology for renting data, resources and etc. Instead of buying physical computers, storing them in your office, and worrying about hardware failures, you are renting processing power, file storage, and software from massive tech companies (like Microsoft or Amazon) over the internet. You only pay for what you actually use.
 
 ## 2. Traditional → Cloud → Containers
 
-The overall pattern across these four generations is a continuous drive toward higher abstraction, faster provisioning, and packing more workloads onto less physical hardware at a lower cost.  
+The whole pattern across all these four stages is a unstopable progress of improving load balancing and upgrading service efficiency.
 
 Traditional to Virtualization: Traditional IT was trapped in a "one physical machine = one OS" model, which wasted huge amounts of hardware capacity. Virtualization solved this by letting one physical machine run multiple virtual computers at once, drastically improving hardware efficiency.
 
