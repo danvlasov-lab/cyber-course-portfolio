@@ -23,8 +23,7 @@ Concrete Example (Public Cloud + SaaS):
 Microsoft 365 (or Google Workspace). It runs on a vendor's shared public cloud infrastructure (Public Cloud), but as an end user, you simply log into a browser or app to use web-based email, documents, and storage without managing any servers, operating systems, or code (SaaS).
 
 ## 4. The Shared Responsibility Model
-
-The Shared Responsibility Model dictates that security tasks are split between the cloud vendor and the customer: the provider secures the physical infrastructure and virtualization layer ("security OF the cloud"), while the customer is responsible for everything built on top ("security IN the cloud"). Moving to the cloud does not remove your security obligations because key layers—specifically your data and user identity/access management—remain 100% your responsibility across all models (IaaS, PaaS, and SaaS). 
+Moving to cloud does not remove your security responsibility — it changes which parts you're responsible for. Data and identity are always yours. For example on OnPremise service you can manage all levels (application, data, runtime, Middleware, OS, virtualization, servers, storage, networking, datacenter). On IaaS you can manage only a half (application, data, runtime, Middleware, OS). On PaaS you can manage only a few (application, data), and on SaaS you can't manage a thing (all stuff controlled by a vendor of the cloud).
 
 A real-world example of this is the massive Capital One data breach (2019), where an attacker gained unauthorized access to over 100 million customers' personal data. The breach was not caused by a failure in Amazon's AWS physical infrastructure, but rather by a customer misconfiguration—specifically a misconfigured Web Application Firewall and overly permissive IAM access rights set up by the client.
 
