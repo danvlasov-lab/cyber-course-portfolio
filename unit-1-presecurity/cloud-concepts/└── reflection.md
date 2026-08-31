@@ -29,11 +29,11 @@ A real-world example of this is the massive Capital One data breach (2019), wher
 
 ## 5. Why organisations still hesitate
 
-Data Residency & Regulatory Compliance (e.g., GDPR):
+### Data Residency & Regulatory Compliance (e.g., GDPR):
 
 In Finland and the wider EU, strict regulations govern where personal and sensitive data can legally be stored and processed. Organizations in healthcare, government, or finance often keep workloads on-premise or in private setups because moving data to foreign public cloud regions might violate legal requirements or data sovereignty laws.
 
-Sunk Cost in Existing On-Premise Hardware:
+### Sunk Cost in Existing On-Premise Hardware:
 
 Companies that have recently invested millions of euros in building their own physical data centers, buying servers, and signing long-term equipment licenses cannot simply write off those assets. They will keep workloads local until that hardware reaches the end of its lifecycle to maximize their original investment.
 
