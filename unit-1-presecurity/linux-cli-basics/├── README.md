@@ -768,5 +768,9 @@ Archive:  report.zip
 - Which command surprised you (positively or negatively)?
 - Which command will you use most often, and why?
 - What one thing about the Linux CLI is still confusing?
-- 
-- ```
+
+One command that surprised me was find. I expected it to be a simple way to search for files, but I learned that it can search through entire directory structures and apply conditions such as file name and modification time. For example, I used find /etc -name "*.conf" and found 270 configuration files. It was also interesting to see that some directories could not be accessed without additional permissions.
+
+The command I will probably use most often is ls, especially with options such as -l, -a, and -h. It is a simple but very useful way to understand what is inside a directory, check file permissions, ownership, sizes, and modification dates. I also expect to use cd, cat, grep, and sudo frequently.
+
+One thing that is still slightly confusing is the relationship between different system logs and journalctl. I initially expected /var/log/syslog to exist, but on my Debian system it did not. Instead, journalctl provided recent system messages. This helped me understand that Linux systems can use different logging mechanisms, but I would like to learn more about how systemd-journald and traditional log files work together.
