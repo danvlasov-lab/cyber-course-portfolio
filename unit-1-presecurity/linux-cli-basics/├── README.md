@@ -210,12 +210,10 @@ cat /etc/services
 
 Output (excerpt):
 
-# Network services, Internet style
-#
-# Updated from https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml .
-#
-# New ports will be added on request if they have been officially assigned
-# by IANA and used in the real-world or are needed by a debian package.
+Network services, Internet style
+Updated from https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml .
+New ports will be added on request if they have been officially assigned
+by IANA and used in the real-world or are needed by a debian package.
 
 tcpmux          1/tcp                   # TCP port service multiplexer
 echo            7/tcp
