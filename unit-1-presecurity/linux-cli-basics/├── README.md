@@ -14,21 +14,21 @@ To become comfortable with the essential Linux command-line tools I will use thr
 Q1 — What username are you logged in as?
 
 Command:
-
+```
 whoami
-
+```
 Output:
-
+```
 varia
-
+```
 Answer: The username I am logged in as is varia.
 
 Q2 — Are you a member of the sudo group? How can you tell from the output of id?
 
 Command:
-
+```
 id
-
+```
 Output:
 
 uid=1000(varia) gid=1000(varia) groups=1000(varia),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev),100(users),101(netdev),102(scanner),106(bluetooth),108(lpadmin)
@@ -38,22 +38,22 @@ Answer: Yes. I am a member of the sudo group because 27(sudo) appears in the lis
 Q3 — What kernel version is your system running?
 
 Command:
-
+```
 uname -a
-
+```
 Output:
-
+```
 Linux debian-lab 6.12.107+deb13-arm64 #1 SMP Debian 6.12.107-1 (2026-08-29) aarch64 GNU/Linux
-
+```
 Answer: The kernel version is 6.12.107+deb13-arm64.
 
 Q4 — What is the difference in the depth of information they give you?
 
 Commands:
-
+```
 whatis whoami
 man whoami
-
+```
 Answer: whatis gives a short, one-line description of the command, while man provides a much more detailed manual page, including the command's description, usage, options, and additional information.
 
 Q5 — While in man, how do you search for the word "user" and quit?
@@ -322,9 +322,7 @@ chmod 700 ~/cyber-course/hello.sh
 
 Answer: 700 gives the owner read, write, and execute permissions, while group members and everyone else have no permissions.
 
-Примечание для GitHub: я бы именно так и оставила — с реальными командами и выводом, а невыполненные пункты явно пометила. Это лучше, чем вписывать предполагаемый результат.
 
-Когда ты сделаешь Part 8–12, присылай вывод терминала, и я в этом же формате допишу Q24–Q38.
 ## reflection (150–200 words):
 
 - Which command surprised you (positively or negatively)?
