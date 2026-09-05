@@ -11,683 +11,324 @@ To become comfortable with the essential Linux command-line tools I will use thr
 
 ## Part 1 Getting your bearings
 
-### Open a terminal on your Debian VM. Run:
-
-#### Q1 — What username are you logged in as?
+Q1 — What username are you logged in as?
 
 Command:
-```
-$ whoami
-```
 
-Output (excerpt):
-```
+whoami
+
+Output:
+
 varia
 
-```
+Answer: The username I am logged in as is varia.
 
-**Answer:** varia.
-
-#### Q2 — Are you a member of the sudo group? How can you tell from the output of id?
+Q2 — Are you a member of the sudo group? How can you tell from the output of id?
 
 Command:
-```
-$ id
-```
 
-Output (excerpt):
-```
+id
+
+Output:
+
 uid=1000(varia) gid=1000(varia) groups=1000(varia),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev),100(users),101(netdev),102(scanner),106(bluetooth),108(lpadmin)
-```
 
-**Answer:** Yes, because in id there is a list: groups=1000(varia),24(cdrom),25(floppy),27(sudo), where 27(sudo) shows, that I'm a member of a sudo group.
+Answer: Yes. I am a member of the sudo group because 27(sudo) appears in the list of groups.
 
-#### Q3 — What kernel version is your system running?
+Q3 — What kernel version is your system running?
 
 Command:
-```
-$ uname -a
-```
 
-Output (excerpt):
-```
+uname -a
+
+Output:
+
 Linux debian-lab 6.12.107+deb13-arm64 #1 SMP Debian 6.12.107-1 (2026-08-29) aarch64 GNU/Linux
-```
 
-**Answer:** debian-lab 6.12.107+deb13-arm64
+Answer: The kernel version is 6.12.107+deb13-arm64.
 
-### Find out what whoami is for using two different help tools:
+Q4 — What is the difference in the depth of information they give you?
 
-#### Q4 — What additional information does `-l` give you over plain `ls`?
+Commands:
 
-Command:
-```
-$ ls -l /etc
-```
+whatis whoami
+man whoami
 
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
+Answer: whatis gives a short, one-line description of the command, while man provides a much more detailed manual page, including the command's description, usage, options, and additional information.
 
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
+Q5 — While in man, how do you search for the word "user" and quit?
 
-## Part 1
+Answer:
 
-## Q5 — What additional information does `-l` give you over plain `ls`?
+To search for user, type /user and press Enter.
+To quit man, press q.
+Part 2 — Navigation
+Q6 — What did cd - do?
 
-Command:
-```
-$ ls -l /etc
-```
+Commands:
 
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
+cd /var/log
+pwd
+cd -
+pwd
 
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
+Output:
 
-## Part 1
+/var/log
+/
 
-## Q1 — What additional information does `-l` give you over plain `ls`?
+Answer: cd - changed the current directory back to the previous working directory. In this case, it changed from /var/log back to /.
+
+Q7 — What additional information does -l give you over plain ls?
 
 Command:
-```
-$ ls -l /etc
-```
+
+ls -l /etc
 
 Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
 
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
+-rw-r--r--  1 root root 3981 May  6  2025 adduser.conf
+drwxr-xr-x  2 root root 4096 Aug 28 13:19 alternatives
 
-## Part 1
+Answer: -l shows the long format — permissions, link count, owner, group, size, modification date, and name.
 
-## Q1 — What additional information does `-l` give you over plain `ls`?
+Q8 — What does -a show that wasn't visible before? Name two examples from the output.
 
 Command:
-```
-$ ls -l /etc
-```
+
+ls -la /etc
 
 Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
 
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
+.
+..
+.updated
 
-## Part 1
+Answer: -a shows hidden files and directories that are normally not displayed by ls. Two examples are . and ... Another hidden file shown is .updated.
 
-## Q1 — What additional information does `-l` give you over plain `ls`?
+Q9 — What is the largest file in /var/log? What size is it?
 
 Command:
-```
-$ ls -l /etc
-```
 
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
+ls -lh /var/log
 
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
+Answer: The largest file was dpkg.log, with a size of 781K.
 
-## Part 1
-
-## Q1 — What additional information does `-l` give you over plain `ls`?
+Q10 — What was modified most recently?
 
 Command:
-```
-$ ls -l /etc
-```
+
+ls -lt /var/log
 
 Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
 
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
+-rw-r--r-- 1 root root 8192 Sep 5 11:26 wtmp.db
+-rw-rw-r-- 1 root utmp 7200 Sep 5 11:26 wtmp
+-rw------- 1 root root 45659 Sep 5 11:25 boot.log
 
-## Part 1
+Answer: wtmp.db and wtmp were modified most recently, both at 11:26 on September 5.
 
-## Q1 — What additional information does `-l` give you over plain `ls`?
+Part 3 — Creating and Managing Files
+Q11 — Show the command(s) you used.
 
 Command:
-```
-$ ls -l /etc
-```
 
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
+mkdir -p ~/cyber-course/unit1 ~/cyber-course/unit2 ~/cyber-course/unit3/{osint,recon,crypto} ~/cyber-course/scratch
 
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
+The resulting structure was:
 
-## Part 1
-
-## Q1 — What additional information does `-l` give you over plain `ls`?
-
-Command:
-```
-$ ls -l /etc
-```
-
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
-
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
-
-## Part 1
-
-## Q1 — What additional information does `-l` give you over plain `ls`?
+cyber-course/
+├── scratch/
+│   ├── a.txt
+│   ├── b.txt
+│   └── c.txt
+├── unit1/
+├── unit2/
+└── unit3/
+    ├── crypto/
+    ├── osint/
+    └── recon/
+Q12 — What key combination did you use to save? What key combination did you use to exit?
 
 Command:
-```
-$ ls -l /etc
-```
 
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
+nano ~/cyber-course/unit1/intro.txt
 
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
+Answer: I used Ctrl+O to save the file, pressed Enter to confirm the filename, and used Ctrl+X to exit nano.
 
-## Part 1
-
-## Q1 — What additional information does `-l` give you over plain `ls`?
+Q13 — Why did rmdir fail (or succeed)?
 
 Command:
-```
-$ ls -l /etc
-```
 
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
+rmdir ~/cyber-course/scratch/
 
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
+Answer: rmdir fails when the directory is not empty. The scratch directory still contained files, so it could not be removed with rmdir.
 
-## Part 1
+The directory can be removed recursively with:
 
-## Q1 — What additional information does `-l` give you over plain `ls`?
+rm -r ~/cyber-course/scratch/
+Part 4 — Viewing Files
+Q14 — Which Debian version do you have?
 
 Command:
-```
-$ ls -l /etc
-```
 
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
+cat /etc/os-release
 
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
+Output:
 
-## Part 1
+PRETTY_NAME="Debian GNU/Linux 13 (trixie)"
+NAME="Debian GNU/Linux"
+VERSION_ID="13"
+VERSION="13 (trixie)"
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.6
 
-## Q1 — What additional information does `-l` give you over plain `ls`?
+Answer: I have Debian GNU/Linux 13 (trixie), version 13.6.
 
-Command:
-```
-$ ls -l /etc
-```
-
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
-
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
-
-## Part 1
-
-## Q1 — What additional information does `-l` give you over plain `ls`?
+Q15 — What kind of messages do you see? Are they recent?
 
 Command:
-```
-$ ls -l /etc
-```
 
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
+sudo tail -n 10 /var/log/syslog
 
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
+Output:
 
-## Part 1
+tail: cannot open '/var/log/syslog' for reading: No such file or directory
 
-## Q1 — What additional information does `-l` give you over plain `ls`?
+Answer: No log messages were displayed because /var/log/syslog does not exist on this system. Therefore, I could not determine the type or recency of messages from this command.
+
+Part 5 — Searching
+Q16 — How many lines were returned?
 
 Command:
-```
-$ ls -l /etc
-```
 
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
+grep "ssh" /etc/services
 
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
+Output:
 
-## Part 1
+ssh    22/tcp    # SSH Remote Login Protocol
 
-## Q1 — What additional information does `-l` give you over plain `ls`?
+Answer: 1 line was returned.
+
+Q17 — How would you modify the command to show only .conf files modified in the last 7 days?
 
 Command:
-```
-$ ls -l /etc
-```
 
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
+find /etc -name "*.conf" -mtime -7
 
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
+Answer: -mtime -7 limits the results to .conf files modified within the last 7 days.
 
-## Part 1
+Q18 — Where are these commands actually located on the filesystem?
 
-## Q1 — What additional information does `-l` give you over plain `ls`?
+Commands:
 
-Command:
-```
-$ ls -l /etc
-```
+which ls
+which nano
 
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
+Output:
 
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
+/usr/bin/ls
+/usr/bin/nano
 
-## Part 1
+Answer: ls is located at /usr/bin/ls, and nano is located at /usr/bin/nano.
 
-## Q1 — What additional information does `-l` give you over plain `ls`?
+Part 6 — History, Redirection, and Pipes
+Q19 — What does the | symbol do here?
 
 Command:
-```
-$ ls -l /etc
-```
 
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
+history | tail -n 20
 
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
+Answer: The | symbol sends the output of one command to the input of another command. Here, the output of history is passed to tail -n 20, which displays the last 20 history entries.
 
-## Part 1
+Q20 — What is the difference between > and >>?
 
-## Q1 — What additional information does `-l` give you over plain `ls`?
+Commands:
 
-Command:
-```
-$ ls -l /etc
-```
+ls -la ~/cyber-course/ > ~/listing.txt
+date >> ~/listing.txt
 
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
+Answer: > redirects output to a file and overwrites its existing contents. >> redirects output and appends it to the end of the file.
 
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
-
-## Part 1
-
-## Q1 — What additional information does `-l` give you over plain `ls`?
+Q21 — What was the output, and why?
 
 Command:
-```
-$ ls -l /etc
-```
 
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
+echo "hello cyber world" | grep "cyber"
 
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
+Output:
 
-## Part 1
+hello cyber world
 
-## Q1 — What additional information does `-l` give you over plain `ls`?
+Answer: The output was hello cyber world because grep "cyber" found the word cyber in the input received from echo.
+
+Part 7 — Archives
+Q22 — Confirm with ls -la that the extraction worked. What did you find inside?
 
 Command:
-```
-$ ls -l /etc
-```
 
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
+unzip ~/cyber-course/unit1.zip
 
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
+Output:
 
-## Part 1
+unzip: cannot find or open /home/varia/cyber-course/unit1.zip
 
-## Q1 — What additional information does `-l` give you over plain `ls`?
+Answer: The extraction did not work because unit1.zip had not been successfully created. The zip command was not available on the system at that point.
+
+Q23 — What do the flags c, z, v, and f each mean?
 
 Command:
-```
-$ ls -l /etc
-```
 
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
+tar -czvf unit2.tar.gz unit2/
 
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
+Answer:
 
-## Part 1
+c — create a new archive
+z — use gzip compression
+v — verbose output
+f — specify the archive file name
+Part 8 — Permissions
+Q24 — Paste the permission string. Can the owner execute the file?
 
-## Q1 — What additional information does `-l` give you over plain `ls`?
+Not completed yet.
 
-Command:
-```
-$ ls -l /etc
-```
+The command to obtain the answer is:
 
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
+touch ~/cyber-course/hello.sh
+ls -l ~/cyber-course/hello.sh
+Q25 — What happened when you tried to run the script, and why?
 
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
+Not completed yet.
 
-## Part 1
+The expected command is:
 
-## Q1 — What additional information does `-l` give you over plain `ls`?
+~/cyber-course/hello.sh
+Q26 — What does the new permission string look like? Did the script run this time?
 
-Command:
-```
-$ ls -l /etc
-```
+Not completed yet.
 
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
+Commands:
 
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
+chmod u+x ~/cyber-course/hello.sh
+ls -l ~/cyber-course/hello.sh
+~/cyber-course/hello.sh
+Q27 — What does 700 mean in plain language?
 
-## Part 1
-
-## Q1 — What additional information does `-l` give you over plain `ls`?
+Not completed yet.
 
 Command:
-```
-$ ls -l /etc
-```
 
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
+chmod 700 ~/cyber-course/hello.sh
 
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
+Answer: 700 gives the owner read, write, and execute permissions, while group members and everyone else have no permissions.
 
-## Part 1
+Примечание для GitHub: я бы именно так и оставила — с реальными командами и выводом, а невыполненные пункты явно пометила. Это лучше, чем вписывать предполагаемый результат.
 
-## Q1 — What additional information does `-l` give you over plain `ls`?
-
-Command:
-```
-$ ls -l /etc
-```
-
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
-
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
-
-## Part 1
-
-## Q1 — What additional information does `-l` give you over plain `ls`?
-
-Command:
-```
-$ ls -l /etc
-```
-
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
-
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
-
-## Part 1
-
-## Q1 — What additional information does `-l` give you over plain `ls`?
-
-Command:
-```
-$ ls -l /etc
-```
-
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
-
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
-
-## Part 1
-
-## Q1 — What additional information does `-l` give you over plain `ls`?
-
-Command:
-```
-$ ls -l /etc
-```
-
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
-
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
-
-## Part 1
-
-## Q1 — What additional information does `-l` give you over plain `ls`?
-
-Command:
-```
-$ ls -l /etc
-```
-
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
-
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
-
-## Part 1
-
-## Q1 — What additional information does `-l` give you over plain `ls`?
-
-Command:
-```
-$ ls -l /etc
-```
-
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
-
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
-
-## Part 1
-
-## Q1 — What additional information does `-l` give you over plain `ls`?
-
-Command:
-```
-$ ls -l /etc
-```
-
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
-
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
-
-## Part 1
-
-## Q1 — What additional information does `-l` give you over plain `ls`?
-
-Command:
-```
-$ ls -l /etc
-```
-
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
-
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
-
-## Part 1
-
-## Q1 — What additional information does `-l` give you over plain `ls`?
-
-Command:
-```
-$ ls -l /etc
-```
-
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
-
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
-
-## Part 1
-
-## Q1 — What additional information does `-l` give you over plain `ls`?
-
-Command:
-```
-$ ls -l /etc
-```
-
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
-
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
-
-## Part 1
-
-## Q1 — What additional information does `-l` give you over plain `ls`?
-
-Command:
-```
-$ ls -l /etc
-```
-
-Output (excerpt):
-```
--rw-r--r--  1 root root  3028 Mar 12 09:14 adduser.conf
-drwxr-xr-x  2 root root  4096 Oct 21 14:02 apt
-```
-
-**Answer:** `-l` shows the long format — permissions, link count, owner, group,
-size, modification date, and name.
-
+Когда ты сделаешь Part 8–12, присылай вывод терминала, и я в этом же формате допишу Q24–Q38.
 ## reflection (150–200 words):
 
 - Which command surprised you (positively or negatively)?
 - Which command will you use most often, and why?
 - What one thing about the Linux CLI is still confusing?
+- 
+- ```
