@@ -1,7 +1,9 @@
-# [Assignment name]
+# Linux CLI Basics Assignment
 
 **Date:** 2026-09-5
+
 **Source:** (Assignment ID, e.g. U1-05b — Linux CLI Basics)
+
 **Environment:** Debian VM
 
 ## Goal
