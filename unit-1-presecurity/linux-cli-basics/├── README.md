@@ -241,11 +241,9 @@ head -n 5 /etc/services
 
 Output:
 
-# Network services, Internet style
-#
-# Updated from https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml .
-#
-# New ports will be added on request if they have been officially assigned
+ Network services, Internet style
+Updated from https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml .
+New ports will be added on request if they have been officially assigned
 
 Answer: head -n 5 displays only the first five lines of the file.
 
