@@ -179,166 +179,102 @@ The directory can be removed recursively with:
 rm -r ~/cyber-course/scratch/
 ```
 
+
 Part 4 — Viewing Files
 Q14 — Which Debian version do you have?
 
 Command:
-```
+
 cat /etc/os-release
-```
+
 Output:
-```
+
 PRETTY_NAME="Debian GNU/Linux 13 (trixie)"
 NAME="Debian GNU/Linux"
 VERSION_ID="13"
 VERSION="13 (trixie)"
 VERSION_CODENAME=trixie
 DEBIAN_VERSION_FULL=13.6
-```
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+
 Answer: I have Debian GNU/Linux 13 (trixie), version 13.6.
+
+Viewing /etc/services
+
+Command:
+
+cat /etc/services
+
+Output (excerpt):
+
+# Network services, Internet style
+#
+# Updated from https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml .
+#
+# New ports will be added on request if they have been officially assigned
+# by IANA and used in the real-world or are needed by a debian package.
+
+tcpmux          1/tcp                   # TCP port service multiplexer
+echo            7/tcp
+echo            7/udp
+discard         9/tcp                   sink null
+...
+ssh             22/tcp                  # SSH Remote Login Protocol
+...
+
+Answer: The /etc/services file contains a list of network services and their associated ports and protocols.
+
+Viewing the file with less
+
+Command:
+
+less /etc/services
+
+Answer: I used less to view the file interactively. I could scroll through the file, search with /ssh, use n to find the next match, G to jump to the end, g to return to the beginning, and q to quit.
+
+Showing the first 5 lines
+
+Command:
+
+head -n 5 /etc/services
+
+Output:
+
+# Network services, Internet style
+#
+# Updated from https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml .
+#
+# New ports will be added on request if they have been officially assigned
+
+Answer: head -n 5 displays only the first five lines of the file.
 
 Q15 — What kind of messages do you see? Are they recent?
 
 Command:
-```
+
 sudo tail -n 10 /var/log/syslog
-```
+
 Output:
-```
+
+[sudo] password for varia:
 tail: cannot open '/var/log/syslog' for reading: No such file or directory
-```
-Answer: No log messages were displayed because /var/log/syslog does not exist on this system. Therefore, I could not determine the type or recency of messages from this command.
 
-Part 5 — Searching
-Q16 — How many lines were returned?
+Answer: No log messages were displayed because /var/log/syslog does not exist on this system. Therefore, I could not determine the type or recency of the messages from this file.
+
+Additional check
 
 Command:
-```
-grep "ssh" /etc/services
-```
+
+sudo grep -i "error" /var/log/syslog
+
 Output:
-```
-ssh    22/tcp    # SSH Remote Login Protocol
-```
-Answer: 1 line was returned.
 
-Q17 — How would you modify the command to show only .conf files modified in the last 7 days?
+grep: /var/log/syslog: No such file or directory
 
-Command:
-```
-find /etc -name "*.conf" -mtime -7
-```
-Answer: -mtime -7 limits the results to .conf files modified within the last 7 days.
-
-Q18 — Where are these commands actually located on the filesystem?
-
-Commands:
-```
-which ls
-```
-```
-which nano
-```
-Output:
-```
-/usr/bin/ls
-/usr/bin/nano
-```
-Answer: ls is located at /usr/bin/ls, and nano is located at /usr/bin/nano.
-
-Part 6 — History, Redirection, and Pipes
-Q19 — What does the | symbol do here?
-
-Command:
-```
-history | tail -n 20
-```
-Answer: The | symbol sends the output of one command to the input of another command. Here, the output of history is passed to tail -n 20, which displays the last 20 history entries.
-
-Q20 — What is the difference between > and >>?
-
-Commands:
-```
-ls -la ~/cyber-course/ > ~/listing.txt
-```
-```
-date >> ~/listing.txt
-```
-
-Answer: > redirects output to a file and overwrites its existing contents. >> redirects output and appends it to the end of the file.
-
-Q21 — What was the output, and why?
-
-Command:
-```
-echo "hello cyber world" | grep "cyber"
-```
-Output:
-```
-hello cyber world
-```
-Answer: The output was hello cyber world because grep "cyber" found the word cyber in the input received from echo.
-
-Part 7 — Archives
-Q22 — Confirm with ls -la that the extraction worked. What did you find inside?
-
-Command:
-```
-unzip ~/cyber-course/unit1.zip
-```
-Output:
-```
-unzip: cannot find or open /home/varia/cyber-course/unit1.zip
-```
-Answer: The extraction did not work because unit1.zip had not been successfully created. The zip command was not available on the system at that point.
-
-Q23 — What do the flags c, z, v, and f each mean?
-
-Command:
-```
-tar -czvf unit2.tar.gz unit2/
-```
-Answer:
-
-c — create a new archive
-z — use gzip compression
-v — verbose output
-f — specify the archive file name
-Part 8 — Permissions
-Q24 — Paste the permission string. Can the owner execute the file?
-
-Not completed yet.
-
-The command to obtain the answer is:
-
-touch ~/cyber-course/hello.sh
-ls -l ~/cyber-course/hello.sh
-Q25 — What happened when you tried to run the script, and why?
-
-Not completed yet.
-
-The expected command is:
-
-~/cyber-course/hello.sh
-Q26 — What does the new permission string look like? Did the script run this time?
-
-Not completed yet.
-
-Commands:
-
-chmod u+x ~/cyber-course/hello.sh
-ls -l ~/cyber-course/hello.sh
-~/cyber-course/hello.sh
-Q27 — What does 700 mean in plain language?
-
-Not completed yet.
-
-Command:
-
-chmod 700 ~/cyber-course/hello.sh
-
-Answer: 700 gives the owner read, write, and execute permissions, while group members and everyone else have no permissions.
-
+Answer: This confirms that /var/log/syslog does not exist on this Debian system.
 
 ## reflection (150–200 words):
 
