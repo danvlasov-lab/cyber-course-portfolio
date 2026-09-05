@@ -50,7 +50,8 @@ $ uname -a
 ```
 
 Output (excerpt):
-```Linux debian-lab 6.12.107+deb13-arm64 #1 SMP Debian 6.12.107-1 (2026-08-29) aarch64 GNU/Linux
+```
+Linux debian-lab 6.12.107+deb13-arm64 #1 SMP Debian 6.12.107-1 (2026-08-29) aarch64 GNU/Linux
 ```
 
 **Answer:** debian-lab 6.12.107+deb13-arm64
