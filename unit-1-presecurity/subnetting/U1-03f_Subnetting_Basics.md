@@ -1,6 +1,6 @@
 # Subnetting Basics assignment
 
-**Date:** 2026-09-5
+**Date:** 2026-09-7
 
 **Source:** U1-03f Assignment: Subnetting Basics
 
