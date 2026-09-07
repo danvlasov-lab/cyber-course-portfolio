@@ -1,5 +1,14 @@
 # Subnetting Basics assignment
 
+**Date:** 2026-09-5
+
+**Source:** U1-03f Assignment: Subnetting Basics
+
+**Environment:** Numbers(Excel on Mac)
+
+## Goal
+To get comfortable moving between the four ways an IP address can be written - decimal, binary, dotted-quad, and CIDR - and then use that fluency to answer the question every network engineer answers dozens of times a week: given a CIDR block, what are the addresses I can actually use?
+
 ## Task 1 - Binary ↔ decimal for a single octet
 
 ### 1.1 - Decimal to binary
