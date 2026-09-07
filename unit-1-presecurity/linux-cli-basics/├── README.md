@@ -9,8 +9,6 @@
 ## Goal
 To become comfortable with the essential Linux command-line tools I will use throughout this course and build the muscle memory for navigation, file manipulation, viewing, searching, redirection, and package management on Debian 13.
 
-# Linux Cyber Course — Parts 1–12
-
 ## Part 1 Getting your bearings
 
 ### Q1 — What username are you logged in as?
