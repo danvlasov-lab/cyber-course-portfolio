@@ -93,7 +93,7 @@ whoami (1) - print effective user name
 
 ---
 
-# Part 2 Navigation
+## Part 2 Navigation
 
 ### Q6 — What did `cd -` do?
 
@@ -190,7 +190,7 @@ drwxr-xr-x  2 root root   4096 Sep  5 13:57 apt
 
 ---
 
-# Part 3 Creating and managing files
+## Part 3 Creating and managing files
 
 ### Q11 — Show the command (or commands) you used.
 
@@ -236,7 +236,7 @@ $ rm -r ~/cyber-course/scratch/
 
 ---
 
-# Part 4 Viewing files
+## Part 4 Viewing files
 
 ### Q14 — Which Debian version do you have?
 
@@ -296,7 +296,7 @@ Sep 05 14:18:49 debian-lab sudo[3842]: varia : TTY=pts/0 ...
 
 ---
 
-# Part 5 Searching
+## Part 5 Searching
 
 ### Q16 — How many lines were returned? (Hint: pipe to `wc -l`.)
 
@@ -352,7 +352,7 @@ $ which nano
 
 ---
 
-# Part 6 History, redirection, and pipes
+## Part 6 History, redirection, and pipes
 
 ### Q19 — What does the `|` symbol do here?
 
@@ -400,7 +400,7 @@ hello cyber world
 
 ---
 
-# Part 7 Archives
+## Part 7 Archives
 
 ### Q22 — Confirm with `ls -la` that the extraction worked. What did you find inside?
 
@@ -436,7 +436,7 @@ $ tar -czvf unit2.tar.gz unit2/
 
 ---
 
-# Part 8 Permissions
+## Part 8 Permissions
 
 ### Q24 — Paste the permission string. Can the owner execute the file?
 
@@ -525,7 +525,7 @@ In other words, only the owner can read, modify, or execute the file.
 
 ---
 
-# Part 9 Processes and system info
+## Part 9 Processes and system info
 
 ### Q28 — What does the `USER` column show?
 
@@ -563,7 +563,7 @@ $ free -h
 
 ---
 
-# Part 10 Networking and downloads
+## Part 10 Networking and downloads
 
 ### Q31 — What is your VM's IP address on the primary interface?
 
@@ -616,7 +616,7 @@ However, the actual `diff` output was not captured. Therefore, identical file co
 
 ---
 
-# Part 11 Package management and sudo
+## Part 11 Package management and sudo
 
 ### Q34 — Did `sudo` ask for a password? Whose password?
 
@@ -707,7 +707,7 @@ nmap/stable 7.95+dfsg-3 arm64
 
 ---
 
-# Part 12 Putting it together
+## Part 12 Putting it together
 
 ### Q38 — Paste the commands you used. The output redirection (`>` and `>>`) is the key here.
 
