@@ -15,12 +15,9 @@ To get comfortable moving between the four ways an IP address can be written - d
 
 |Decimal|Binary   |
 |------ |----------|
-|10	 | 00001010|
-
-|210	| 11010010|
-
+|10	    | 00001010|
+|210	  | 11010010|
 |168	| 10101000|
-
 |16	 |	00010000|
 
 |255	|	11111111|
