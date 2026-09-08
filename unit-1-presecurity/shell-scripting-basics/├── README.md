@@ -15,30 +15,26 @@ To take my first steps in shell scripting by customizing my shell environment th
 ### Q1: Paste the line. What size is the file? When was it last modified?:
 
 The command ls -la ~ | grep bashrc shows:
-
+```
 -rw-r--r-- 1 varia varia 3814 Sep  8 09:51 .bashrc
--rw-r--r-- 1 varia varia 3526 Sep  8 09:34 .bashrc.backup
-
+```
 Answer:
 The .bashrc file is 3814 bytes and was last modified on September 8, 2026 at 09:51.
 
-The backup file .bashrc.backup is 3526 bytes and was last modified at 09:34.
-
-Q2
+### Q2: Find one section that contains comments explaining what it does. Paste a 3–5 line excerpt and explain in one sentence what that section does:
 
 The relevant section is:
 
+```
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
       *) return;;
 esac
+```
 
 Answer:
 This section checks whether Bash is running in an interactive shell. If it is not interactive, the .bashrc script stops processing by using return.
-
-### Q2: Find one section that contains comments explaining what it does. Paste a 3–5 line excerpt and explain in one sentence what that section does:
-
 
 ### Q3: Find a section that already defines aliases (look for the word alias). Are any aliases already set up by Debian's default .bashrc? Name two:
 
