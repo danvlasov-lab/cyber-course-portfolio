@@ -380,10 +380,10 @@ Created 5 files in test-run-1
 - What was the most useful thing about .bashrc you learned?
 - One thing you'd want to script next
 
-- Working with Bash and .bashrc was easier than I expected in some parts. Adding aliases was quite simple. For example, I created the gohome alias to quickly go to my cyber-course directory. Adding a welcome message was also easy because I could use commands like whoami, hostname, and date directly in .bashrc.
+Working with Bash and .bashrc was easier than I expected in some parts. Adding aliases was quite simple. For example, I created the gohome alias to quickly go to my cyber-course directory. Adding a welcome message was also easy because I could use commands like whoami, hostname, and date directly in .bashrc.
 
-- The harder part was understanding the Bash history settings and writing the script at the last. It was hard to actually write parameters and command values. Also I still don't understand clearly what HISTSIZE and HISTFILESIZE do and what the difference between them.
+The harder part was understanding the Bash history settings and writing the script at the last. It was hard to actually write parameters and command values. Also I still don't understand clearly what HISTSIZE and HISTFILESIZE do and what the difference between them.
   
-- The most useful thing I learned about .bashrc is that it lets me customize my terminal and make everyday commands faster and easier. I can add aliases, set useful variables, and display information automatically when I open a terminal.
+The most useful thing I learned about .bashrc is that it lets me customize my terminal and make everyday commands faster and easier. I can add aliases, set useful variables, and display information automatically when I open a terminal.
 
--The next thing I would like to script is a simple backup script. It could automatically copy important files into a separate directory and add the current date to the backup name.
+The next thing I would like to script is a simple backup script. It could automatically copy important files into a separate directory and add the current date to the backup name.
