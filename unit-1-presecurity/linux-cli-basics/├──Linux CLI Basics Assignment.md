@@ -15,7 +15,8 @@ To become comfortable with the essential Linux command-line tools I will use thr
 
 Command:
 
-```bash
+```
+bash
 $ whoami
 ```
 
