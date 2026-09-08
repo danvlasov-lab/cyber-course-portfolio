@@ -12,25 +12,26 @@ To get comfortable moving between the four ways an IP address can be written - d
 ## Task 1 - Binary ↔ decimal for a single octet
 
 ### 1.1 - Decimal to binary
-Decimal	Binary
-|------|----------|
-10	 | 00001010 (example — done for you)
 
-210	| 11010010
+|Decimal|Binary   |
+|------ |----------|
+|10	 | 00001010 (example — done for you)|
 
-168	| 10101000
+|210	| 11010010|
 
-16	 |	00010000
+|168	| 10101000|
 
-255	|	11111111
+|16	 |	00010000|
 
-128	|	10000000
+|255	|	11111111|
 
-192	|	11000000 
+|128	|	10000000|
 
-248	|	11111000 
+|192	|	11000000|
 
-0	  |	00000000 
+|248	|	11111000| 
+
+|0	  |	00000000|
 
 
 ### 1.2 - Binary to decimal
