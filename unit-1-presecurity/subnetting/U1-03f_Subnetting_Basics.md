@@ -13,7 +13,7 @@ To get comfortable moving between the four ways an IP address can be written - d
 
 ### 1.1 - Decimal to binary
 Decimal	Binary
-
+|------|----------|
 10	 | 00001010 (example — done for you)
 
 210	| 11010010
