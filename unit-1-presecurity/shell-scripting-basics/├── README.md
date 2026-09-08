@@ -291,7 +291,6 @@ Therefore, access to .bash_history should be restricted appropriately.
 ## Part 7 - Testing your script
 
 ### Q16: Paste the output. Then run ls -la test-run-1/ and paste the result:
-Q16
 
 The script was executed with:
 ```
@@ -383,7 +382,38 @@ Created 5 files in test-run-1
 Working with Bash and .bashrc was easier than I expected in some parts. Adding aliases was quite simple. For example, I created the gohome alias to quickly go to my cyber-course directory. Adding a welcome message was also easy because I could use commands like whoami, hostname, and date directly in .bashrc.
 
 The harder part was understanding the Bash history settings and writing the script at the last. It was hard to actually write parameters and command values. Also I still don't understand clearly what HISTSIZE and HISTFILESIZE do and what the difference between them.
-  
+
 The most useful thing I learned about .bashrc is that it lets me customize my terminal and make everyday commands faster and easier. I can add aliases, set useful variables, and display information automatically when I open a terminal.
 
 The next thing I would like to script is a simple backup script. It could automatically copy important files into a separate directory and add the current date to the backup name.
+
+## My final script:
+
+```
+#!/bin/bash
+# make-files.sh \u2014 Ask for a directory name, create it if needed,
+#                 and populate it with 5 empty files.
+read -p "Enter a directory name: " dirname
+
+if [ -z "$dirname" ]; then
+    echo "Error: no name was given."
+    exit 1
+fi
+
+if [ -d "$dirname" ]; then
+    echo "Directory already exists: $dirname"
+else
+    mkdir "$dirname"
+    echo "Created directory: $dirname"
+fi
+
+for i in {1..5}; do
+ touch "$dirname/file${i}_$(date '+%Y-%m-%d')_.txt"
+        echo "$dirname/file${i}_$(date '+%Y-%m-%d')_.txt"
+done
+
+echo "Created 5 files in $dirname"
+
+# Author: Vlasov Danila
+# Date:   08-09-2026
+```
