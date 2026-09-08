@@ -18,7 +18,7 @@ The command ls -la ~ | grep bashrc shows:
 ```
 -rw-r--r-- 1 varia varia 3814 Sep  8 09:51 .bashrc
 ```
-Answer:
+**Answer:**
 The .bashrc file is 3814 bytes and was last modified on September 8, 2026 at 09:51.
 
 ### Q2: Find one section that contains comments explaining what it does. Paste a 3–5 line excerpt and explain in one sentence what that section does:
@@ -33,7 +33,7 @@ case $- in
 esac
 ```
 
-Answer:
+**Answer:**
 This section checks whether Bash is running in an interactive shell. If it is not interactive, the .bashrc script stops processing by using return.
 
 ### Q3: Find a section that already defines aliases (look for the word alias). Are any aliases already set up by Debian's default .bashrc? Name two:
