@@ -19,6 +19,7 @@ The command ls -la ~ | grep bashrc shows:
 ```
 -rw-r--r-- 1 varia varia 3814 Sep  8 09:33 .bashrc
 ```
+
 **Answer:**
 
 The .bashrc file is 3814 bytes and was last modified on September 8, 2026 at 09:51.
@@ -98,17 +99,96 @@ The banner displays the current username (varia), hostname (debian-lab), and cur
 
 ### Q7: What does $(whoami) do? Why are the dollar sign and parentheses there?:
 
+The command substitution used is:
+```
+$(whoami)
+```
+
+**Answer:**
+
+$(whoami) uses command substitution. The whoami command is executed, and its output (varia) is inserted into the text.
+
+For example:
+
+echo "Welcome back, $(whoami)"
+
+produces:
+
+Welcome back, varia
+
 ## Part 4 - Adding aliases
 
 ### Q8: Paste the two aliases you defined and the output when you ran them:
 
+The following aliases were added:
+
+```
+alias ll='ls -la'
+alias gohome='cd ~/cyber-course'
+```
+
+The gohome alias was tested with pwd. The output was:
+
+```
+/home/varia/cyber-course
+```
+
+**Answer:**
+
+The gohome alias successfully changes the current directory to /home/varia/cyber-course.
+
 ### Q9: How many aliases are now defined in your shell? (Include Debian defaults plus your additions.):
+The alias command produced:
+
+```
+alias gohome='cd ~/cyber-course'
+alias ll='ls -la'
+alias ls='ls --color=auto'
+```
+
+**Answer:**
+
+There are 3 active aliases currently defined:
+
+1) gohome
+
+2) ll
+
+3) ls
+
+The gohome and ll aliases were added manually, while ls was already present in the Debian .bashrc.
 
 ### Q10: Pick one of the two aliases you created. In one sentence, why is this a useful shortcut for you specifically?:
+
+**Answer:**
+
+The gohome alias is useful because it provides a quick way to return to the ~/cyber-course directory without typing the complete path.
+
+For example:
+
+gohome
+
+changes the directory to:
+```
+/home/varia/cyber-course
+```
 
 ## Part 5 - History settings
 
 ### Q11: What are the default values on your system?:
+
+The original .bashrc contained:
+
+```
+HISTSIZE=1000
+HISTFILESIZE=2000
+```
+
+**Answer:**
+
+HISTSIZE=1000 means Bash keeps up to 1000 commands in the current shell's command history.
+
+HISTFILESIZE=2000 means the history file can contain up to 2000 commands.
 
 ### Q12: How many lines are in your history file? Paste the last 5 lines:
 
