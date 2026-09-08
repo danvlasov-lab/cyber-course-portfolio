@@ -365,6 +365,7 @@ done
 Its output in terminal:
 
 ```
+./make-files.sh
 Directory already exists: test-run-1
 test-run-1/file1_2026-09-08_.txt
 test-run-1/file2_2026-09-08_.txt
@@ -373,3 +374,16 @@ test-run-1/file4_2026-09-08_.txt
 test-run-1/file5_2026-09-08_.txt
 Created 5 files in test-run-1
 ```
+## Reflection
+- What was easier than you expected?
+- What was harder than you expected?
+- What was the most useful thing about .bashrc you learned?
+- One thing you'd want to script next
+
+- Working with Bash and .bashrc was easier than I expected in some parts. Adding aliases was quite simple. For example, I created the gohome alias to quickly go to my cyber-course directory. Adding a welcome message was also easy because I could use commands like whoami, hostname, and date directly in .bashrc.
+
+- The harder part was understanding the Bash history settings and writing the script at the last. It was hard to actually write parameters and command values. Also I still don't understand clearly what HISTSIZE and HISTFILESIZE do and what the difference between them.
+  
+- The most useful thing I learned about .bashrc is that it lets me customize my terminal and make everyday commands faster and easier. I can add aliases, set useful variables, and display information automatically when I open a terminal.
+
+-The next thing I would like to script is a simple backup script. It could automatically copy important files into a separate directory and add the current date to the backup name.
