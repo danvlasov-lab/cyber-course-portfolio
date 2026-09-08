@@ -59,17 +59,13 @@ To get comfortable moving between the four ways an IP address can be written - d
 
 ### 2.1 - What class is it?
 
-Address		     | Class	|	Default mask (dotted)	|	Default mask (CIDR)
-
-10.0.0.5	     |	A 	 	 | 255.0.0.0             | /8
-
-192.168.1.1	  |	C 	 	 | 255.255.255.0         | /24
-
-172.16.4.20	  |	B 	 	 | 255.255.0.0           | /16
-
-8.8.8.8	      |	A 	 	 | 255.0.0.0             | /8
-
-200.100.50.25	|	C 	 	 | 255.255.255.0         | /24
+|Address| Class	|	Default mask (dotted)	|	Default mask (CIDR)|
+|------|----------|------------------------------|------------|
+|10.0.0.5	     |	A 	 	 | 255.0.0.0             | /8|
+|192.168.1.1	  |	C 	 	 | 255.255.255.0         | /24|
+|172.16.4.20	  |	B 	 	 | 255.255.0.0           | /16|
+|8.8.8.8	      |	A 	 	 | 255.0.0.0             | /8|
+|200.100.50.25	|	C 	 	 | 255.255.255.0         | /24|
 
 (Reminder: A = first octet 1–126, B = 128–191, C = 192–223.)
 
