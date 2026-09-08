@@ -192,21 +192,184 @@ HISTFILESIZE=2000 means the history file can contain up to 2000 commands.
 
 ### Q12: How many lines are in your history file? Paste the last 5 lines:
 
+The command:
+```
+wc -l ~/.bash_history
+```
+
+returned:
+```
+302 /home/varia/.bash_history
+```
+
+**Answer:**
+
+There are 302 lines in the history file.
+
+The last five commands shown in the history were:
+
+```
+chmod +x make-files.sh
+ls -la
+./make-files.sh
+cd
+ls -la
+```
+
 ### Q13: What are the new values:
 
+The values were changed to:
+```
+HISTSIZE=10000
+HISTFILESIZE=20000
+```
+They were verified with:
+```
+echo $HISTSIZE
+```
+
+Output:
+```
+10000
+```
+
+and:
+```
+echo $HISTFILESIZE
+```
+
+Output:
+```
+20000
+```
+**Answer:**
+The new values are:
+
+HISTSIZE = 10000
+
+HISTFILESIZE = 20000
+
+The values were successfully applied and verified.
+
 ### Q14: What changes? How many commands does history now show?:
+The following command was used:
+```
+HISTSIZE=5
+```
+Then:
+```
+history
+```
+The resulting history contained five entries:
+
+```
+310  echo $HISTSIZE
+311  echo $HISTFILESIZE
+312  HISTSIZE=5
+313  HISTORY
+314  history
+```
+**Answer:** 
+
+Setting HISTSIZE=5 limits the current shell history to the last five commands.
+
+Also, Bash commands are case-sensitive, so HISTORY and history are different.
 
 ### Q15: A long history is convenient — but ~/.bash_history is a plain text file in your home directory. Name two reasons why someone with read access to your home folder might care what's in your history file:
+
+**Answer:**
+Someone with read access to .bash_history might be concerned because it can contain sensitive information.
+
+Two examples are:
+
+1) Passwords, tokens, or other secrets accidentally entered directly into commands.
+
+2) Information about the system, such as file paths, usernames, server addresses, or administrative commands.
+
+Therefore, access to .bash_history should be restricted appropriately.
 
 ## Part 7 - Testing your script
 
 ### Q16: Paste the output. Then run ls -la test-run-1/ and paste the result:
+Q16
+
+The script was executed with:
+```
+./make-files.sh
+```
+
+The directory name entered was:
+```
+test-run-1
+```
+
+The script reported:
+
+```
+Directory already exists: test-run-1
+Created 5 files in test-run-1
+```
+
+**Answer:**
+
+The script successfully created 5 files in the new test-run-1 directory.
 
 ### Q17: What does the script say this time? Did it still try to create the 5 files? What happens if a file with the same name already exists - does touch overwrite it, or does something else happen?:
 
+The script was executed again with:
+```
+./make-files.sh
+```
+
+Then was run a second time using the same directory:
+```
+test-run-1
+```
+
+The same messages were produced again:
+```
+Directory already exists: test-run-1
+Created 5 files in test-run-1
+```
+
+**Answer:**
+
+When the script is run again, the directory already exists, but the script still creates or updates the same five files.
+
 ### Q18: What does the script do?:
+If no directory name is entered, the script display:
+```
+Error: no name was given.
+```
+
+and exit with a non-zero status.
+
+This prevents the script from attempting to create files without a valid directory name.
 
 ## Part 8 - Reading and improving
 
 ### Q19: Which option did you pick, what does your modified script look like, and what does its output look like when you test it?:
 
+**Answer:**
+
+I chose option Option B - Better file naming. I just modified a loop part in make-files.sh a little by adding ```_$(date '+%Y-%m-%d')_``` after file${i} in touch command and then writing  echo ```"$dirname/file${i}_$(date '+%Y-%m-%d')_.txt"``` to show output to my terminal:
+
+In make-files.sh:
+
+```
+for i in {1..5}; do
+    touch "$dirname/file${i}_$(date '+%Y-%m-%d')_.txt"
+        echo "$dirname/file${i}_$(date '+%Y-%m-%d')_.txt"
+done
+```
+Its output in terminal:
+
+```
+Directory already exists: test-run-1
+test-run-1/file1_2026-09-08_.txt
+test-run-1/file2_2026-09-08_.txt
+test-run-1/file3_2026-09-08_.txt
+test-run-1/file4_2026-09-08_.txt
+test-run-1/file5_2026-09-08_.txt
+Created 5 files in test-run-1
+```
