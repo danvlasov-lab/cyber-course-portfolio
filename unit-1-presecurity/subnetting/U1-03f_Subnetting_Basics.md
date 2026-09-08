@@ -27,19 +27,19 @@ To get comfortable moving between the four ways an IP address can be written - d
 
 
 ### 1.2 - Binary to decimal
-Binary	Decimal
+|Binary	|Decimal|
+|------|----------|
+|11000000	|	(example - 192)|
 
-11000000	|	(example - 192)
+|11111111	|  255|
 
-11111111	|  255
+|10101000	|	 168|
 
-10101000	|	 168
+|00010000	|	 16|
 
-00010000	|	 16
+|11111000	|	 248
 
-11111000	|	 248
-
-11010010	|	 210
+|11010010	|	 210
 
 
 ### 1.3 - Full-address conversion
