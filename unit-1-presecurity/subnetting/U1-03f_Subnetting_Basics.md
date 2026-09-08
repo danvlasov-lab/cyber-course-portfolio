@@ -72,30 +72,25 @@ To get comfortable moving between the four ways an IP address can be written - d
 
 ### 2.2 - Mask ↔ CIDR ↔ binary
 
-Dotted-decimal	 |	CIDR	|	Binary (32 bits, dots between octets)
-
-255.255.255.0	  |	/24	|	11111111.11111111.11111111.00000000
-
-255.255.0.0	    |	/16 |	11111111.11111111.00000000.00000000 	 
-
-255.0.0.0 	     | /8	 |	11111111.00000000.00000000.00000000 
-  
-255.255.255.192	|	/26	| 11111111.11111111.11111111.11000000
-
-255.255.248.0 	  | /21	|	11111111.11111111.11111000.00000000 
-  
-255.255.255.128	|	/25 |	11111111.11111111.11111111.10000000 
+|Dotted-decimal|	CIDR	|	Binary (32 bits, dots between octets)|
+|------|----------|------------------------------|
+|255.255.255.0	  |	/24	|	11111111.11111111.11111111.00000000|
+|255.255.0.0	    |	/16 |	11111111.11111111.00000000.00000000|	 
+|255.0.0.0 	     | /8	 |	11111111.00000000.00000000.00000000| 
+|255.255.255.192	|	/26	| 11111111.11111111.11111111.11000000|
+|255.255.248.0 	  | /21	|	11111111.11111111.11111000.00000000|  
+|255.255.255.128	|	/25 |	11111111.11111111.11111111.10000000| 
 
 
 ### 2.3 - Networks and hosts per class
 
-Class	|	Default CIDR	|	Number of possible networks	Number of hosts per network
+|Class	|	Default CIDR	|	Number of possible networks	Number of hosts per network|
+|------|----------|------------------------------|
+| A	  |	/8	          |	128 nets 16 million hosts|
 
-  A	  |	/8	          |	128 nets 16 million hosts
+|B	  |	/16	          |	16k nets 64k hosts|
 
-  B	  |	/16	          |	16k nets 64k hosts 	 
-
-  C	  |	/24	          |	2 million nets 254 hosts 	 
+|C	  |	/24	          |	2 million nets 254 hosts| 	 
   
 
 ## Task 3 - The five key values - the main event
@@ -298,21 +293,15 @@ Suggest a better CIDR (e.g. /26, /27, /28, /29, /30) for each department. You do
 
 Reminder - usable hosts per subnet size (fill in from your notes):
 
-CIDR |	Total addresses |	Usable hosts (total − 2)
-
-/24  |	256	            |  254
-
-/25  |	128	            |  126
-
-/26  |	64              |	 62
-
-/27  |	32	            |  30
-
-/28  |	16	            |  14
-
-/29  |	8	              |  6
-
-/30  |	4	              |  2
+|CIDR |	Total addresses |	Usable hosts (total − 2)|
+|------|----------|------------------------------|
+|/24  |	256	            |  254|
+|/25  |	128	            |  126|
+|/26  |	64              |	 62|
+|/27  |	32	            |  30|
+|/28  |	16	            |  14|
+|/29  |	8	              |  6|
+|/30  |	4	              |  2|
 
 
 ## Task 6 - IPv6, briefly
@@ -323,15 +312,12 @@ IPv6 addresses are 128 bits long - four times as long as IPv4. They're written a
 
 Fill in the missing values (just three rows to confirm you remember the pattern from class):
 
-Hex |	Decimal |	Binary (4 bits)
-
-0   |	0       |	0000
-
-5   |	5       | 0101	 
-
-a   |	10      | 1010	 
-
-f   |	15      | 1111	 
+|Hex |	Decimal |	Binary (4 bits)|
+|------|----------|------------------------------|
+|0   |	0       |	0000|
+|5   |	5       | 0101|
+|a   |	10      | 1010|	 
+|f   |	15      | 1111|	 
 
 ### 6.2 - Compress these IPv6 addresses
 
