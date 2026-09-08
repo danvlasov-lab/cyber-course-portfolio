@@ -19,15 +19,10 @@ To get comfortable moving between the four ways an IP address can be written - d
 |210	  | 11010010|
 |168	| 10101000|
 |16	 |	00010000|
-
 |255	|	11111111|
-
 |128	|	10000000|
-
 |192	|	11000000|
-
 |248	|	11111000| 
-
 |0	  |	00000000|
 
 
