@@ -10,3 +10,51 @@
 ## Goal
 To take my first steps in shell scripting by customizing my shell environment through ~/.bashrc, then writing a small script of my own. By the end I should be comfortable with variables, user input, conditionals, and loops at a basic level.
 
+## Q1: Paste the line. What size is the file? When was it last modified?:
+
+
+## Q2: Find one section that contains comments explaining what it does. Paste a 3–5 line excerpt and explain in one sentence what that section does:
+
+
+## Q3: Find a section that already defines aliases (look for the word alias). Are any aliases already set up by Debian's default .bashrc? Name two:
+
+
+## Q4: Paste the output. Confirm you have both .bashrc and .bashrc.backup:
+
+
+## Q5: What appears at the top of the new terminal?:
+
+
+## Q6: Paste the banner output you see.
+
+
+## Q7: What does $(whoami) do? Why are the dollar sign and parentheses there?
+
+
+
+## Q8: Paste the two aliases you defined and the output when you ran them.
+
+## Q9: How many aliases are now defined in your shell? (Include Debian defaults plus your additions.)
+
+## Q10: Pick one of the two aliases you created. In one sentence, why is this a useful shortcut for you specifically?
+
+
+
+## Q11: What are the default values on your system?
+
+## Q12: How many lines are in your history file? Paste the last 5 lines.
+
+## Q13: What are the new values?
+
+## Q14: What changes? How many commands does history now show?
+
+## Q15: A long history is convenient — but ~/.bash_history is a plain text file in your home directory. Name two reasons why someone with read access to your home folder might care what's in your history file.
+
+## Q16: Paste the output. Then run ls -la test-run-1/ and paste the result.
+
+## Q17: What does the script say this time? Did it still try to create the 5 files? What happens if a file with the same name already exists - does touch overwrite it, or does something else happen?
+
+## Q18: What does the script do?
+
+## Q19: Which option did you pick, what does your modified script look like, and what does its output look like when you test it?
+
