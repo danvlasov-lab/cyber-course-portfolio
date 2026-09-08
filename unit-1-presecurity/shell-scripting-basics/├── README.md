@@ -17,7 +17,7 @@ To take my first steps in shell scripting by customizing my shell environment th
 The command ls -la ~ | grep bashrc shows:
 
 ```
--rw-r--r-- 1 varia varia 3814 Sep  8 09:51 .bashrc
+-rw-r--r-- 1 varia varia 3814 Sep  8 09:33 .bashrc
 ```
 **Answer:**
 
@@ -43,29 +43,58 @@ This section checks whether Bash is running in an interactive shell. If it is no
 
 The .bashrc file contains existing aliases, including:
 
+```
 alias ls='ls --color=auto'
-
-There are also several commented-out alias examples:
-
-#alias ll='ls -l'
-#alias la='ls -A'
-#alias l='ls -CF'
+```
 
 **Answer:**
 
-Yes. The Debian .bashrc already contains an alias for ls. Some other aliases are present only as commented examples.
+Yes. The Debian .bashrc already contains an alias for ls.
 
 ## Part 2 - Backup before editing
 
 ### Q4: Paste the output. Confirm you have both .bashrc and .bashrc.backup:
 
+The output shows:
+
+```
+-rw-r--r-- 1 varia varia 3814 Sep  8 09:33 .bashrc
+-rw-r--r-- 1 varia varia 3526 Sep  8 09:45 .bashrc.backup
+```
+
+**Answer:**
+
+Yes. Both .bashrc and .bashrc.backup exist.
+
 ## Part 3 - Adding a welcome banner
 
 ### Q5: What appears at the top of the new terminal?:
 
+After opening a new terminal, the following message appears:
+
+```
+Hello, Linuxuser
+```
+
+**Answer:**
+
+The welcome message is displayed automatically when the shell starts because it was added to .bashrc.
 
 ### Q6: Paste the banner output you see:
 
+The actual output is:
+
+```
+========================================
+  Welcome back, varia
+  Host: debian-lab
+  Today: Tuesday, 08 September 2026
+========================================
+```
+
+**Answer:**
+
+The banner displays the current username (varia), hostname (debian-lab), and current date (Tuesday, 08 September 2026).
 
 ### Q7: What does $(whoami) do? Why are the dollar sign and parentheses there?:
 
