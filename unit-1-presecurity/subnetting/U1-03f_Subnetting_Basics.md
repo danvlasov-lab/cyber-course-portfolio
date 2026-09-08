@@ -30,16 +30,11 @@ To get comfortable moving between the four ways an IP address can be written - d
 |Binary	|Decimal|
 |------|----------|
 |11000000	|	(example - 192)|
-
 |11111111	|  255|
-
 |10101000	|	 168|
-
 |00010000	|	 16|
-
-|11111000	|	 248
-
-|11010010	|	 210
+|11111000	|	 248|
+|11010010	|	 210|
 
 
 ### 1.3 - Full-address conversion
