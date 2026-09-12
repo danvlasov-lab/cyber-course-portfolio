@@ -1,20 +1,9 @@
-# [Assignment name]
+# Assignment: CIA Triad Case Studies
 
-**Date:** YYYY-MM-DD
-**Source:** (Assignment ID, e.g. U1-05b — Linux CLI Basics)
-**Environment:** (host OS, VM, target IP, etc.)
+**Date:** 2026-09-12
+**Source:** U2-01a Assignment: CIA Triad Case Studies
+**Environment:** My computer
 
 ## Goal
-What I was trying to do.
+To apply the CIA triad to real-world incident scenarios. Also to identify which principle was primarily violated, secondary impacts, and which controls would have prevented or limited the damage.
 
-## Steps
-Commands run, in order. Use code blocks.
-
-## Findings
-What I learned / what the output told me.
-
-## Issues and how I resolved them
-Problems encountered, fixes applied.
-
-## References
-Links to docs, write-ups, or related notes.
