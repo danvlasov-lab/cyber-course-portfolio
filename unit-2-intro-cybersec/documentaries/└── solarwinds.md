@@ -1,8 +1,8 @@
-# Assignment: CIA Triad Case Studies
+# Assignment: Documentary - The SolarWinds Hack
 
-**Date:** 2026-09-12
+**Date:** 2026-09-15
 
-**Source:** U2-01a Assignment: CIA Triad Case Studies
+**Source:** U2-01b Assignment: The SolarWinds Hack (documentary)
 
 **Environment:** My computer
 
