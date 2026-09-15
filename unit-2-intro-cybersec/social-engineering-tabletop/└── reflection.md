@@ -1,6 +1,8 @@
 
 # Individual Reflection: Social Engineering Tabletop Exercise
 
-During today’s exercise, the tactic that surprised me most was how sophisticated pretexting as an outsourced IT provider can be. I used to think social engineering was just about basic phishing emails or fake prize links. Seeing how attackers combine research from LinkedIn—like finding real employee names and vendor details—with spoofed phone numbers and fake urgency to trick staff was a real eye-opener. They didn't just ask for passwords; they created a totally believable technical emergency.
+During today’s tabletop exercise, the tactic that surprised me most was combining phone calls with MFA spam. I used to think social engineering was just clicking on bad links in phishing emails. However, seeing how an attacker can call an employee, pretend to be our IT support team, and keep sending login approval pop-ups until the victim presses "Approve" showed me how easy it is to trick people using pressure.
 
-The biggest change I will make to my own behavior is never taking quick action under pressure without verifying the person first. In the past, if someone called claiming to be IT support during a busy workday, I probably would have trusted them to fix a problem quickly. From now on, no matter how urgent or official a call seems, I will pause, refuse immediate access, and double-check their identity through our official IT ticketing system or internal phone list before sharing any information or clicking any links.
+Because of this, I will change how I handle login requests in my daily life. I will never approve a notification on my phone unless I just tried to log in myself. If I get an unexpected login prompt, I will reject it right away, change my password, and inform IT support instead of just ignoring it or pressing yes by mistake.
+
+Finally, I learned to always double-check suspicious messages using a separate channel. Whether working at Pohjola Logistics or managing my personal accounts, I will never call a phone number or click a link sent in an urgent message. I will always search for official contact details on my own before trusting any request.
