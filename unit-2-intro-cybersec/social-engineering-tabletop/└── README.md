@@ -37,8 +37,6 @@ If money was already sent, immediately call the bank to freeze the transfer. Inf
 
 Set up strict email authentication rules (SPF, DKIM, DMARC) so spoofed emails get blocked automatically. Create a company rule that requires two people to approve any bank detail changes over €1,000, along with a mandatory phone confirmation.
 
----
-
 ### 2. Vector: Vishing Call to HR
 
 **Recognition:**
@@ -65,8 +63,6 @@ If a bad file was opened, unplug the computer's network cable and turn off Wi-Fi
 
 Block encrypted zip files at the email gateway level in Microsoft 365. Establish a strict HR rule to only accept resumes in `.pdf` format sent through the official application website.
 
----
-
 ### 3. Vector: Pretexting Impersonation of Outsourced IT MSP
 
 **Recognition:**
@@ -92,8 +88,6 @@ If you accidentally gave away your credentials or approved a login, immediately 
 **Prevention:**
 
 Enable Number Matching in Microsoft Authenticator so users cannot accidentally approve fake login requests. Create a strict rule that IT support will never ask for login codes or password approvals over the phone.
-
----
 
 ### 4. Vector: Physical Tailgating at Vantaa Office
 
