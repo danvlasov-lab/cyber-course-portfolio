@@ -11,82 +11,112 @@ To build practical recognition of social engineering tactics by designing both a
 
 ## Phase 2 – Defender Scenario
 
-### 1. Phishing Email Targeting the Finance Team
+### 1. Vector: Phishing Email Targeting Finance
 
 **Recognition:**
-An urgent request to process a wire transfer or update vendor bank details; mismatched sender addresses (e.g., ceo-office@company-domain.co instead of .com); high-pressure language urging to bypass normal approval workflows.
 
-**Immediate Action:** 
-Do not click links, open attachments, reply, or forward the email to colleagues using standard forward.
-
-**Verification:**
-Verify the request by contacting the sender or vendor via a known, internal phone number (from the company directory, never from the email itself).
-
-**Escalation:**
-Report the email immediately using the "Report Phishing" button in Outlook/Gmail or forward it as an attachment (.eml/.msg) to soc@company.com.
-
-**Recovery:**
-If credentials were entered or an attachment was opened, immediately disconnect the device from the network (unplug Ethernet / turn off Wi-Fi) and contact IT/SOC to revoke active sessions and reset credentials.
-
-**Prevention:**
-Technical enforcement of SPF, DKIM, and DMARC (p=reject), paired with a mandatory Dual-Control policy requiring two separate approvals for any banking detail changes.
-
-### 2. Vishing Call to HR
-
-**Recognition:**
-The caller claims to be an employee, executive, or job applicant demanding urgent updates to direct deposit info, asking for PII, or requesting an MFA reset while acting overly pushy or aggressive.
+The email comes from a fake or lookalike domain, such as `pohjola-Iogistics.fi` using a capital "I" instead of an "l", or Microsoft 365 shows an external sender warning banner. The message creates fake urgency, demanding an immediate payment before the end of the day. It also asks to change the bank account details (IBAN) for an existing supplier without any prior official notice.
 
 **Immediate Action:**
-Politely pause the conversation and refuse to disclose sensitive information or process changes over an incoming call.
+
+Do not click any links or open any attached files. Do not reply to the email or use any phone numbers printed inside the message.
 
 **Verification:**
-Hang up and call the employee back using their official phone number listed in the internal HR/payroll database.
+
+Use a separate channel to verify the request. Call the supplier directly using the official phone number saved in your internal system or contract, never the number from the suspicious email.
 
 **Escalation:**
-Log the caller’s phone number, time, and details of the request, then notify the CISO/SOC and HR Director.
+
+Forward the suspicious email as an attachment (`.eml`) to `security@pohjola-logistics.fi` and open an urgent security ticket with the IT support company.
 
 **Recovery:**
-If sensitive information or credentials were shared, immediately freeze the affected employee’s payroll profile/accounts and report the data breach to the Security Team.
+
+If money was already sent, immediately call the bank to freeze the transfer. Inform the CEO and CFO right away, report the issue to the Finnish National Cyber Security Centre (Kyberturvallisuuskeskus), reset the employee's password, and sign out of all active Microsoft 365 sessions.
 
 **Prevention:**
-A strict policy prohibiting payroll or credential changes over phone calls without mandatory identity verification via video call or an authenticated internal ticketing system.
 
-### 3. Pretexting Impersonation of the Outsourced IT MSP
+Set up strict email authentication rules (SPF, DKIM, DMARC) so spoofed emails get blocked automatically. Create a company rule that requires two people to approve any bank detail changes over €1,000, along with a mandatory phone confirmation.
+
+---
+
+### 2. Vector: Vishing Call to HR
 
 **Recognition:**
-An unsolicited call or message from an external MSP demanding screen-sharing access, OTP codes, or the execution of terminal commands outside of scheduled maintenance windows.
+
+The caller claims to be a job applicant or recruiter and asks HR to open a password-protected `.zip` file sent via email or a cloud link, bypassing the standard job portal. They rush the HR worker on the phone, pressure them to open the file right now while keeping them on the call.
 
 **Immediate Action:**
-Refuse remote access and do not execute any commands or open links provided by the caller.
+
+Refuse to open any links or protected files from an unverified caller. Politely tell them that all resumes must be submitted through the official job portal.
 
 **Verification:**
-Check the internal IT Service Desk portal for an active support ticket, or call the MSP's official support desk using the number from the signed contract.
+
+Check the caller's name and details against existing applicants in the official recruitment system or on LinkedIn.
 
 **Escalation:**
-Report the impersonation attempt to the internal IT Lead and Information Security Officer.
+
+Write down the caller's phone number, time, and details of the call, then report it to the HR manager and the IT support team.
 
 **Recovery:**
-If remote access was granted, immediately end the remote session, disconnect the machine from the network, and hand the device over to IT for forensic analysis.
+
+If a bad file was opened, unplug the computer's network cable and turn off Wi-Fi immediately. Contact the IT support team to isolate the computer and run a full virus scan.
 
 **Prevention:**
-Implement a Zero Trust / Privileged Access Management (PAM) framework requiring explicit, just-in-time (JIT) internal approval before any external vendor can gain remote administrative access.
 
-### 4. Physical Tailgating at the Vantaa Office
+Block encrypted zip files at the email gateway level in Microsoft 365. Establish a strict HR rule to only accept resumes in `.pdf` format sent through the official application website.
+
+---
+
+### 3. Vector: Pretexting Impersonation of Outsourced IT MSP
 
 **Recognition:**
-An unfamiliar individual attempts to follow an employee through the electronic badge reader/door without tapping their own badge, uses "carrying coffee/boxes" as an excuse to hold the door, or lacks a visible visitor badge.
+
+A caller pretends to be an IT support technician asking for urgent account access, password resets, or for you to approve an authenticator prompt due to "system maintenance." The call comes out of nowhere without any previous support ticket or planned maintenance warning.
 
 **Immediate Action:**
-Stop the person politely by saying: "Apologies, but company security policy requires everyone to badge in individually. Please check in at reception." Do not hold the door open.
+
+Never approve phone push notifications from the Microsoft Authenticator app unless you personally started the login process. Never share your password or one-time codes over the phone.
 
 **Verification:**
-Escort the individual to the Vantaa office reception desk or security guard to verify their identity and appointment.
+
+Hang up and call the IT support desk back directly using the official number listed on the company intranet.
 
 **Escalation:**
-If the individual refuses or slips past, notify office security or the facility manager immediately.
+
+Report the phone number and details to internal security and log an impersonation incident ticket with the IT MSP.
 
 **Recovery:**
-If an unauthorized person is already inside the workspace, keep them in sight while discreetly alerting nearby colleagues and security.
+
+If you accidentally gave away your credentials or approved a login, immediately notify IT to revoke all active user sessions and reset your password.
 
 **Prevention:**
-Installation of physical access controls (such as full-height turnstiles or mantrap doors) alongside regular employee security awareness training regarding badge-in policies.
+
+Enable Number Matching in Microsoft Authenticator so users cannot accidentally approve fake login requests. Create a strict rule that IT support will never ask for login codes or password approvals over the phone.
+
+---
+
+### 4. Vector: Physical Tailgating at Vantaa Office
+
+**Recognition:**
+
+An unknown person wearing delivery clothing, holding coffee, or carrying heavy boxes follows a worker through a locked door without tapping their own badge.
+
+**Immediate Action:**
+
+Stop and politely ask the person who they are visiting, then escort them directly to the front reception desk.
+
+**Verification:**
+
+The reception team verifies the guest's identity and checks with the employee they are visiting before granting entry.
+
+**Escalation:**
+
+If the unknown person refuses to show ID or acts aggressively, call office security or management immediately.
+
+**Recovery:**
+
+If an unescorted visitor is found inside private office areas, escort them out. Check security cameras and inspect open network ports in common areas for suspicious devices.
+
+**Prevention:**
+
+Use turnstiles or single-person doors at main entrances and turn off unused wall network sockets. Enforce a strict policy where all guests must wear badges and be accompanied by a staff member.
