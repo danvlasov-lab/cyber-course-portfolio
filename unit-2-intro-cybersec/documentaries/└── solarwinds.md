@@ -13,7 +13,7 @@ To reflect on the SolarWinds incident and connect it to Cisco Module 1 concepts.
 I've watched the documentary. Link: https://www.youtube.com/watch?v=Kf7Motm36Go&t=1s
 
 ## Findings
-The unknown russian hacker injected malicious code into SolarWinds's Orion software updates, and when users installed updates from March 2020 to June 2020, the hackers stole personal data from users of this service. This was a Supply chain attack.
+The unknown russian hackers injected malicious code into SolarWinds's Orion software updates, and when users installed updates from March 2020 to June 2020, the hackers stole personal data from users of this service. This was a Supply chain attack.
 
 The victims were the SolarWinds company itself and about 18,000 organizations which downloaded this updates (including U.S goverment agents), which were using Orion software. After that the US officially blamed Russian intelligence, leading to fresh sanctions and diplomatic strain.
 
