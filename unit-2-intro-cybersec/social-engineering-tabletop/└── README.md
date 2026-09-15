@@ -14,6 +14,7 @@ To build practical recognition of social engineering tactics by designing both a
 ### 1. Vector: Phishing Email Targeting Finance
 
 **Recognition:**
+
 The email comes from a fake or lookalike domain, such as `pohjola-Iogistics.fi` using a capital "I" instead of an "l", or Microsoft 365 shows an external sender warning banner. The message creates fake urgency, demanding an immediate payment before the end of the day. It also asks to change the bank account details (IBAN) for an existing supplier without any prior official notice.
 
 **Immediate Action:**
