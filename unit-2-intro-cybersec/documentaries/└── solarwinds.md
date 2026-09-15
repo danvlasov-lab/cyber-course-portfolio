@@ -6,5 +6,5 @@
 
 **Environment:** My computer
 
-**Goal**
+## Goal
 To apply the CIA triad to real-world incident scenarios. Also to identify which principle was primarily violated, secondary impacts, and which controls would have prevented or limited the damage.
