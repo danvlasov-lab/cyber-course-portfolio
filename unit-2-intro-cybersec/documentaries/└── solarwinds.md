@@ -7,4 +7,4 @@
 **Environment:** My computer
 
 ## Goal
-To apply the CIA triad to real-world incident scenarios. Also to identify which principle was primarily violated, secondary impacts, and which controls would have prevented or limited the damage.
+To reflect on the SolarWinds incident and connect it to Cisco Module 1 concepts.
