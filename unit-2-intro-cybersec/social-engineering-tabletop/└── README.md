@@ -31,41 +31,62 @@ If credentials were entered or an attachment was opened, immediately disconnect 
 **Prevention:**
 Technical enforcement of SPF, DKIM, and DMARC (p=reject), paired with a mandatory Dual-Control policy requiring two separate approvals for any banking detail changes.
 
-2. Vishing Call to HR
-Recognition: The caller claims to be an employee, executive, or job applicant demanding urgent updates to direct deposit info, asking for PII, or requesting an MFA reset while acting overly pushy or aggressive.
+### 2. Vishing Call to HR
 
-Immediate Action: Politely pause the conversation and refuse to disclose sensitive information or process changes over an incoming call.
+**Recognition:**
+The caller claims to be an employee, executive, or job applicant demanding urgent updates to direct deposit info, asking for PII, or requesting an MFA reset while acting overly pushy or aggressive.
 
-Verification: Hang up and call the employee back using their official phone number listed in the internal HR/payroll database.
+**Immediate Action:**
+Politely pause the conversation and refuse to disclose sensitive information or process changes over an incoming call.
 
-Escalation: Log the caller’s phone number, time, and details of the request, then notify the CISO/SOC and HR Director.
+**Verification:**
+Hang up and call the employee back using their official phone number listed in the internal HR/payroll database.
 
-Recovery: If sensitive information or credentials were shared, immediately freeze the affected employee’s payroll profile/accounts and report the data breach to the Security Team.
+**Escalation:**
+Log the caller’s phone number, time, and details of the request, then notify the CISO/SOC and HR Director.
 
-Prevention: A strict policy prohibiting payroll or credential changes over phone calls without mandatory identity verification via video call or an authenticated internal ticketing system.
+**Recovery:**
+If sensitive information or credentials were shared, immediately freeze the affected employee’s payroll profile/accounts and report the data breach to the Security Team.
 
-3. Pretexting Impersonation of the Outsourced IT MSP
-Recognition: An unsolicited call or message from an external MSP demanding screen-sharing access, OTP codes, or the execution of terminal commands outside of scheduled maintenance windows.
+**Prevention:**
+A strict policy prohibiting payroll or credential changes over phone calls without mandatory identity verification via video call or an authenticated internal ticketing system.
 
-Immediate Action: Refuse remote access and do not execute any commands or open links provided by the caller.
+### 3. Pretexting Impersonation of the Outsourced IT MSP
 
-Verification: Check the internal IT Service Desk portal for an active support ticket, or call the MSP's official support desk using the number from the signed contract.
+**Recognition:**
+An unsolicited call or message from an external MSP demanding screen-sharing access, OTP codes, or the execution of terminal commands outside of scheduled maintenance windows.
 
-Escalation: Report the impersonation attempt to the internal IT Lead and Information Security Officer.
+**Immediate Action:**
+Refuse remote access and do not execute any commands or open links provided by the caller.
 
-Recovery: If remote access was granted, immediately end the remote session, disconnect the machine from the network, and hand the device over to IT for forensic analysis.
+**Verification:**
+Check the internal IT Service Desk portal for an active support ticket, or call the MSP's official support desk using the number from the signed contract.
 
-Prevention: Implement a Zero Trust / Privileged Access Management (PAM) framework requiring explicit, just-in-time (JIT) internal approval before any external vendor can gain remote administrative access.
+**Escalation:**
+Report the impersonation attempt to the internal IT Lead and Information Security Officer.
 
-4. Physical Tailgating at the Vantaa Office
-Recognition: An unfamiliar individual attempts to follow an employee through the electronic badge reader/door without tapping their own badge, uses "carrying coffee/boxes" as an excuse to hold the door, or lacks a visible visitor badge.
+**Recovery:**
+If remote access was granted, immediately end the remote session, disconnect the machine from the network, and hand the device over to IT for forensic analysis.
 
-Immediate Action: Stop the person politely by saying: "Apologies, but company security policy requires everyone to badge in individually. Please check in at reception." Do not hold the door open.
+**Prevention:**
+Implement a Zero Trust / Privileged Access Management (PAM) framework requiring explicit, just-in-time (JIT) internal approval before any external vendor can gain remote administrative access.
 
-Verification: Escort the individual to the Vantaa office reception desk or security guard to verify their identity and appointment.
+### 4. Physical Tailgating at the Vantaa Office
 
-Escalation: If the individual refuses or slips past, notify office security or the facility manager immediately.
+**Recognition:**
+An unfamiliar individual attempts to follow an employee through the electronic badge reader/door without tapping their own badge, uses "carrying coffee/boxes" as an excuse to hold the door, or lacks a visible visitor badge.
 
-Recovery: If an unauthorized person is already inside the workspace, keep them in sight while discreetly alerting nearby colleagues and security.
+**Immediate Action:**
+Stop the person politely by saying: "Apologies, but company security policy requires everyone to badge in individually. Please check in at reception." Do not hold the door open.
 
-Prevention: Installation of physical access controls (such as full-height turnstiles or mantrap doors) alongside regular employee security awareness training regarding badge-in policies.
+**Verification:**
+Escort the individual to the Vantaa office reception desk or security guard to verify their identity and appointment.
+
+**Escalation:**
+If the individual refuses or slips past, notify office security or the facility manager immediately.
+
+**Recovery:**
+If an unauthorized person is already inside the workspace, keep them in sight while discreetly alerting nearby colleagues and security.
+
+**Prevention:**
+Installation of physical access controls (such as full-height turnstiles or mantrap doors) alongside regular employee security awareness training regarding badge-in policies.
