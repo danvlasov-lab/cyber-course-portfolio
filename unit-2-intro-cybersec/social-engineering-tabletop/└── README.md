@@ -10,6 +10,7 @@
 To build practical recognition of social engineering tactics by designing both an attack scenario and the corresponding defence playbook, then critiquing other groups' work.
 
 **My role:** Defender
+**Attacker's name:** Nikitko 
 
 ## Phase 2 – Defender Scenario
 
