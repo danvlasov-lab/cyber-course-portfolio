@@ -1,8 +1,8 @@
-# Assignment: Documentary - WannaCry: The World's Largest Ransomware Attack
+# Assignment: Map Your Own Attack Surface
 
 **Date:** 2026-09-17
 
-**Source:** U2-01c Assignment: WannaCry (documentary)
+**Source:** U2-03a Assignment: Map Your Attack Surface
 
 **Environment:** My computer
 
