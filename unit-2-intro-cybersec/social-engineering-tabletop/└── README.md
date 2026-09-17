@@ -11,7 +11,7 @@ To build practical recognition of social engineering tactics by designing both a
 
 **My role:** Defender
 
-**Attacker's name:** Nikitko 
+**Attacker's name:** Nikita 
 
 ## Phase 2 – Defender Scenario
 
