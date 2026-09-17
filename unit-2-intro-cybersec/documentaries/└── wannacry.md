@@ -1,13 +1,13 @@
-# Assignment: Documentary - The SolarWinds Hack
+# Assignment: Documentary - WannaCry: The World's Largest Ransomware Attack
 
-**Date:** 2026-09-15
+**Date:** 2026-09-17
 
-**Source:** U2-01b Assignment: The SolarWinds Hack (documentary)
+**Source:** U2-01c Assignment: WannaCry (documentary)
 
 **Environment:** My computer
 
 ## Goal
-To reflect on the SolarWinds incident and connect it to Cisco Module 1 concepts.
+To watch a documentary about the 2017 WannaCry ransomware attack and write a structured reflection that connects what happened to the cybersecurity concepts introduced in Cisco Module 1. The goal is to make the concepts in the module concrete by seeing them play out in a real, global-scale incident.
 
 ## Steps
 I've watched the documentary. Link: https://www.youtube.com/watch?v=PKHH_gvJ_hA
