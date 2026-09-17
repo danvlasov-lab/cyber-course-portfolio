@@ -1,6 +1,13 @@
+# Assignment: Documentary - WannaCry: The World's Largest Ransomware Attack
 
+**Date:** 2026-09-17
 
-# Attack Surface
+**Source:** U2-01c Assignment: WannaCry (documentary)
+
+**Environment:** My computer
+
+## Goal
+To develop awareness of my personal digital footprint by inventorying the devices, accounts, and services I use and reasoning about what an attacker could gain from compromising each.
 
 ## Device Inventory
 
@@ -24,7 +31,7 @@
 | Social media account    | Yes         | Yes             | Send messages, post content and access personal information        |
 | Online shopping account | No          | Yes             | Make purchases or access saved personal information                |
 
-## Top 5 Highest-Value Targets
+## Top 5 Highest-Value Targets:
 
 ### 1. Personal email account
 
@@ -48,9 +55,9 @@ My smartphone gives access to many accounts in one place. If someone got access 
 
 ## Reflection
 
-My biggest exposure is that many important accounts are connected to each other. For example, my personal email can be used to recover other accounts, so it is very important to protect it. My smartphone is also an important part of my attack surface because I use it for many different accounts and services.
+I think my biggest risk is that I use the same devices for many different things. My smartphone and personal email are especially important because they give access to many other accounts. If someone got access to them, they could get a lot of my personal information.
 
-Another risk is that not all my accounts have multi-factor authentication. A strong and unique password is useful, but an extra verification step makes an account safer. I also need to make sure that my devices and applications are updated.
+Another problem is that I do not have multi-factor authentication on every account. I know that a strong password is important, but an extra security step can give better protection.
 
-This week, I will make one concrete change: **I will enable multi-factor authentication on all important accounts where it is still disabled.** I will also check that my most important passwords are unique. This is a simple step, but it can make it much harder for someone to get access to my accounts.
+This week I will check my important accounts and turn on multi-factor authentication where I do not have it yet. I will also check that my main passwords are different. I think this is a simple thing to do, but it can make my accounts safer.
 
