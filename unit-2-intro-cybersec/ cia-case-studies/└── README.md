@@ -14,8 +14,6 @@ To apply the CIA triad to real-world incident scenarios. Also to identify which 
 
 ### 1. Primary CIA violation: Availability
 
-The main impact is on availability because the hospital's patient records and scheduling systems became unavailable. This directly affected the hospital's ability to provide normal medical services, and emergency patients had to be sent to other facilities.
-
 ### 2. Secondary impacts
 
 Confidentiality: Patient files were also exfiltrated by the attackers. This means that private patient information was accessed and taken without authorization.
@@ -40,8 +38,6 @@ Have an incident response plan that allows the hospital to continue critical med
 ## Scenario B — The leaked database
 
 ### 1. Primary CIA violation: Confidentiality
-
-The main violation is confidentiality because the attackers copied the customer database and published it on a criminal forum. The information was accessed and disclosed without authorization.
 
 ### 2. Secondary impacts
 
@@ -68,8 +64,6 @@ Force password resets and require stronger authentication for affected accounts.
 
 ### 1. Primary CIA violation: Integrity
 
-The main violation is integrity because the attackers changed the content of the municipality's website and replaced the homepage with their own political message. The information displayed by the website was modified without authorization.
-
 ### 2. Secondary impacts
 
 Availability: The website was unavailable for four hours while staff restored it from backup.
@@ -94,8 +88,6 @@ Have a recovery procedure to quickly restore the original website.
 ## Scenario D — The manipulated invoice
 
 ### 1. Primary CIA violation: Integrity
-
-The main violation is integrity because the attacker changed the bank account details in the invoice. The information appeared to come from a trusted supplier but had been modified by the attacker.
 
 ### 2. Secondary impacts
 
