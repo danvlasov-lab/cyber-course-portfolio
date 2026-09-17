@@ -12,7 +12,9 @@ To apply the CIA triad to real-world incident scenarios. Also to identify which 
 
 ## Scenario A — The hospital
 
-### 1. Primary CIA violation: Availability
+### 1. Primary CIA violation: 
+
+Availability
 
 ### 2. Secondary impacts
 
@@ -37,7 +39,9 @@ Have an incident response plan that allows the hospital to continue critical med
 
 ## Scenario B — The leaked database
 
-### 1. Primary CIA violation: Confidentiality
+### 1. Primary CIA violation:
+
+Confidentiality
 
 ### 2. Secondary impacts
 
@@ -62,7 +66,9 @@ Force password resets and require stronger authentication for affected accounts.
 
 ## Scenario C — The defaced municipal site
 
-### 1. Primary CIA violation: Integrity
+### 1. Primary CIA violation:
+
+Integrity
 
 ### 2. Secondary impacts
 
@@ -87,7 +93,9 @@ Have a recovery procedure to quickly restore the original website.
 
 ## Scenario D — The manipulated invoice
 
-### 1. Primary CIA violation: Integrity
+### 1. Primary CIA violation:
+
+Integrity
 
 ### 2. Secondary impacts
 
