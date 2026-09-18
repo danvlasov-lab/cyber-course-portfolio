@@ -16,8 +16,8 @@ To apply concrete hardening steps to a personal computer or a lab VM, and docume
 1. **OS is supported** — ✅ Done
    I use Windows 11. It gets security updates.
 
-2. **Automatic updates** — ✅ Done
-   Automatic updates are on.
+2. **Automatic updates** — ⚠️ Partial  
+   Windows Update is working, but I could not confirm the automatic update setting.
 
 3. **All updates installed** — ✅ Done
    I checked for updates and installed them.
