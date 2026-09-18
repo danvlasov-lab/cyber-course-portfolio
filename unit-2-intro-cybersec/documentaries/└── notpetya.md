@@ -14,10 +14,6 @@ I've watched the documentary. Link: https://www.youtube.com/watch?v=N20q-ZMop0w
 
 ## Findings
 
-# Darknet Diaries #54 — NotPetya
-
-## Findings
-
 ### 1. The incident in your own words
 
 NotPetya was a cyberattack that started in Ukraine in June 2017. The attackers used M.E.Doc, a Ukrainian accounting program, to spread the malware through a software update. After that, NotPetya spread very fast to other computers and networks, including companies in other countries.
