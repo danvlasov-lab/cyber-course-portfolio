@@ -35,11 +35,11 @@ To apply concrete hardening steps to a personal computer or a lab VM, and docume
 
 ### Storage and data
 
-7. **Disk encryption** — ✅ Done
-   BitLocker is on.
+7. **Disk encryption** — ⚠️ Partial
+   Automatic device encryption is not supported on my computer because of hardware requirements.
 
-8. **Backup** — ✅ Done
-   I have a recent backup.
+8. **Backup** — ⚠️ Partial
+   OneDrive is syncing my files, but I do not have a separate backup yet.
 
 9. **Backup test** — ⚠️ Partial
    I have a backup, but I have not tested it yet.
@@ -47,13 +47,13 @@ To apply concrete hardening steps to a personal computer or a lab VM, and docume
 ### Network
 
 10. **Firewall** — ✅ Done
-    Windows Firewall is on.
+    The Windows Firewall is enabled and protects the computer.
 
 11. **Network profile** — ✅ Done
-    My home network is set to Private.
+    My network is set as public. My computer is not discoverable on the network.
 
 12. **Sharing services** — ✅ Done
-    I do not use file sharing or remote desktop.
+    Network discovery and file and printer sharing are turned off.
 
 ### Software
 
