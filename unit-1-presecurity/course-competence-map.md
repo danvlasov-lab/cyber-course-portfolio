@@ -26,7 +26,7 @@ Last updated: YYYY-MM-DD
 | Competence | Evidence (assignment + link) | Notes / what it demonstrates |
 |---|---|---|
 | Osaa tehdä laitteiden suojauksen kannalta tärkeät ohjelmistoasennukset ja asetukset sekä päivittää ne tarvittaessa (can install and configure device security software, and keep it updated) |  |  |
-| Osaa huomioida tietoturvan tiedonsiirrossa ja tallennuksessa (can address security in data transmission and storage) | [U1-04b Cloud Concepts](../unit-1-presecurity/cloud-concepts/reflection.md) | Explained the shared responsibility model and how security responsibilities change between IaaS, PaaS and SaaS. |
+| Osaa huomioida tietoturvan tiedonsiirrossa ja tallennuksessa (can address security in data transmission and storage) | [U1-04b Cloud Concepts](https://github.com/danvlasov-lab/cyber-course-portfolio/blob/main/unit-1-presecurity/cloud-concepts/%E2%94%94%E2%94%80%E2%94%80%20reflection.md) | Explained the shared responsibility model and how security responsibilities change between IaaS, PaaS and SaaS. |
 | Huomioi laitteiden fyysisen suojauksen kotona, työpaikalla ja matkustettaessa (addresses physical device security at home, at work, and while travelling) |  |  |
 | Tunnistaa sosiaalisen manipuloinnin keinot ja osaa varautua niihin (recognizes social engineering methods and can defend against them) |  |  |
 
