@@ -37,7 +37,8 @@ Last updated: 2026-09-21
 
 | Competence | Evidence (assignment + link) | Notes / what it demonstrates |
 |---|---|---|
-| Tietää tavanomaiset kyberhyökkäyksen tekniikat ja niihin liittyvät riskit (knows common cyberattack techniques and associated risks) |[U1-02a Map Your Network](https://github.com/danvlasov-lab/cyber-course-portfolio/blob/main/unit-1-presecurity/network-fundamentals/network-profile.md) | Mapped my network, DNS, gateway and listening ports and identified network security risks. | [U1-03f Subnetting Basics](../unit-1/subnetting/U1-03f_Subnetting_Basics.md) | Learned how subnet ranges are defined and how attackers can scan networks by subnet. This supports understanding of network scanning and attack targets. |
+| Tietää tavanomaiset kyberhyökkäyksen tekniikat ja niihin liittyvät riskit (knows common cyberattack techniques and associated risks) |[U1-02a Map Your Network](https://github.com/danvlasov-lab/cyber-course-portfolio/blob/main/unit-1-presecurity/network-fundamentals/network-profile.md) | Mapped my network, DNS, gateway and listening ports and identified network security risks. | 
+| Tietää tavanomaiset kyberhyökkäyksen tekniikat ja niihin liittyvät riskit (knows common cyberattack techniques and associated risks) |[U1-03f Subnetting Basics]() | Learned how subnet ranges are defined and how attackers can scan networks by subnet. This supports understanding of network scanning and attack targets. |
 | Osaa tavanomaiset keinot, joilla kyberhyökkäyksen aiheuttamia vahinkoja voi rajoittaa (knows common ways to limit damage from cyberattacks) |  |  |
 
 ---
