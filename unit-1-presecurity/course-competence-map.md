@@ -4,7 +4,7 @@ Living evidence map for *Kyberturvallisuus 15 ECVET*.
 I update this file as I complete assignments, linking each to the
 competence(s) it demonstrates.
 
-Last updated: YYYY-MM-DD
+Last updated: 2026-09-21
 
 ---
 
@@ -37,7 +37,7 @@ Last updated: YYYY-MM-DD
 
 | Competence | Evidence (assignment + link) | Notes / what it demonstrates |
 |---|---|---|
-| Tietää tavanomaiset kyberhyökkäyksen tekniikat ja niihin liittyvät riskit (knows common cyberattack techniques and associated risks) |  |  |
+| Tietää tavanomaiset kyberhyökkäyksen tekniikat ja niihin liittyvät riskit (knows common cyberattack techniques and associated risks) |[U1-02a Map Your Network]() | Mapped my network, DNS, gateway and listening ports and identified network security risks. |
 | Osaa tavanomaiset keinot, joilla kyberhyökkäyksen aiheuttamia vahinkoja voi rajoittaa (knows common ways to limit damage from cyberattacks) |  |  |
 
 ---
