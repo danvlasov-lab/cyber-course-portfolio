@@ -16,32 +16,32 @@ I've watched the documentary. Link: https://www.youtube.com/watch?v=aNFRZHkT4zE
 
 ### 1. The incident in your own words
 
-In 2012, Saudi Aramco was attacked by a malware called Shamoon. It destroyed data on about 35,000 computers. Many employees could not use their computers, so the company had to stop normal work and start recovering the systems.
+In August 2012, Saudi Aramco was attacked using malware called Shamoon. It wiped the hard drives of around 35,000 computers in just a few hours. Shamoon overwrote the data with an image of a burning American flag. The company had to disconnect its systems from the internet and temporarily use paper and faxes to continue working.
 
 ### 2. Who was affected, and how
 
-Saudi Aramco is a very large oil company in Saudi Arabia. Oil is very important for the country and for many other countries. Because of this, problems at Saudi Aramco could also affect oil supplies, markets and other companies.
+Saudi Aramco is the national oil company of Saudi Arabia and one of the biggest energy suppliers in the world. Since they produce so much oil, this attack wasn't just a problem for them, but a risk for global oil prices. If Aramco stopped shipping oil, the whole world market would feel the consequences very fast.
 
 ### 3. The CIA principle
 
-Shamoon mainly attacked availability and integrity. It destroyed files and made computers unusable. Stealing data is different because the data is copied, but destroying data means the owner can no longer use it.
+The attack mainly affected availability and integrity. Confidentiality was not the main target because Shamoon was not trying to steal data and read it later. When data is stolen, you still have the original data, but when it is destroyed, you lose access to it and the attacker does not get it either. The computer can become unusable.
 
 ### 4. The attack technique – destruction at scale
 
-Shamoon spread through the company network and reached about 35,000 computers. The episode also talks about possible insider involvement in the beginning of the attack, but not all details are known. A wiper destroys data, while ransomware usually tries to make money by asking for payment.
+Shamoon spread so quickly because the attackers had administrator credentials and the internal network did not have enough barriers between computers. I do not remember the exact details of how the attackers got initial access, but the episode discusses possible insider involvement. A wiper destroys data and is used for sabotage, while ransomware usually demands money to give the victim access to their data again.
 
 ### 5. The organizational response
 
-Saudi Aramco had to replace many damaged hard drives and rebuild its computer systems. The company needed tens of thousands of new drives and had to get them very quickly. This showed that recovery plans and spare equipment can be expensive, but they are very important during a serious attack.
+Saudi Aramco had to replace tens of thousands of wiped hard drives. They sent representatives to factories in Asia to buy available HDDs on the market, which increased hard-drive prices for some time. It showed that disaster recovery isn't just about software backups. A company also needs to be ready to replace hardware quickly.
 
 ### 6. What could have helped – defending the organization
 
-One useful defense would be network segmentation. It means separating the network into different parts. If one part was attacked, the malware would have a harder time spreading to all the other computers.
+Network segmentation means dividing one large network into separate zones or subnets. If Aramco had divided its corporate network into isolated subnets, the malware would not have been able to spread so easily from one office computer to thousands of others. The attack could still have affected some computers, but the damage would have been much smaller.
 
 ### 7. The broader lesson – critical infrastructure as a target
 
-Shamoon shows that cyberattacks are not always about money or stealing information. Attackers can also try to destroy systems and stop important services. This is especially dangerous for energy companies, hospitals and transport systems because many people depend on them.
+Shamoon showed that attackers can use cyber tools for sabotage against critical infrastructure such as power grids, water systems or oil companies. This is dangerous because an attack on these organizations can cause real physical and economic damage. One organization can be part of a large system, so its shutdown can affect other people and companies.
 
 ### 8. My personal takeaway
 
-The main thing I learned is that recovering from a cyberattack can be very difficult. Backups are important, but a company also needs computers, equipment and a clear recovery plan. The attack showed me that cybersecurity is not only about stopping attacks, but also about being ready when an attack happens.
+What surprised me the most was how much manual work was needed to recover from the attack. It also made me understand that backups and recovery plans can be very important in critical situations. Before watching the video, I thought cybersecurity mostly affected software, but now I see that cyberattacks can also cause real-world damage.
