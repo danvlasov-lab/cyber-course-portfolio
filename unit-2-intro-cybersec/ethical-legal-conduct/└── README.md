@@ -121,3 +121,8 @@ I would ask my supervisor, If I need to be sure about rules. If everything okay,
 "I will not hide vulnerabilities that I've found, even if I've found them accidentally"
 
 "I will not check website or other resource from other companies, even if there are friends, that are need help from me."
+
+---
+Signed: Danila Vlasov
+Date: 2026-09-24
+First commit (initial version): 2026-09-24
