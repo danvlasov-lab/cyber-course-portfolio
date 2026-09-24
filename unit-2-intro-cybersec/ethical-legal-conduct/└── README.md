@@ -79,7 +79,7 @@ You're using your employer's cutomer portal as a customer. You notice that when 
 Legally I cannot just hide this secret by workplace norms and employer expectations law. I need to report about this to my managers. 
 
 **What's ethically at stake:**
-Ethically I also cannot hide this secret from other. This vulnerability may help to hackers in a future to actually hack our system and steal our data. 
+Ethically I also cannot hide this secret from other and need to disclose responsibility. This vulnerability may help to hackers in a future to actually hack our system and steal our data. 
 
 **What I would do:**
 I would ask my manager or IT-support to fix this vulnerability. I would describe the whole situation and ask thew to help. After that I would be less curious next time and just do my job.
@@ -93,23 +93,19 @@ I would ask my manager or IT-support. They can help me with that situation.
 ## Scenario 5 - The off-hours request
 
 **What is happening (in my own words):**
-[2–3 sentences re-stating the situation, to confirm I understood it]
+You've been doing self-study in cybersecurity outside of work like vulnerability testing on intentionally vulnerable platforms. A friend who works at a different company ask you to take a look on their website, because it has been acting weird lately.
 
 **What's legally at stake:**
-[2–3 sentences naming the law or principle involved — unauthorized access, GDPR,
-acceptable use policy, etc. Use the concepts from the background section.]
+Legally I cannot take a look on this website by unauthorized access law. I'm not allowed to check materials and data from other company.
 
 **What's ethically at stake:**
-[2–3 sentences naming the ethical considerations — trust, harm, responsibility,
-loyalty, etc. These are sometimes different from the legal considerations.]
+Ethically, I also cannot see this website. This may brake trust between my friend and his company.
 
 **What I would do:**
-[3–5 sentences describing your specific action. Not "I'd be careful" — what exact
-steps would you take?]
+I would say to him that I'm not allowed to check websites from other companies to fix issues. Then I would recommend him to ask IT-support from his company to help. After that I may give some advice how to solve it.
 
 **What I would NOT do, and why:**
-[2–3 sentences naming what's tempting but you'd refuse to do.]
+I would not to actually help him. This is prohibited to do that, and our managers may kill us after this situation.
 
 **Who I would consult:**
-[1–2 sentences. Who in the organization (or outside it) would you bring this to,
-and at what point? "No one" is rarely the right answer.]
+I would ask my supervisor, If I need to be sure about rules. If everything okay, I would ask my friend to ask his managers, not me. 
