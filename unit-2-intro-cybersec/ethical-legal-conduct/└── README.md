@@ -53,9 +53,10 @@ I would contact to my manager. I would describe the whole situation and kindly a
 ## Scenario 3 - The personal data peek
 
 **What is happening (in my own words):**
-[2–3 sentences re-stating the situation, to confirm I understood it]
+You're working on thу helpdesk, and a friend from another department messages you to peek at his HR file. He wants to see what they have written it in his last review in the HR mailbox. 
 
 **What's legally at stake:**
+Legally I cannot 
 [2–3 sentences naming the law or principle involved — unauthorized access, GDPR,
 acceptable use policy, etc. Use the concepts from the background section.]
 
