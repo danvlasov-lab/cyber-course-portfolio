@@ -109,3 +109,15 @@ I would not to actually help him. This is prohibited to do that, and our manager
 
 **Who I would consult:**
 I would ask my supervisor, If I need to be sure about rules. If everything okay, I would ask my friend to ask his managers, not me. 
+
+## Personal code of conduct:
+
+"I will not log into any account I have not been explicitly authorized to use, even when convenient or asked by a colleague."
+
+"I will not use any admin password I found, even if no one see this."
+
+"I will not peek info or letters, that are not for me, even if I have permissions to do that."
+
+"I will not hide vulnerabilities that I've found, even if I've found them accidentally"
+
+"I will not check website or other resource from other companies, even if there are friends, that are need help from me."
