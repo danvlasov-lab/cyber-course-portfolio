@@ -56,48 +56,39 @@ I would contact to my manager. I would describe the whole situation and kindly a
 You're working on thу helpdesk, and a friend from another department messages you to peek at his HR file. He wants to see what they have written it in his last review in the HR mailbox. 
 
 **What's legally at stake:**
-Legally I cannot 
-[2–3 sentences naming the law or principle involved — unauthorized access, GDPR,
-acceptable use policy, etc. Use the concepts from the background section.]
+Legally I cannot view that data by GDPR law. Even If I have a access and permission, I'm not allowed to view and read this data. 
 
 **What's ethically at stake:**
-[2–3 sentences naming the ethical considerations — trust, harm, responsibility,
-loyalty, etc. These are sometimes different from the legal considerations.]
+Ethically I might should check this info, but I need to respect his privacy info. This might break trust between us.
 
 **What I would do:**
-[3–5 sentences describing your specific action. Not "I'd be careful" — what exact
-steps would you take?]
+I would firstly say to my friend, that I'm not allowed to view his HR file, even if I have permissions on it. I would suggest that he contacts HR or her manager and ask them directly about the review.
 
 **What I would NOT do, and why:**
-[2–3 sentences naming what's tempting but you'd refuse to do.]
+I would not try to open HR mailbox, view and read this data. If I'm gonna do that, I might se stuff, that is not for me, and there will be huge consequences.
 
 **Who I would consult:**
-[1–2 sentences. Who in the organization (or outside it) would you bring this to,
-and at what point? "No one" is rarely the right answer.]
+I would call supervisor, if I would't be sure about rules. I’m If everything i certain, I'd call to my friend directly.
 
 ## Scenario 4 - The vulnerability you accidentally noticed
 
 **What is happening (in my own words):**
-[2–3 sentences re-stating the situation, to confirm I understood it]
+You're using your employer's cutomer portal as a customer. You notice that when you login, the URL contains ?userId=4827, and you change it to ?userId=4828. Suddenly, a different customer's order history loads and you quickly close the browser. No one saw what you did
 
 **What's legally at stake:**
-[2–3 sentences naming the law or principle involved — unauthorized access, GDPR,
-acceptable use policy, etc. Use the concepts from the background section.]
+Legally I cannot just hide this secret by workplace norms and employer expectations law. I need to report about this to my managers. 
 
 **What's ethically at stake:**
-[2–3 sentences naming the ethical considerations — trust, harm, responsibility,
-loyalty, etc. These are sometimes different from the legal considerations.]
+Ethically I also cannot hide this secret from other. This vulnerability may help to hackers in a future to actually hack our system and steal our data. 
 
 **What I would do:**
-[3–5 sentences describing your specific action. Not "I'd be careful" — what exact
-steps would you take?]
+I would ask my manager or IT-support to fix this vulnerability. I would describe the whole situation and ask thew to help. After that I would be less curious next time and just do my job.
 
 **What I would NOT do, and why:**
-[2–3 sentences naming what's tempting but you'd refuse to do.]
+I would not even try to check other customers histories. This breack confindentiallity of the customers and it may cause real problems
 
 **Who I would consult:**
-[1–2 sentences. Who in the organization (or outside it) would you bring this to,
-and at what point? "No one" is rarely the right answer.]
+I would ask my manager or IT-support. They can help me with that situation.
 
 ## Scenario 5 - The off-hours request
 
