@@ -9,9 +9,9 @@
 ## Goal
 To research a recent, publicly disclosed cybersecurity incident affecting a Finnish or Nordic organization. Produce a concise professional briefing that identifies what happened, which CIA principles were violated, the attack chain at a high level, and the defenses that would have helped.
 
-# Valtori — Data Breach, January 2026
+## Valtori — Data Breach, January 2026
 
-## SUMMARY
+### SUMMARY
 
 In January 2026, Valtori, a Finnish government ICT organisation, had a data breach. The breach was discovered on 29 January 2026.
 
@@ -19,7 +19,7 @@ The attacker got access to information in Valtori's mobile device management ser
 
 The incident was investigated by the Finnish authorities. The exact technical details of the attack are still being investigated.
 
-## WHAT WAS AFFECTED
+### WHAT WAS AFFECTED
 
 The main affected system was a service used to manage mobile devices.
 
@@ -33,7 +33,7 @@ Around 50,000 users could have been affected. The leaked contact information can
 
 So the incident could cause problems not only for Valtori, but also for many people who used the service.
 
-## CIA ANALYSIS
+### CIA ANALYSIS
 
 The main CIA principle affected was **Confidentiality**.
 
@@ -43,7 +43,7 @@ I did not find clear information that the attacker changed the data. I also did 
 
 Because of this, I think Confidentiality is the main CIA problem in this case. There is no clear evidence in the sources that Integrity or Availability were affected in the same way.
 
-## ATTACK CHAIN
+### ATTACK CHAIN
 
 The attack can be described in a few main steps.
 
@@ -57,9 +57,9 @@ The exact technical method used by the attacker is still being investigated. Bec
 
 The main known result was unauthorized access to user and device information.
 
-## DEFENSES THAT WOULD HAVE HELPED
+### DEFENSES THAT WOULD HAVE HELPED
 
-### Preventive controls
+#### Preventive controls
 
 One important defense is to update software quickly when a security vulnerability is found. Security updates can reduce the possibility that attackers use known vulnerabilities.
 
@@ -69,7 +69,7 @@ Strong authentication should be used for important accounts. Multi-factor authen
 
 It is also important to check old information and make sure that deleted data is really deleted. In this case, some information that was marked as deleted was still available in the system.
 
-### Damage limitation and response
+#### Damage limitation and response
 
 After the breach was discovered, the affected service should be isolated quickly. This can help to stop the attacker from getting more information.
 
@@ -81,7 +81,7 @@ Affected users should be informed about the incident. They should also be warned
 
 This incident shows that one vulnerable system can affect a large number of people. It also shows why software updates, access control and quick response are important parts of cybersecurity.
 
-## SOURCES
+### SOURCES
 
 1. [Finnish Government — Valtori data breach](https://valtioneuvosto.fi/-/valtorin-mobiilihallinnan-tietomurto-koskettaa-valtioneuvostoa)  
    Accessed 25 September 2026.
