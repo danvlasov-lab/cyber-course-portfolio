@@ -9,82 +9,90 @@
 ## Goal
 To research a recent, publicly disclosed cybersecurity incident affecting a Finnish or Nordic organization. Produce a concise professional briefing that identifies what happened, which CIA principles were violated, the attack chain at a high level, and the defenses that would have helped.
 
-## Valtori — Data Breach, January 2026
+# Valtori — Data Breach, January 2026
 
 ### SUMMARY
 
 In January 2026, Valtori, a Finnish government ICT organisation, had a data breach. The breach was discovered on 29 January 2026.
 
-The attacker got access to information in Valtori's mobile device management service. Information about about 50,000 users could have been affected.
+The attacker got access to information in Valtori's mobile device management service. About 50,000 users could have been affected. The information included names, work email addresses, phone numbers and device information.
 
-## WHAT WAS AFFECTED
+The incident was investigated by Finnish authorities. The investigation is still continuing.
 
-The main affected system was a service used to manage mobile devices.
+### WHAT WAS AFFECTED
 
-The attacker could access:
+The main affected system was a service for managing mobile devices.
 
-- Names
-- Work email addresses
-- Phone numbers
-- Device information
-- Configuration information
+The attacker could get access to:
 
-The data stored directly on the mobile devices was not reported as stolen.
+- names
+- work email addresses
+- phone numbers
+- device information
+- configuration information
 
-Another problem was that some deleted information was still available in the system. This meant that more information could possibly be accessed than first expected.
+The information stored directly on the mobile devices was not reported as stolen.
 
-The leaked contact information could also be used for phishing attacks against government employees.
+There was also another problem. Some information that was marked as deleted was still available in the system. Because of this, more information could be accessed than was first expected.
+
+The leaked contact information could be used for phishing attacks. For example, criminals could use a person's name and work email address to make a fake email look real.
+
+The breach therefore affected not only Valtori but also many people who used the service.
 
 ### CIA ANALYSIS
 
 - **Primary violation: Confidentiality**
 - **Secondary impact: No clear evidence of Integrity or Availability problems**
 
-The main problem was **Confidentiality** because the attacker got access to private information without permission.
+The main problem was **Confidentiality**. The attacker got access to private information without permission.
 
-There is no clear information that the attacker changed the data. There is also no clear information that the service stopped working.
+I did not find clear information that the attacker changed the data. There is also no clear information that the service stopped working.
 
-Because of this, Confidentiality was the main CIA problem in this incident.
+Because of this, I think Confidentiality was the main CIA problem in this case.
 
 ### ATTACK CHAIN
 
 The attack can be described in three steps:
 
 1. **Initial access:** The attacker used a vulnerability in software used by Valtori.
-2. **Access to information:** The attacker got unauthorized access to user and device information.
+2. **Access:** The attacker got unauthorized access to user and device information.
 3. **Impact:** Information about about 50,000 users could have been affected.
 
-The exact technical method of the attack is still being investigated. Because of this, it is not possible to say exactly how the attacker moved inside the system.
+The exact way the attacker entered the system is not fully known. The police are still investigating the case.
 
 ### DEFENSES THAT WOULD HAVE HELPED
 
 #### Preventive controls
 
-- Update software quickly when a security vulnerability is found.
-- Limit access to important systems.
-- Use strong authentication for important accounts.
-- Apply security patches as soon as possible.
+First, the software should be updated quickly when a security vulnerability is found.
+
+Second, access to the mobile device management service should be limited. Only people who need the service should have access to it.
+
+Third, strong authentication should be used for important accounts. Multi-factor authentication can make stolen passwords less useful.
 
 #### Damage limitation and response
 
-- Isolate the affected service quickly after finding the breach.
-- Check system logs to understand what the attacker did.
-- Find out what information the attacker could access.
-- Properly delete old information.
-- Inform affected users about the incident.
-- Warn users about possible phishing emails.
+After finding the breach, the affected service should be isolated quickly. This could help stop the attacker from getting more information.
 
-These actions can help stop the attack and reduce the damage.
+The system logs should also be checked. This can help find out what the attacker did and what information was accessed.
+
+Old information should be properly deleted. In this case, some deleted information was still available in the system.
+
+The affected users should also be informed. They should be warned about possible phishing emails.
 
 ### BROADER LESSON
 
-This incident showed me that one vulnerable system can affect a large number of people.
+I learned that one vulnerable system can affect many people.
 
-The most worrying thing for me is that leaked contact information can be used in later phishing or fraud attacks. The attackers can use the stolen information to target people.
+The most worrying thing for me is that information about a large number of users was exposed. Criminals could use this information for phishing or other fraud.
 
-I think it is especially important to update software, fix vulnerabilities quickly and limit access to important systems.
+This case also showed me that software updates are very important. A vulnerability in one software product can create a problem for a large organisation.
 
-If an attack happens, the affected system should be isolated quickly. The organisation should also find out what information was accessed.
+I think it is important to update software, fix vulnerabilities quickly and limit access to important systems.
+
+If an attack happens, the organisation should isolate the affected system, check the logs and find out what information was accessed.
+
+For me, the main lesson is that cybersecurity is not only about protecting systems. It is also about protecting the people who use them.
 
 ### SOURCES
 
