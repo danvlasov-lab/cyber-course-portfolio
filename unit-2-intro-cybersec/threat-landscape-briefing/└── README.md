@@ -13,72 +13,82 @@ To research a recent, publicly disclosed cybersecurity incident affecting a Finn
 
 ### SUMMARY
 
-In January 2026, Valtori had a data breach. Valtori is a Finnish government ICT organisation. The breach was found on 29 January 2026. The attacker got access to information in Valtori's mobile device management service.
+In January 2026, Valtori, a Finnish government ICT organisation, had a data breach. The breach was discovered on 29 January 2026.
 
-The investigation showed that information about 50,000 users could have been affected. The stolen information included names, work email addresses, phone numbers and device information. The incident was investigated by Finnish authorities.
+The attacker got access to information in Valtori's mobile device management service. Information about about 50,000 users could have been affected.
 
-### WHAT WAS AFFECTED
+## WHAT WAS AFFECTED
 
 The main affected system was a service used to manage mobile devices.
 
-The information that could have been accessed included:
+The attacker could access:
 
-- names
-- work email addresses
-- phone numbers
-- device information
-- configuration information
+- Names
+- Work email addresses
+- Phone numbers
+- Device information
+- Configuration information
 
 The data stored directly on the mobile devices was not reported as stolen.
 
-One important problem was that some deleted information was still available in the system. This meant that more information could possibly be accessed than first expected.
+Another problem was that some deleted information was still available in the system. This meant that more information could possibly be accessed than first expected.
 
-The stolen email addresses could also be used for phishing attacks. For example, an attacker could send a fake email to a government employee and try to get more information or login details.
+The leaked contact information could also be used for phishing attacks against government employees.
 
 ### CIA ANALYSIS
 
 - **Primary violation: Confidentiality**
-- **Secondary impact: Integrity and Availability**
+- **Secondary impact: No clear evidence of Integrity or Availability problems**
 
-The main CIA problem was **confidentiality**. The attacker got access to information without permission. This means that private work and user information was exposed.
+The main problem was **Confidentiality** because the attacker got access to private information without permission.
 
-There was less evidence of an integrity problem because there was no information that the attacker changed the data.
+There is no clear information that the attacker changed the data. There is also no clear information that the service stopped working.
 
-There was also no major availability problem reported. The main problem was unauthorized access to information.
+Because of this, Confidentiality was the main CIA problem in this incident.
 
 ### ATTACK CHAIN
 
-The attack can be described in three simple steps:
+The attack can be described in three steps:
 
 1. **Initial access:** The attacker used a vulnerability in software used by Valtori.
-2. **Access to data:** The attacker got unauthorized access to user and device information.
-3. **Impact:** Information about about 50,000 users could have been exposed.
+2. **Access to information:** The attacker got unauthorized access to user and device information.
+3. **Impact:** Information about about 50,000 users could have been affected.
 
-The exact technical details of the attack are still being investigated. Because of this, it is not possible to say exactly how the attacker moved inside the system.
+The exact technical method of the attack is still being investigated. Because of this, it is not possible to say exactly how the attacker moved inside the system.
 
 ### DEFENSES THAT WOULD HAVE HELPED
 
 #### Preventive controls
 
-First, the software should be updated quickly when a security vulnerability is found. Security patches can prevent attackers from using known vulnerabilities.
-
-Second, access to the mobile device management system should be limited. Only users who need access should have it.
-
-Third, strong authentication should be used for important accounts. Multi-factor authentication can make stolen passwords less useful to attackers.
+- Update software quickly when a security vulnerability is found.
+- Limit access to important systems.
+- Use strong authentication for important accounts.
+- Apply security patches as soon as possible.
 
 #### Damage limitation and response
 
-The affected service should be isolated quickly after the breach is found. This can help stop the attacker from getting more information.
+- Isolate the affected service quickly after finding the breach.
+- Check system logs to understand what the attacker did.
+- Find out what information the attacker could access.
+- Properly delete old information.
+- Inform affected users about the incident.
+- Warn users about possible phishing emails.
 
-System logs should also be checked. Logs can help investigators understand what the attacker did and what information was accessed.
+These actions can help stop the attack and reduce the damage.
 
-Old information should be properly deleted. In this case, some deleted information was still available in the system.
+### BROADER LESSON
 
-Finally, affected users should be informed. They should also be warned about possible phishing emails.
+This incident showed me that one vulnerable system can affect a large number of people.
+
+The most worrying thing for me is that leaked contact information can be used in later phishing or fraud attacks. The attackers can use the stolen information to target people.
+
+I think it is especially important to update software, fix vulnerabilities quickly and limit access to important systems.
+
+If an attack happens, the affected system should be isolated quickly. The organisation should also find out what information was accessed.
 
 ### SOURCES
 
-1. Finnish Government — Valtori data breach, February 2026.
-2. National Bureau of Investigation — Valtori data breach investigation, February 2026.
-3. Yle — Valtori mobile device management data breach, February 2026.
-4. National Bureau of Investigation — update about the investigation, April 2026.
+1. [Finnish Government — Valtori data breach](https://valtioneuvosto.fi/-/valtorin-mobiilihallinnan-tietomurto-koskettaa-valtioneuvostoa)
+2. [National Bureau of Investigation — Valtori data breach investigation](https://poliisi.fi/-/keskusrikospoliisi-tutkii-valtorin-mobiilihallintaan-kohdistunutta-epailtya-tietomurtoa)
+3. [Yle — Valtori mobile device management data breach](https://yle.fi/a/74-20208246)
+4. [National Bureau of Investigation — Investigation update, April 2026](https://poliisi.fi/-/keskusrikospoliisi-on-jatkanut-esitutkintaa-valtorin-mobiilihallintaan-kohdistuneeseen-epailtyyn-tietomurtoon-liittyen)
