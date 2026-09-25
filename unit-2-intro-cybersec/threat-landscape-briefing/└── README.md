@@ -13,49 +13,72 @@ To research a recent, publicly disclosed cybersecurity incident affecting a Finn
 
 ### SUMMARY
 
-In January 2026, Valtori, the Finnish Government ICT Centre, suffered a data breach in its mobile device management service. The attack was discovered on 29 January 2026. The attacker got access to configuration and user data connected to government mobile devices. The investigation later showed that information related to about 50,000 users could have been affected.
+In January 2026, Valtori had a data breach. Valtori is a Finnish government ICT organisation. The breach was found on 29 January 2026. The attacker got access to information in Valtori's mobile device management service.
+
+The investigation showed that information about about 50,000 users could have been affected. The stolen information included names, work email addresses, phone numbers and device information. The incident was investigated by Finnish authorities.
 
 ### WHAT WAS AFFECTED
 
-The stolen information included names, work email addresses, phone numbers and device information. The breach did not mean that the data stored directly on the mobile devices was compromised, according to the information available at the time. The investigation also found that deleted information had not actually been removed from the system, which increased the amount of potentially affected data.
+The main affected system was a service used to manage mobile devices.
 
-The stolen email addresses could also be useful for targeted phishing attacks against government employees.
+The information that could have been accessed included:
+
+- names
+- work email addresses
+- phone numbers
+- device information
+- configuration information
+
+The data stored directly on the mobile devices was not reported as stolen.
+
+One important problem was that some deleted information was still available in the system. This meant that more information could possibly be accessed than first expected.
+
+The stolen email addresses could also be used for phishing attacks. For example, an attacker could send a fake email to a government employee and try to get more information or login details.
 
 ### CIA ANALYSIS
 
-* **Primary violation: Confidentiality**
-* **Secondary impact: Integrity and availability were less affected**
+- **Primary violation: Confidentiality**
+- **Secondary impact: Integrity and Availability**
 
-The main problem was confidentiality because unauthorized people got access to user and device information. There was no public information showing that the actual data stored on the mobile devices was changed or deleted. The main impact was therefore unauthorized access to information.
+The main CIA problem was **confidentiality**. The attacker got access to information without permission. This means that private work and user information was exposed.
 
-### ATTACK CHAIN (high level)
+There was less evidence of an integrity problem because there was no information that the attacker changed the data.
 
-Based on the public information, the attack can be described at a high level:
+There was also no major availability problem reported. The main problem was unauthorized access to information.
 
-1. **Initial access:** The attacker exploited a vulnerability in commercial software used by Valtori's mobile device management service.
-2. **Access to information:** The attacker gained unauthorized access to configuration and user data. The exact technical method used after the initial access is still being investigated by the police.
-3. **Impact:** Information about users and devices was exposed. Later investigation showed that the possible number of affected users was about 50,000.
+### ATTACK CHAIN
+
+The attack can be described in three simple steps:
+
+1. **Initial access:** The attacker used a vulnerability in software used by Valtori.
+2. **Access to data:** The attacker got unauthorized access to user and device information.
+3. **Impact:** Information about about 50,000 users could have been exposed.
+
+The exact technical details of the attack are still being investigated. Because of this, it is not possible to say exactly how the attacker moved inside the system.
 
 ### DEFENSES THAT WOULD HAVE HELPED
 
 #### Preventive controls
 
-* Keep the mobile device management software updated and apply security patches as soon as possible.
-* Monitor important internet-facing systems for known vulnerabilities.
-* Limit access to sensitive management systems and use strong authentication.
+First, the software should be updated quickly when a security vulnerability is found. Security patches can prevent attackers from using known vulnerabilities.
+
+Second, access to the mobile device management system should be limited. Only users who need access should have it.
+
+Third, strong authentication should be used for important accounts. Multi-factor authentication can make stolen passwords less useful to attackers.
 
 #### Damage limitation and response
 
-* Isolate the affected service quickly after detecting the breach.
-* Investigate logs and determine exactly what information was accessed.
-* Remove or properly delete old data instead of only marking it as deleted.
-* Inform affected organizations and users and warn them about possible phishing attempts.
+The affected service should be isolated quickly after the breach is found. This can help stop the attacker from getting more information.
 
-Valtori and the authorities investigated the incident, and the vulnerable software was patched after the problem was identified.
+System logs should also be checked. Logs can help investigators understand what the attacker did and what information was accessed.
+
+Old information should be properly deleted. In this case, some deleted information was still available in the system.
+
+Finally, affected users should be informed. They should also be warned about possible phishing emails.
 
 ### SOURCES
 
-1. Finnish Government — *Valtorin mobiilihallinnan tietomurto koskettaa valtioneuvostoa*, 6 February 2026.
-2. National Bureau of Investigation — *Keskusrikospoliisi tutkii Valtorin mobiilihallintaan kohdistunutta epäiltyä tietomurtoa*, 9 February 2026.
-3. Yle — *Valtorin tuottamaan mobiililaitteiden hallintapalveluun on kohdistunut tietomurto*, 4 February 2026.
-4. National Bureau of Investigation — *Keskusrikospoliisi on jatkanut esitutkintaa Valtorin mobiilihallintaan kohdistuneeseen epäiltyyn tietomurtoon liittyen*, 21 April 2026.
+1. Finnish Government — Valtori data breach, February 2026.
+2. National Bureau of Investigation — Valtori data breach investigation, February 2026.
+3. Yle — Valtori mobile device management data breach, February 2026.
+4. National Bureau of Investigation — update about the investigation, April 2026.
