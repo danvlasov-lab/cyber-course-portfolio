@@ -11,7 +11,6 @@ To watch the Darknet Diaries episode about Jeremy Hammond - a skilled hacker who
 
 ## Steps
 I've watched the documentary. Link: https://www.youtube.com/watch?v=qV7qknrJM_A
-# U2-05c Assignment: Darknet Diaries Ep. 18 - Jeremy from Marketing
 
 ## Findings
 
