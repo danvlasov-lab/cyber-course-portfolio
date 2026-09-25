@@ -15,7 +15,7 @@ To research a recent, publicly disclosed cybersecurity incident affecting a Finn
 
 In January 2026, Valtori had a data breach. Valtori is a Finnish government ICT organisation. The breach was found on 29 January 2026. The attacker got access to information in Valtori's mobile device management service.
 
-The investigation showed that information about about 50,000 users could have been affected. The stolen information included names, work email addresses, phone numbers and device information. The incident was investigated by Finnish authorities.
+The investigation showed that information about 50,000 users could have been affected. The stolen information included names, work email addresses, phone numbers and device information. The incident was investigated by Finnish authorities.
 
 ### WHAT WAS AFFECTED
 
