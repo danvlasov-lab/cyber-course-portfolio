@@ -11,92 +11,86 @@ To research a recent, publicly disclosed cybersecurity incident affecting a Finn
 
 # Valtori — Data Breach, January 2026
 
-### SUMMARY
+## SUMMARY
 
 In January 2026, Valtori, a Finnish government ICT organisation, had a data breach. The breach was discovered on 29 January 2026.
 
-The attacker got access to information in Valtori's mobile device management service. About 50,000 users could have been affected. The information included names, work email addresses, phone numbers and device information.
+The attacker got access to information in Valtori's mobile device management service. Information about around 50,000 users could have been affected. The information included names, work email addresses, phone numbers, device information and configuration information.
 
-The incident was investigated by Finnish authorities. The investigation is still continuing.
+The incident was investigated by the Finnish authorities. The exact technical details of the attack are still being investigated.
 
-### WHAT WAS AFFECTED
+## WHAT WAS AFFECTED
 
-The main affected system was a service for managing mobile devices.
+The main affected system was a service used to manage mobile devices.
 
-The attacker could get access to:
+The attacker could get access to different types of information about users and devices. This included names, work email addresses, phone numbers, device information and configuration information.
 
-- names
-- work email addresses
-- phone numbers
-- device information
-- configuration information
+The information stored directly on the mobile devices was not reported as stolen. This is important because the breach affected information in the management service, not the contents of the mobile devices themselves.
 
-The information stored directly on the mobile devices was not reported as stolen.
+There was also a problem with deleted information. Some information that was marked as deleted was still available in the system. This means that information which should not have been available could still be accessed.
 
-There was also another problem. Some information that was marked as deleted was still available in the system. Because of this, more information could be accessed than was first expected.
+Around 50,000 users could have been affected. The leaked contact information can also create a risk of phishing and other scams. For example, a criminal could use a person's name and work email address to make a fake message look more believable.
 
-The leaked contact information could be used for phishing attacks. For example, criminals could use a person's name and work email address to make a fake email look real.
+So the incident could cause problems not only for Valtori, but also for many people who used the service.
 
-The breach therefore affected not only Valtori but also many people who used the service.
+## CIA ANALYSIS
 
-### CIA ANALYSIS
+The main CIA principle affected was **Confidentiality**.
 
-- **Primary violation: Confidentiality**
-- **Secondary impact: No clear evidence of Integrity or Availability problems**
+The attacker got access to private information without permission. This means that information was available to a person who should not have had access to it.
 
-The main problem was **Confidentiality**. The attacker got access to private information without permission.
+I did not find clear information that the attacker changed the data. I also did not find clear information that the service stopped working because of the attack.
 
-I did not find clear information that the attacker changed the data. There is also no clear information that the service stopped working.
+Because of this, I think Confidentiality is the main CIA problem in this case. There is no clear evidence in the sources that Integrity or Availability were affected in the same way.
 
-Because of this, I think Confidentiality was the main CIA problem in this case.
+## ATTACK CHAIN
 
-### ATTACK CHAIN
+The attack can be described in a few main steps.
 
-The attack can be described in three steps:
+First, the attacker used a vulnerability in software used by Valtori. The vulnerability made it possible to get unauthorized access to the system.
 
-1. **Initial access:** The attacker used a vulnerability in software used by Valtori.
-2. **Access:** The attacker got unauthorized access to user and device information.
-3. **Impact:** Information about about 50,000 users could have been affected.
+After getting access, the attacker could access user and device information in the mobile device management service.
 
-The exact way the attacker entered the system is not fully known. The police are still investigating the case.
+The result was that information about around 50,000 users could have been affected.
 
-### DEFENSES THAT WOULD HAVE HELPED
+The exact technical method used by the attacker is still being investigated. Because of this, it is not possible to explain all parts of the attack. I do not want to guess about technical details that have not been confirmed by the authorities.
 
-#### Preventive controls
+The main known result was unauthorized access to user and device information.
 
-First, the software should be updated quickly when a security vulnerability is found.
+## DEFENSES THAT WOULD HAVE HELPED
 
-Second, access to the mobile device management service should be limited. Only people who need the service should have access to it.
+### Preventive controls
 
-Third, strong authentication should be used for important accounts. Multi-factor authentication can make stolen passwords less useful.
+One important defense is to update software quickly when a security vulnerability is found. Security updates can reduce the possibility that attackers use known vulnerabilities.
 
-#### Damage limitation and response
+Access to the mobile device management service should also be limited. Only people who need access should be allowed to use the system.
 
-After finding the breach, the affected service should be isolated quickly. This could help stop the attacker from getting more information.
+Strong authentication should be used for important accounts. Multi-factor authentication can make stolen passwords less useful.
 
-The system logs should also be checked. This can help find out what the attacker did and what information was accessed.
+It is also important to check old information and make sure that deleted data is really deleted. In this case, some information that was marked as deleted was still available in the system.
 
-Old information should be properly deleted. In this case, some deleted information was still available in the system.
+### Damage limitation and response
 
-The affected users should also be informed. They should be warned about possible phishing emails.
+After the breach was discovered, the affected service should be isolated quickly. This can help to stop the attacker from getting more information.
 
-### BROADER LESSON
+The system logs should also be checked. Logs can help the organisation understand what happened and what information the attacker accessed.
 
-I learned that one vulnerable system can affect many people.
+The organisation should also find out which users and information were affected. This is important because users need to know what information may have been exposed.
 
-The most worrying thing for me is that information about a large number of users was exposed. Criminals could use this information for phishing or other fraud.
+Affected users should be informed about the incident. They should also be warned about possible phishing messages and other scams using the leaked information.
 
-This case also showed me that software updates are very important. A vulnerability in one software product can create a problem for a large organisation.
+This incident shows that one vulnerable system can affect a large number of people. It also shows why software updates, access control and quick response are important parts of cybersecurity.
 
-I think it is important to update software, fix vulnerabilities quickly and limit access to important systems.
+## SOURCES
 
-If an attack happens, the organisation should isolate the affected system, check the logs and find out what information was accessed.
+1. [Finnish Government — Valtori data breach](https://valtioneuvosto.fi/-/valtorin-mobiilihallinnan-tietomurto-koskettaa-valtioneuvostoa)  
+   Accessed 25 September 2026.
 
-For me, the main lesson is that cybersecurity is not only about protecting systems. It is also about protecting the people who use them.
+2. [National Bureau of Investigation — Valtori data breach investigation](https://poliisi.fi/-/keskusrikospoliisi-tutkii-valtorin-mobiilihallintaan-kohdistunutta-epailtya-tietomurtoa)  
+   Accessed 25 September 2026.
 
-### SOURCES
+3. [Yle — Valtori mobile device management data breach](https://yle.fi/a/74-20208246)  
+   Accessed 25 September 2026.
 
-1. [Finnish Government — Valtori data breach](https://valtioneuvosto.fi/-/valtorin-mobiilihallinnan-tietomurto-koskettaa-valtioneuvostoa)
-2. [National Bureau of Investigation — Valtori data breach investigation](https://poliisi.fi/-/keskusrikospoliisi-tutkii-valtorin-mobiilihallintaan-kohdistunutta-epailtya-tietomurtoa)
-3. [Yle — Valtori mobile device management data breach](https://yle.fi/a/74-20208246)
-4. [National Bureau of Investigation — Investigation update, April 2026](https://poliisi.fi/-/keskusrikospoliisi-on-jatkanut-esitutkintaa-valtorin-mobiilihallintaan-kohdistuneeseen-epailtyyn-tietomurtoon-liittyen)
+4. [National Bureau of Investigation — Investigation update, April 2026](https://poliisi.fi/-/keskusrikospoliisi-on-jatkanut-esitutkintaa-valtorin-mobiilihallintaan-kohdistuneeseen-epailtyyn-tietomurtoon-liittyen)  
+   Accessed 25 September 2026.
