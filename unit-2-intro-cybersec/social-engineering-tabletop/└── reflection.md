@@ -1,8 +1,10 @@
 
 # Individual Reflection: Social Engineering Tabletop Exercise
 
-During today’s tabletop exercise, the tactic that surprised me most was combining phone calls with MFA spam. I used to think social engineering was just clicking on bad links in phishing emails. However, seeing how an attacker can call an employee, pretend to be our IT support team, and keep sending login approval pop-ups until the victim presses "Approve" showed me how easy it is to trick people using pressure.
+During the tabletop exercise, the thing that surprised me most was the combination of a phone call and MFA notifications. Before this exercise, I mostly thought about social engineering as phishing emails and suspicious links. I did not really think about an attacker calling a person and pretending to be IT support while sending many login requests. I can see how someone could press "Approve" just because they are tired or think the requests are a technical problem.
 
-Because of this, I will change how I handle login requests in my daily life. I will never approve a notification on my phone unless I just tried to log in myself. If I get an unexpected login prompt, I will reject it right away, change my password, and inform IT support instead of just ignoring it or pressing yes by mistake.
+Because of this, I will be more careful with login notifications. If I get an MFA request when I am not trying to log in, I will not approve it. I will reject the request and contact IT support if it keeps happening.
 
-Finally, I learned to always double-check suspicious messages using a separate channel. Whether working at Pohjola Logistics or managing my personal accounts, I will never call a phone number or click a link sent in an urgent message. I will always search for official contact details on my own before trusting any request.
+I also learned that it is important to check suspicious requests using another channel. For example, if an email asks me to make a payment or change bank details, I should not use the phone number or link from that email. I should find the official contact details myself and check the request first.
+
+The main thing I take from this exercise is that social engineering is not only about technology. An attacker can also use pressure, urgency and pretending to be someone I trust.
