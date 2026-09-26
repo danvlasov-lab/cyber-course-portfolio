@@ -16,33 +16,32 @@ I've watched the documentary. Link: https://www.youtube.com/watch?v=N20q-ZMop0w
 
 ### 1. The incident in your own words
 
-NotPetya was a cyberattack that started in Ukraine in June 2017. The attackers used M.E.Doc, a Ukrainian accounting program, to spread the malware through a software update. After that, NotPetya spread very fast to other computers and networks, including companies in other countries.
+NotPetya was a cyberattack that started in Ukraine in June 2017. The attackers used the M.E.Doc accounting software to get into companies through a trusted software update. What surprised me most was how quickly NotPetya spread after getting inside, because the method with M.E.Doc worked very effectively.
 
 ### 2. Who was affected, and how
 
-Many Ukrainian companies and government organizations were affected. One example was Maersk, a large shipping company. NotPetya stopped many of its computers and caused serious problems with its work. The total damage from the attack was about 10 billion dollars.
+Many Ukrainian companies and government organizations were affected. One of them was Maersk, a large shipping company. NotPetya stopped many of its computers and caused serious problems with its work and transportation. The total financial damage was about 10 billion dollars.
 
-### 3. The CIA principle — and the trick
+### 3. The CIA principle - and the trick
 
-The main CIA principle affected was **availability**. People could not use their computers and important systems. NotPetya looked like ransomware because it asked for money, but it was actually a wiper, which means that the files could not be recovered. This shows that the main goal was to destroy data, not to make money.
+The main CIA principle affected was **availability**, because people could not use their computers and important systems. NotPetya looked like ransomware because it asked for a ransom, but it was actually a wiper, which means that the files could not be recovered. The real goal was to destroy data and computers, not to make money.
 
-### 4. The attack technique — initial access through a supply chain
+### 4. The attack technique - initial access through a supply chain
 
-The attackers got into the M.E.Doc update system. They added NotPetya to a normal software update. When companies installed the update, they also installed the malware. This was powerful because companies trusted the software and its updates.
+NotPetya got into the M.E.Doc update system. The attackers added the malware to a normal software update, so companies installed it because they trusted the software and its updates. This method was especially dangerous because it is very difficult for a company to expect that a normal software update is actually dangerous.
 
 ### 5. How it spread inside networks
 
-NotPetya used the EternalBlue vulnerability to spread to computers that were not patched. It also stole usernames and passwords from infected computers. This allowed the malware to move to other computers using real login details, even when some computers were already protected against EternalBlue.
+NotPetya used several methods to spread inside networks. It used the EternalBlue vulnerability to attack computers that were not patched, and it also used Mimikatz to steal usernames and passwords from infected computers. This allowed the malware to move to other computers using real login details, even when some computers were already protected against EternalBlue. I think using several methods together was more dangerous because it is harder to protect against all of them.
 
 ### 6. What could have helped
 
-Good offline backups could have reduced the damage. The backups should be separated from the main network so that malware cannot reach them. Then companies could use the clean backups to restore their systems.
+Offline backups could have reduced the damage. They would be separated from the main network, so the malware could not reach them. If the main systems were destroyed, companies could use clean backups to restore their data and systems. Network segmentation could also have helped to limit the spread of the attack.
 
-### 7. The broader lesson — attribution and consequences
+### 7. The broader lesson - attribution and consequences
 
-NotPetya shows that a cyberattack can quickly spread outside the country where it starts. The attack was connected to Ukraine, but companies in many other countries were also affected. The episode says that the attack was later attributed to Russian state actors, showing how cyberattacks can become part of international conflicts.
+NotPetya shows that a cyberattack can cause damage far outside the country where it starts. Large companies are connected to other companies and countries, so an attack in one place can quickly affect many others. The episode also shows that cyberattacks can be connected to international conflicts and can affect people and companies that were not the original target. This is especially serious because the consequences can affect ordinary workers, not only managers or company owners.
 
 ### 8. My personal takeaway
 
-The most interesting thing for me was that the attack came through a normal software update. I usually think that updates make computers safer. After this episode, I understand that software updates can also be a security risk if the update system is compromised.
-
+The most interesting thing for me was that the attack came through what looked like a normal software update. I usually think that software updates are a trusted and safe procedure, but this incident made me look at them differently. Now I will pay more attention to what updates I install. My main takeaway is that even something we normally trust can become a security risk if the system behind it is compromised.
