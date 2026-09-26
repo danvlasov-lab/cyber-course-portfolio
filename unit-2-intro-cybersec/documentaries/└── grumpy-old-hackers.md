@@ -16,7 +16,7 @@ I've watched the documentary. Link: https://www.youtube.com/watch?v=-j0kWlphD4w
 
 ### 1. The incident in your own words
 
-The Grumpy Old Hackers got into Donald Trump's Twitter account in 2016. They found the password `yourefired` in data from the old LinkedIn hack. I think the most important part was that the password had already been stolen and was then reused by the attackers.
+The Grumpy Old Hackers got into Donald Trump's Twitter account in 2016. They found the password yourefired in data from the old LinkedIn hack. I think the most important part was that the password had already been stolen and was then reused by the attackers.
 
 ### 2. The credential reuse trap
 
