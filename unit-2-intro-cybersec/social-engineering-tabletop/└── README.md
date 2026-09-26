@@ -23,7 +23,7 @@ The email can come from a fake or very similar domain, for example `pohjola-Iogi
 
 **Immediate Action:**
 
-Do not click links or open attachments. Do not reply to the email or call a phone number given in the email.
+Do not click links or open attachments. Also do not reply to the email or call a phone number given in the email.
 
 **Verification:**
 
