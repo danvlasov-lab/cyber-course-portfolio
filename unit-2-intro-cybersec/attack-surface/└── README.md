@@ -60,10 +60,10 @@ My work account gives access to work email, files and other work systems. An att
 
 ## Reflection
 
-After making this list, I can see that my biggest exposure is the number of accounts and services connected to my devices. My smartphone is a good example because I use it for communication, banking, email and other services. This means that one device can give access to many different parts of my digital life.
+After making this list, I can see that my biggest problem is the number of accounts and services connected to my devices. My smartphone is a good example because I use it for communication, banking, email and other services. One device can give access to many different parts of my digital life.
 
-I also noticed that I have unique passwords for my important accounts, but I do not have MFA enabled on most of them. At the moment, I only have MFA enabled on my GitHub account. This is probably the biggest security gap I found while doing this assignment.
+I also noticed that I have unique passwords for my important accounts, but I do not have MFA enabled on most of them. At the moment, I only have MFA enabled on my GitHub account. This is the only security gap I found while doing this assignment.
 
-My personal email is another important risk because it can be used to reset passwords for other accounts. My messaging account is also important because I keep personal information there.
+My personal email is another important risk because it can be used to reset passwords for other accounts. My messanger account is also important because I keep personal information there.
 
 The concrete change I will make this week is to check my important accounts and enable MFA where it is available. I will start with my personal email and other accounts that give access to a lot of information. I think this is a simple change, but it can give another layer of protection if one of my passwords is ever stolen.
