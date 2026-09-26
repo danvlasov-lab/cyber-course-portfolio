@@ -7,57 +7,63 @@
 **Environment:** My computer
 
 ## Goal
-To develop awareness of my personal digital footprint by inventorying the devices, accounts, and services I use and reasoning about what an attacker could gain from compromising each.
+
+To develop awareness of my personal digital footprint by looking at the devices, accounts and services I use and thinking about what an attacker could get if they got access to them.
 
 ## Device Inventory
 
-| Device          | Accounts logged in                             | Sensitive data / access                         | Up to date | Password / PIN |
-| --------------- | ---------------------------------------------- | ----------------------------------------------- | ---------- | -------------- |
-| Smartphone      | Personal email, cloud account, social media    | Photos, messages, contacts, email, banking apps | Yes        | Yes            |
-| Personal laptop | Personal email, cloud storage, work accounts   | Work files, documents, photos, email            | Yes        | Yes            |
-| Work laptop     | Work email, work systems                       | Work information and client files               | Yes        | Yes            |
-| Tablet          | Personal cloud account, entertainment accounts | Photos and personal files                       | Yes        | Yes            |
-| Smart TV        | Streaming account, personal account            | Account information and viewing history         | Yes        | Yes            |
-| Wi-Fi router    | Internet provider account                      | Network access and connected devices            | Yes        | Yes            |
+| Device          | Accounts logged in                                      | Sensitive data / access                                      | Up to date | Password / PIN |
+|-----------------|---------------------------------------------------------|--------------------------------------------------------------|------------|----------------|
+| Smartphone      | Personal email, cloud, social media, messaging, banking | Photos, messages, contacts, email, banking and personal data | Yes        | Yes            |
+| Personal laptop | Personal email, cloud storage, work accounts            | Work files, documents, photos and email                      | Yes        | Yes            |
+| Work laptop     | Work email, work systems                                | Work information and client files                            | Yes        | Yes            |
+| Tablet          | Personal cloud, entertainment accounts                  | Photos and personal files                                    | Yes        | Yes            |
+| Smart watch     | Personal account and connected phone services           | Notifications and personal information                       | Yes        | Yes            |
+| Smart TV        | Streaming account, personal account                     | Account information and viewing history                      | Yes        | Yes            |
+| Wi-Fi router    | Internet provider account                               | Network access and connected devices                         | Yes        | Yes            |
+| SSD             | No accounts                                             | Personal files, photos and documents                         | Yes        | No             |
 
 ## Account Inventory
 
-| Account                 | MFA enabled | Unique password | What could an attacker do?                                         |
-| ----------------------- | ----------- | --------------- | ------------------------------------------------------------------ |
-| Personal email          | Yes         | Yes             | Read emails, reset other passwords and access personal information |
-| Main cloud account      | Yes         | Yes             | Access photos, files and backups                                   |
-| Online banking          | Yes         | Yes             | Try to access money and financial information                      |
-| Work account            | Yes         | Yes             | Access work files, email and work systems                          |
-| Social media account    | Yes         | Yes             | Send messages, post content and access personal information        |
-| Online shopping account | No          | Yes             | Make purchases or access saved personal information                |
+| Account                 | MFA enabled | Unique password | What could an attacker do?                                   |
+|-------------------------|-------------|-----------------|--------------------------------------------------------------|
+| Personal email          | No          | Yes             | Read emails, reset other passwords and access personal data  |
+| Main cloud account      | No          | Yes             | Access photos, files and backups                             |
+| Online banking          | No          | Yes             | Try to access money and financial information                |
+| Work account            | No          | Yes             | Access work files, email and work systems                    |
+| GitHub account          | Yes         | Yes             | Access repositories and change or delete project files       |
+| Social media account    | No          | Yes             | Send messages, post content and access personal information  |
+| Online shopping account | No          | Yes             | Make purchases or access saved personal information          |
+| Messaging account       | No          | Yes             | Read private messages, photos and contacts                   |
 
-## Top 5 Highest-Value Targets:
+## Top 5 Highest-Value Targets
 
 ### 1. Personal email account
 
-My personal email would be a valuable target because it can be used to reset passwords for other accounts. An attacker could also read private emails and get personal information.
+My personal email is one of the most important accounts because it can be used to reset passwords for other accounts. An attacker could also read private emails and find personal information.
 
-### 2. Main cloud account
+### 2. Smartphone
 
-My cloud account contains access to personal files, photos and backups. If an attacker got control of it, they could access a lot of my personal information.
+My smartphone gives access to many different services in one place. I use it for communication, banking, email and other services, so getting access to the phone could give an attacker access to several parts of my digital life.
 
-### 3. Online banking
+### 3. Messaging account
 
-My banking account is a valuable target because it is connected to my money and financial information. An attacker could try to make unauthorized transactions or use the information for fraud.
+I use messaging apps not only for communication but also to store personal information. An attacker could read private messages, see photos and get access to my contacts.
 
-### 4. Work account
+### 4. Main cloud account
 
-My work account could give an attacker access to work email, documents and other systems. They could also use my account to send messages to other people.
+My cloud account contains personal files, photos and backups. If an attacker got access to it, they could get a lot of my personal information.
 
-### 5. Smartphone
+### 5. Work account
 
-My smartphone gives access to many accounts in one place. If someone got access to my phone, they could potentially access messages, apps and some of my accounts.
+My work account gives access to work email, files and other work systems. An attacker could also use the account to communicate with other people at work.
 
 ## Reflection
 
-I think my biggest risk is that I use the same devices for many different things. My smartphone and personal email are especially important because they give access to many other accounts. If someone got access to them, they could get a lot of my personal information.
+After making this list, I can see that my biggest exposure is the number of accounts and services connected to my devices. My smartphone is a good example because I use it for communication, banking, email and other services. This means that one device can give access to many different parts of my digital life.
 
-Another problem is that I do not have multi-factor authentication on every account. I know that a strong password is important, but an extra security step can give better protection.
+I also noticed that I have unique passwords for my important accounts, but I do not have MFA enabled on most of them. At the moment, I only have MFA enabled on my GitHub account. This is probably the biggest security gap I found while doing this assignment.
 
-This week I will check my important accounts and turn on multi-factor authentication where I do not have it yet. I will also check that my main passwords are different. I think this is a simple thing to do, but it can make my accounts safer.
+My personal email is another important risk because it can be used to reset passwords for other accounts. My messaging account is also important because I keep personal information there.
 
+The concrete change I will make this week is to check my important accounts and enable MFA where it is available. I will start with my personal email and other accounts that give access to a lot of information. I think this is a simple change, but it can give another layer of protection if one of my passwords is ever stolen.
