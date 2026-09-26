@@ -12,109 +12,96 @@ To apply the CIA triad to real-world incident scenarios. Also to identify which 
 
 ## Scenario A — The hospital
 
-### 1. Primary CIA violation: 
+### 1. Primary CIA violation:
 
-Availability
+**Availability**
 
 ### 2. Secondary impacts
 
-Confidentiality: Patient files were also exfiltrated by the attackers. This means that private patient information was accessed and taken without authorization.
-Integrity: The attack may also have affected the integrity of the systems and data. Once attackers have access to systems and encrypt files, the organization cannot immediately be certain that its data has not been changed or damaged.
+**Confidentiality:** Patient files were also stolen by the attackers. This means that private patient information was accessed without authorization.
+
+**Integrity:** The attackers got access to the systems and encrypted the data. This means that the organization could not be sure that all of its data was still in its original state.
 
 ### 3. Attack technique
 
-The most likely technique is ransomware combined with data exfiltration. The attackers encrypted files and demanded payment, while also copying patient information to use as additional pressure.
+The most likely technique is **ransomware combined with data exfiltration**. The attackers encrypted patient files and demanded payment. At the same time, they copied some patient information to put more pressure on the hospital.
 
 ### 4. Preventive controls
 
-Regular offline or isolated backups of important systems.
-Strong access controls and multi-factor authentication for administrative accounts.
-Network segmentation to prevent an attacker from easily reaching all hospital systems.
+Regular offline or isolated backups could help the hospital recover after a ransomware attack. Strong access controls and multi-factor authentication for administrative accounts could make it harder for attackers to get access. Network segmentation could also stop an attacker from easily reaching all hospital systems.
 
 ### 5. Damage-limitation controls
 
-Quickly isolate infected computers and servers from the network.
-Restore systems and data from clean backups.
-Have an incident response plan that allows the hospital to continue critical medical services during an attack.
+The hospital should quickly isolate infected computers and servers from the network. It could then restore systems and data from clean backups. An incident response plan would also help the hospital continue important medical services during the attack.
 
 ## Scenario B — The leaked database
 
 ### 1. Primary CIA violation:
 
-Confidentiality
+**Confidentiality**
 
 ### 2. Secondary impacts
 
-Integrity: There is no clear evidence that the attackers changed the database, so integrity was not directly affected.
-Availability: The retailer's systems were not encrypted and remained available. Therefore, availability was not significantly affected in this incident.
+**Integrity:** There is no clear evidence that the attackers changed the database. The data was copied, but the original data was not changed.
+
+**Availability:** Availability was not significantly affected because the retailer's systems and database were still available.
 
 ### 3. Attack technique
 
-The most likely technique is data exfiltration after unauthorized access to the retailer's database. The use of MD5 for password hashing also increases the risk because MD5 is not suitable for securely storing passwords.
+The most likely technique is **data exfiltration** after unauthorized access to the retailer's database. The database contained names, addresses, hashed passwords using MD5, and partial credit card numbers. Using MD5 for password hashing also increases the risk because MD5 is not suitable for securely storing passwords.
 
 ### 4. Preventive controls
 
-Use strong password hashing designed for passwords, such as Argon2, bcrypt, or scrypt, instead of MD5.
-Apply strict access controls to databases and limit which accounts can access customer information.
-Monitor database access and unusual data transfers to detect large-scale data extraction.
+The retailer should use stronger password hashing such as Argon2, bcrypt or scrypt instead of MD5. It should also use strict access controls for the database and limit which accounts can access customer information. Monitoring database access and unusual data transfers could help detect large amounts of data being copied.
 
 ### 5. Damage-limitation controls
 
-Immediately revoke compromised credentials and access tokens.
-Investigate the exposed data and notify affected customers when required.
-Force password resets and require stronger authentication for affected accounts.
+The company should immediately revoke compromised credentials and access tokens. It should investigate what information was exposed and notify affected customers when required. Password resets and stronger authentication should also be used for affected accounts.
 
 ## Scenario C — The defaced municipal site
 
 ### 1. Primary CIA violation:
 
-Integrity
+**Integrity**
 
 ### 2. Secondary impacts
 
-Availability: The website was unavailable for four hours while staff restored it from backup.
-Confidentiality: There is no evidence that personal or confidential information was accessed, so confidentiality was not significantly affected.
+**Availability:** The website was unavailable for four hours while staff restored it from a backup.
+
+**Confidentiality:** There is no evidence that personal or confidential information was accessed. Therefore, confidentiality was not significantly affected.
 
 ### 3. Attack technique
 
-The most likely technique is website defacement through a web application vulnerability or compromised administrator account.
+The most likely technique is **website defacement** through a web application vulnerability or a compromised administrator account. The attackers changed the public website and replaced the homepage with a political message.
 
 ### 4. Preventive controls
 
-Keep the website software, plugins, and server software updated.
-Use strong authentication and multi-factor authentication for administrator accounts.
-Apply web application security controls and restrict administrative access.
+The municipality should keep the website, plugins and server software updated. Strong authentication and multi-factor authentication should also be used for administrator accounts. Administrative access should be limited to the people who need it.
 
 ### 5. Damage-limitation controls
 
-Keep regular, tested backups of the website.
-Monitor the website for unauthorized changes and generate alerts.
-Have a recovery procedure to quickly restore the original website.
+The municipality should keep regular and tested backups of the website. It should also monitor the website for unauthorized changes. If the website is changed, a recovery procedure should allow staff to restore the original version quickly.
 
 ## Scenario D — The manipulated invoice
 
 ### 1. Primary CIA violation:
 
-Integrity
+**Integrity**
 
 ### 2. Secondary impacts
 
-Confidentiality: The supplier's email account was compromised, so the attacker gained unauthorized access to information in the account.
-Availability: Availability was not significantly affected because the email service remained usable. The main damage was the unauthorized modification of information and the financial loss.
+**Confidentiality:** The supplier's email account was compromised, so the attacker got unauthorized access to information in the account.
+
+**Availability:** Availability was not significantly affected because the email service was still usable. The main problem was that information was changed and the company lost money.
 
 ### 3. Attack technique
 
-The most likely technique is business email compromise (BEC). The attacker gained access to the supplier's email account and used it to send or modify a legitimate-looking invoice.
+The most likely technique is **Business Email Compromise (BEC)**. The attacker got access to the supplier's email account and used it to send or change an invoice that looked real.
 
 ### 4. Preventive controls
 
-Use multi-factor authentication for supplier and employee email accounts.
-Verify bank account changes through a separate communication channel, such as a phone number already stored in the company's records.
-Require a second employee to approve large or unusual payments.
+The company should use multi-factor authentication for employee and supplier email accounts. Changes to bank account details should be verified through another communication channel, such as a phone number already stored in the company's records. Large or unusual payments should also require approval from a second employee.
 
 ### 5. Damage-limitation controls
 
-Have payment procedures that allow suspicious transactions to be stopped or reviewed quickly.
-Contact the bank immediately when fraudulent payment details are discovered.
-Monitor financial transactions for unusual payments or changes to supplier information.
-
+The company should have procedures for stopping or checking suspicious payments quickly. If fraudulent payment details are discovered, the company should contact the bank immediately. Financial transactions should also be monitored for unusual payments or changes to supplier information.
