@@ -91,7 +91,7 @@ To apply concrete hardening steps to a personal computer or a lab VM, and docume
 
 ## Reflection
 
-The biggest security improvement was turning on updates, the firewall and Windows Defender. These settings help protect my computer from common attacks. BitLocker is also important because it protects my files if someone gets my laptop.
+The biggest security improvement was turning the firewall and Windows Defender on. These settings help protect my computer from common attacks. BitLocker is also useful because it protects my files if someone gets my laptop.
 
-The most inconvenient part was checking all the settings. Some settings were easy to find, but others took more time. Now I know more about my computer security and what I need to check in the future.
+The most inconvenient part was checking all the settings. Some settings were easy to find (like system settings or updates), but others took more time (like BitLocker activation). Now I know more about my computer security and what I need to check in the future.
 
