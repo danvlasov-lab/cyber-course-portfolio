@@ -24,7 +24,7 @@ Saudi Aramco is the national oil company of Saudi Arabia and one of the biggest 
 
 ### 3. The CIA principle
 
-The attack mainly affected availability and integrity. Confidentiality was not the main target because Shamoon was not trying to steal data and read it later. When data is stolen, you still have the original data, but when it is destroyed, you lose access to it and the attacker does not get it either. The computer can become unusable.
+The attack mainly affected availability and integrity. Confidentiality was not the main target because Shamoon was not trying to steal data and read it later. When data is stolen, you still have the original data, but when it is destroyed, you lose access to it and the attacker does not get it either. The computer can become a "brick" (unusable).
 
 ### 4. The attack technique – destruction at scale
 
@@ -32,7 +32,7 @@ Shamoon spread so quickly because the attackers had administrator credentials an
 
 ### 5. The organizational response
 
-Saudi Aramco had to replace tens of thousands of wiped hard drives. They sent representatives to factories in Asia to buy available HDDs on the market, which increased hard-drive prices for some time. It showed that disaster recovery isn't just about software backups. A company also needs to be ready to replace hardware quickly.
+Saudi Aramco had to replace tens of thousands of wiped hard drives. They sent representatives to factories in Asia to buy available HDDs on the market, which increased hard-drive prices for a period of time. It showed that disaster recovery isn't just about software backups. A company also needs to be ready to replace hardware quickly.
 
 ### 6. What could have helped – defending the organization
 
