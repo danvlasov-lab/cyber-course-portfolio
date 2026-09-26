@@ -44,4 +44,4 @@ This incident shows that companies should protect user passwords better. Users s
 
 ### 8. My personal takeaway
 
-After watching this incident, I understand better why I should not use the same password on different websites. I will try to use unique passwords and a password manager. This is important because any website can be hacked, so I need to protect my accounts in advance.
+After watching this incident, I understand better why I should not use the same password on different websites. I will try to use unique passwords and a password manager. It's important because any website can be hacked, so I need to protect my accounts in advance.
