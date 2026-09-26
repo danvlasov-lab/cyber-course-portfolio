@@ -16,32 +16,32 @@ I've watched the documentary. Link: https://www.youtube.com/watch?v=-j0kWlphD4w
 
 ### 1. The incident in your own words
 
-The Grumpy Old Hackers got into Donald Trump's Twitter account in 2016. They used the password "yourefired". They found the password in data from the old LinkedIn hack.
+The Grumpy Old Hackers got into Donald Trump's Twitter account in 2016. They found the password `yourefired` in data from the old LinkedIn hack. I think the most important part was that the password had already been stolen and was then reused by the attackers.
 
 ### 2. The credential reuse trap
 
-Credential reuse means using the same password on different websites. If one website is hacked, criminals can try the leaked password on other websites. This attack worked because the same password was used for LinkedIn and Twitter.
+Credential reuse means using the same password on different websites. If one website is hacked, criminals can try the leaked password on other websites. In this case, the attack worked because the same password was used for LinkedIn and Twitter.
 
 ### 3. The CIA principle
 
-The main CIA principle was **integrity**. The hackers got access to the account and could change information in it. This means that the information in the account was no longer safe from changes.
+The main CIA principle that was affected was **integrity**. The hackers got access to the account and could change information in it. The information in the account was no longer protected from unauthorized changes.
 
-### 4. The technique — credential stuffing at a personal scale
+### 4. The technique - credential stuffing at a personal scale
 
-Credential stuffing means trying stolen passwords on other websites. Hackers can try the same passwords on many accounts. It works because many people use the same password more than once.
+Credential stuffing means trying stolen passwords on other websites. Hackers can try the same stolen password on many accounts. This can work because many people use the same password more than once.
 
-### 5. Why the target was high-value
+### 5. Why the target was so high-value - but the technique was so simple
 
-The Twitter account belonged to a very famous person with many followers. But the hackers did not need a complicated technical attack. They only needed a password that was already leaked and reused.
+The Twitter account belonged to a very famous person with many followers. What surprised me most was how simple the attack was. The hackers did not need a complicated cyber attack. They only needed a password that had already been leaked and reused.
 
-### 6. What could have helped
+### 6. What could have helped - defenses an individual can implement
 
-Two-factor authentication could have helped stop the attack. Using a different password for every account would also have helped. A password manager can help create and remember different passwords.
+Multi-factor authentication could have helped stop the attack because it adds another step after entering the password (It gives you for example unique code only for you). Using different passwords for every account could also have helped. A password manager can help create and remember different passwords.
 
-### 7. The broader lesson
+### 7. The broader lesson - leaked data is forever
 
-The LinkedIn hack happened in 2012, but the password was still useful years later. A stolen password can stay dangerous for a long time. This is why it is better to use different passwords from the beginning.
+The LinkedIn breach happened in 2012, but the password was used in 2016. This shows that a stolen password can stay dangerous for a long time. It is not enough to change a password only after something bad happens because by then it would be to late and password may already have been used by someone else.
 
-### 8. My personal takeaway
+### 8. My personal takeaway - and a small action
 
-I learned that using the same password for different accounts can be dangerous. This week I will check my important accounts and turn on two-factor authentication. I also want to start using a password manager.
+I do not use the same passwords for different accounts. I have also checked my two email addresses on Have I Been Pwned, and they have not been found in a data breach. After watching this video, I want to pay more attention to my account information and passwords, and I can change any old passwords that I may have reused.
