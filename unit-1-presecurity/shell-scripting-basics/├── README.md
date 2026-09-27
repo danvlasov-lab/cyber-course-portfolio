@@ -18,11 +18,11 @@ Customize the shell through `~/.bashrc` (banner, aliases, history limits) and wr
 **Q1:** Paste the line. What size is the file? When was it last modified?
 
 ```bash
-$ ls -la ~ | grep bashrc
+ls -la ~ | grep bashrc
 ```
 
 ```text
-___
+-rw-r--r--  1 varia varia  3526 Sep  8 09:34 .bashrc
 ```
 
 **Answer:** ___ bytes, last modified ___
