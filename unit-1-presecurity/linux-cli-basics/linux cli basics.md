@@ -157,3 +157,5 @@ df \-h \>\> report/system-info.txt
 date \>\> report/system-info.txt  
 zip \-r report.zip report/  
 unzip \-l report.zip
+
+Source: https://docs.google.com/document/d/1VFg6hKAKhbQV-sDws9Hvn_2FMEU1WoxDjNaCUs8ASEc/edit?tab=t.0
