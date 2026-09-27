@@ -88,7 +88,7 @@ I would be interested to get a CCNA, because it is connected to networking and c
 
 Certificates can also help when looking for a job working with networks, but education and practical experience are also important.
 
-Sources:
+**Sources:**
 
 Cisco Networking Academy: https://www.cisco.com/site/us/en/learn/training-certifications/training/netacad/index.html
 Cisco CCNA: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html
