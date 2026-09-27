@@ -31,6 +31,7 @@ To apply concrete hardening steps to a personal computer or a lab VM, and docume
 4. **Strong password or PIN** - ✅ Done  
    I use a password and PIN to log in.
 <img width="1280" height="332" alt="04-pin-code-before-and-after" src="https://github.com/user-attachments/assets/fc26607b-b866-4a4f-927f-fc0cf45839be" />
+
 5. **Screen lock** - ✅ Done  
    My screen locks automatically after a few minutes.
    
@@ -43,6 +44,7 @@ To apply concrete hardening steps to a personal computer or a lab VM, and docume
 6. **Biometric login** - N/A  
    My computer does not have this option.
 <img width="1280" height="701" alt="06-biometric-login-before-and-after" src="https://github.com/user-attachments/assets/1c4f4624-c1d3-420f-bb91-4f366ed10b9c" />
+
 ### Storage and data
 
 7. **Disk encryption** - ⚠️ Partial  
