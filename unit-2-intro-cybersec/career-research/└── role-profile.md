@@ -37,22 +37,30 @@ He can work for an IT company, a large company, a TV company, or a data center. 
 The job ad includes requirements such as:
 
 Good knowledge of problem solving
+
 good communication
+
 ability to work in a team
+
 ability to work alone
+
 Interest in IT and network systems
+
 
 The responsibilities include:
 
 Work with network systems
+
 maintain network equipment
+
 help with network problems
+
 work with IT and OT networks
+
 help keep the network safe
 
-I am familiar with Good problem solving knowledge, good communication, the ability to work in a team, the ability to work alone, an interest in IT and network systems, Work with network systems, maintain network equipment, help with network problems, help keep the network safe.
 
-Work with IT and OT networks.
+I am familiar with Good problem solving knowledge, good communication, the ability to work in a team, the ability to work alone, an interest in IT and network systems, Work with network systems, maintain network equipment, help with network problems, help keep the network safe. I'm not familiar with working with IT and OT networks.
 
 This job is not exactly a junior position, but it gives a good example of the skills and responsibilities that can be useful for a Network Technician.
 
