@@ -16,32 +16,39 @@ I've watched the documentary. Link: https://www.youtube.com/watch?v=-j0kWlphD4w
 
 ### 1. The incident in your own words
 
-The Grumpy Old Hackers got into Donald Trump's Twitter account in 2016. They found the password "yourefired" in data from the old LinkedIn hack. I think the most important part was that the password had already been stolen and was then reused by the attackers.
+They logged into Donald Trump's Twitter account in 2016. They found the password `youre fired' in the data from the old Linkedin account hack. The most important thing was that the password had already been stolen and used by intruders.
+
+Donald Trump's Twitter account was an interesting target because he was a famous person with a lot of followers.
 
 ### 2. The credential reuse trap
 
-Credential reuse means using the same password on different websites. If one website is hacked, criminals can try the leaked password on other websites. In this case, the attack worked because the same password was used for LinkedIn and Twitter.
+Сredential reuse means using the same password on other websites. Because if one website has been hacked, scammers can try the leaked password on other websites. This attack worked because the same password was used for Linkedin and Twitter.
 
 ### 3. The CIA principle
 
-The main CIA principle that was affected was **integrity**. The hackers got access to the account and could change information in it. The information in the account was no longer protected from unauthorized changes.
+The basic principle of CIA integrity was violated. Hackers gained access to the account and could change the information in it. The information in the account was at risk because hackers gained unauthorized access to it and could change the information.
 
 ### 4. The technique - credential stuffing at a personal scale
 
-Credential stuffing means trying stolen passwords on other websites. Hackers can try the same stolen password on many accounts. This can work because many people use the same password more than once.
+credential stuffing means trying stolen passwords on other websites. Hackers can try the same password on many accounts. Because most people use the same password more than once.
 
 ### 5. Why the target was so high-value - but the technique was so simple
 
-The Twitter account belonged to a very famous person with many followers. What surprised me most was how simple the attack was. The hackers did not need a complicated cyber attack. They only needed a password that had already been leaked and reused.
+The Twitter account belonged to a wealthy family with a lot of followers. I was most surprised by how simple the attack method turned out to be, because the hackers didn't even have to work hard on the cyberattack. They only needed the password, which was already leaked and reused.
+
+He should pay more attention to his passwords in order to avoid attacks like this in the future, so that hackers could not find your ancient account password and not use it for their own purposes.
 
 ### 6. What could have helped - defenses an individual can implement
 
-Multi-factor authentication could have helped stop the attack because it adds another step after entering the password (It gives you for example unique code only for you). Using different passwords for every account could also have helped. A password manager can help create and remember different passwords.
+A Multi-factor authentication could help stop the attack. Also, using different passwords for each account could also help by using a password manager. It provides a double degree of protection in the form of entering a username and a special confirmation that only the user knows (for example, a personal digital code). This would have prevented hackers from using the same password on different sites and would have made hacking much more difficult.
+
+As a personal protection measure, I would add checking accounts for leaks and regularly checking the security of my passwords.
 
 ### 7. The broader lesson - leaked data is forever
 
-The LinkedIn breach happened in 2012, but the password was used in 2016. This shows that a stolen password can stay dangerous for a long time. It is not enough to change a password only after something bad happens because by then it would be to late and password may already have been used by someone else.
+This shows that a stolen password can be in danger for a long time. A stolen password can remain dangerous until a person changes it and it is replaced with a new unique password. If the password has been stolen, it can be used by intruders even after several years, and by this point it will be too late to change and the data will flow into the network. That's why users must use different passwords for different sites.
 
 ### 8. My personal takeaway - and a small action
 
-I do not use the same passwords for different accounts. I have also checked my two email addresses on Have I Been Pwned, and they have not been found in a data breach. After watching this video, I want to pay more attention to my account information and passwords, and I can change any old passwords that I may have reused.
+I don't use the same passwords for different accounts. I have also checked my two email addresses on Have I Been Pwned, and they have not been found in a data breach. After watching this video, I want to pay more attention to my account information and passwords, and I can change any old passwords that I may have reused.
+
