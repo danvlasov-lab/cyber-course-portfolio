@@ -13,7 +13,7 @@ To research a recent, publicly disclosed cybersecurity incident affecting a Finn
 
 ### SUMMARY
 
-In January 2026, Valtori, Finland's state-owned ICT organization, was exposed to a data breach. The leak was discovered on January 29, 2026.
+In January 2026, Finland's state-owned ICT organization Valtori was confronted with a data leak. The leak was discovered on January 29, 2026.
 
 The attacker gained access to the information of the Valtori mobile device management service. Information about about 50,000 users could have been affected. The information included names, work email addresses, phone numbers, device information, and configuration information.
 
@@ -29,27 +29,27 @@ The incident could have caused problems not only for Valtori, but also for many 
 
 ### CIA ANALYSIS
 
-The main principle of the CIA concerned was confidentiality. The attacker gained access to private information without permission. This means that the information was available to a person who should not have had access to it.
+The main principle of the CIA work was confidentiality. The attacker gained access to private information without permission. This means that the information was available to a person who should not have had access to it.
 
 I have not found any clear information that the attacker changed the data. I also did not find clear information that the service stopped working due to the attack. Because of this, I think privacy is the main concern of the CIA in this case. There is no clear evidence in the sources that integrity or accessibility has been affected in the same way.
 
 ### ATTACK CHAIN
 
-The attack can be described in several basic steps. At first, the attacker exploited a vulnerability in the software used by Valtori. The vulnerability allowed unauthorized access to the system. After gaining access, an attacker could gain access to information about users and devices in the mobile device management service. As a result, information about about 50,000 users could be affected.
+The attack can be divided into several main stages. First, the attacker exploited a vulnerability in the software used by Valtori. The vulnerability allowed unauthorized access to the system. After gaining access, an attacker could gain access to information about users and devices in the mobile device management service. As a result, information about about 50,000 users may be affected.
 
-The exact technical method used by the attacker is still under investigation. Because of this, it is impossible to explain all the details of the attack. I don't want to speculate about technical details that haven't been confirmed by the authorities. The main known result was unauthorized access to information about users and devices.
+The exact technical method used by the attacker is still under investigation. Because of this, it is impossible to explain all the details of the attack. I don't want to talk about technical details that have not been confirmed by the authorities. The main known result was unauthorized access to information about users and devices.
 
 ### DEFENSES THAT WOULD HAVE HELPED
 
 #### Preventive controls
 
-One of the important security measures is to quickly update the software when a security vulnerability is detected. Security updates can reduce the likelihood of attackers exploiting known vulnerabilities. Access to the mobile device management service should also be restricted. Access to the system should be allowed only to those users who need access. 
+One of the important security measures is to quickly update the software when a security vulnerability is detected. Security updates can reduce the likelihood of attackers exploiting known vulnerabilities. Access to the mobile device management service should also be restricted. Access to the system should be allowed only to those users who need access.
 
 Strong authentication should be used for important accounts. Multi-factor authentication can make stolen passwords less useful. It is also important to check the old information and make sure that the deleted data is indeed deleted. In this case, some information that was marked as deleted was still available in the system.
 
 #### Damage limitation and response
 
-After detecting a violation, it is necessary to isolate the vulnerable service quickly. This may prevent an attacker from obtaining additional information. You should also check the system logs. Logs can help an organization understand what happened and what information the attacker gained access to.
+After detecting a violation, it is necessary to quickly isolate the vulnerable service. This may prevent an attacker from obtaining additional information. You should also check the system logs. Logs can help an organization understand what happened and what information the attacker gained access to.
 
 The organization should also find out which users and information have been affected. This is important because users need to know what information could have been disclosed. Affected users should be informed about the incident. They should also be warned about possible phishing messages and other actions of scammers using information leaks.
 
