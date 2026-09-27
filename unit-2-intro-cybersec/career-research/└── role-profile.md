@@ -17,7 +17,7 @@ To pick an entry-level tech role you might realistically work in within the next
 
 ### 1. What this role actually is
 
-Junior Network Technician works with a computer network. The work includes installing, checking various network devices, finding and fixing network problems if something does not work. With switches, routers, and other network devices. If a person or company has lost their internet/network, the Junior Network Technician should check the network devices and connections, find the cause of the problem and try to fix it. Every day's work is lost, because network problems are always different.
+Junior Network Technician works with a computer network. The work includes installing, checking various network devices (switches, routers, etc.), finding and fixing network problems if something does not work. If a person or company has lost their internet/network, the Junior Network Technician should check the network devices and connections, find the cause of the problem and try to fix it. Every day's work is lost, because network problems are always different.
 
 ### 2. Where I might work
 
@@ -90,9 +90,9 @@ Certificates can also help when looking for a job working with networks, but edu
 
 **Sources:**
 
-Cisco Networking Academy: https://www.cisco.com/site/us/en/learn/training-certifications/training/netacad/index.html
-Cisco CCNA: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html
-Fortinet Training and Certification: https://www.fortinet.com/training-certification
+Cisco Networking Academy: (https://www.cisco.com/site/us/en/learn/training-certifications/training/netacad/index.html)
+Cisco CCNA: (https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html)
+Fortinet Training and Certification: (https://www.fortinet.com/training-certification)
 
 ### 7. The cybersecurity-relevant parts of this role:
 
