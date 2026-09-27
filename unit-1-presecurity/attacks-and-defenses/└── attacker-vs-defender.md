@@ -10,7 +10,7 @@
 ## Goal
 To practice thinking like both an attacker and a defender about a system you actually use. This is the dual mindset Section 7 introduces - and it's the lens I'll be wearing for the rest of the course.
 
-## Attacker vs Defender — My personal email account
+## Attacker vs Defender - My personal email account
 
 ### The system
 My personal email is really important for me, because a lot of accounts are linked to this for various services. For example, there are lots of accounts on game services, which are linked on my personal email and really matters for me.
