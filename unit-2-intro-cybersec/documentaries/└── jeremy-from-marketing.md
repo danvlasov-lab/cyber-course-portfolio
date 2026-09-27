@@ -16,32 +16,32 @@ I've watched the documentary. Link: https://www.youtube.com/watch?v=qV7qknrJM_A
 
 ### 1. Jeremy's story in my own words
 
-Jeremy Hammond was a hacker and he was very interested in political activism. He hacked Stratfor and stole private information. Later, he was arrested and sent to prison for 10 years.
+Jeremy was a hacker and an ardent supporter of political activism. He hacked Stratfor and stole private information. After that, he was arrested and sent to prison for 10 years.
 
-### 2. The target — Stratfor
+### 2. The target - Stratfor
 
-Stratfor was a private intelligence company. It collected information about different countries and companies. Jeremy and his group thought this information should be public, so they decided to expose the company. I don't think this was enough to justify the hack because they did it without permission.
+Stratfor was a private intelligence company that collected classified information about various countries and companies. Jeremy and others believed that Stratfor could be attacked because they believed that all this information should be public for everyone, and they thus decided to expose the company. No, because they still hacked into the company without any permission.
 
 ### 3. The legal reality
 
-Jeremy was punished for getting access to computer systems without permission. His reasons did not change the legal consequences because he still accessed the systems without permission. This shows that hacking can have serious legal consequences, even when a hacker thinks he is doing something good.
+Jeremy was punished for unauthorized access to computer systems without permission. His motives did not negate the legal consequences, because the law still takes into account the very fact of unauthorized access. This shows that hacking can have serious legal consequences, even if the hacker thought they were doing something for the greater good.
 
 ### 4. Activism, hacktivism, or crime?
 
-I see both activism and crime in Jeremy's actions. He wanted to expose information for political reasons, but he also broke the law. I don't think good intentions make hacking legal.
+I see both manifestations of activism and signs of crime in his action. He wanted to expose information for political reasons, but he still broke the law. Good intentions do not justify or legalize his hacking.
 
-### 5. The "good intentions" defense
+### 5. The “good intentions” defense
 
-Good intentions are not enough to make hacking legal. A person can want to help but still cause damage or get private information. A security researcher needs permission before testing a system. If they continue without permission, they can cross the line.
+Good intentions are not enough to justify hacking. A person may want to help but still cause damage or gain access to private information. A security researcher needs permission before testing systems, and at this point, the specialist may cross the line and continue working without waiting for permission.
 
 ### 6. The technical concept I noticed
 
-I noticed the problem of password reuse. It means using the same password on different websites. If one password is stolen, it can be used to get into other accounts. That is why people should use different passwords.
+I only discovered the problem with password reuse. A person uses the same password on different websites. In Jeremy’s case, this showed that a stolen password can be used to log in to other accounts. Because the mentioned password can be used to log in to other accounts. Therefore, people should use different passwords.
 
-### 7. The responsibility question — for me
+### 7. The responsibility question - for you
 
-If I learn how to hack systems, it does not mean that I can hack any system I want. I need permission before testing a system. I can get permission directly from a person or by email. If I find a serious problem on a website, I will tell the owner about it. If I have permission, I can continue testing to find other problems. If I am not sure about something, I can ask an IT specialist.
+If I learn how to hack systems, it doesn’t mean I can hack any system I want. I will need permission from above before testing a system. I will understand that I have permission if I’m either told in person or, for example, receive an email. If I find a serious vulnerability on someone else’s website, I will immediately inform its owner about the problem. If possible, and if there are solutions available, I will try to identify even more vulnerabilities. If I’m unsure about something or simply don’t know, I can always contact an IT specialist.
 
 ### 8. My personal takeaway
 
-I learned that cybersecurity skills can be used both for protection and for attacks. I want to use my knowledge to protect systems and find security problems. I want to follow the rule of always having permission because it is important to do the right thing and follow the law.
+Now I think that cybersecurity knowledge can be used both to protect systems and to carry out attacks. I would like to use my knowledge to protect systems and identify problems. I want to use the principle of “always have permission,” because it’s important both in terms of correctness and legality.
