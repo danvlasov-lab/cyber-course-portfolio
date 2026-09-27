@@ -87,6 +87,7 @@ ls -la ~/.bashrc*
 # Part 4 Adding aliases
 
 ![part04](screenshots/part04.png)
+![part04-1](screenshots/part04-1.png)
 
 **Q8:** Paste the two aliases you defined and the output when you ran them.
 
@@ -123,6 +124,7 @@ alias | wc -l
 # Part 5 History settings
 
 ![part05](screenshots/part05.png)
+![part05-1](screenshots/part05-1.png)
 
 **Q11:** What are the default values on your system?
 
@@ -214,6 +216,7 @@ Error: no name was given.
 # Part 8 Reading and improving
 
 ![part08](screenshots/part08.png)
+![part08-1](screenshots/part08-1.png)
 
 **Q19:** Which option did you pick, what does your modified script look like, and what does its output look like?
 
