@@ -259,7 +259,6 @@ See [`make-files.sh`](make-files.sh) in this folder for the actual file. For ref
 
 read -p "Enter a directory name: " dirname
 
-# Stop if the user just pressed Enter
 if [ -z "$dirname" ]; then
     echo "Error: no name was given."
     exit 1
