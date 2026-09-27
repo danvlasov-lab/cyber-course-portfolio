@@ -9,7 +9,7 @@
 ## Goal
 To research a recent, publicly disclosed cybersecurity incident affecting a Finnish or Nordic organization. Produce a concise professional briefing that identifies what happened, which CIA principles were violated, the attack chain at a high level, and the defenses that would have helped.
 
-## Valtori — Data Breach, January 2026
+## Valtori - Data Breach, January 2026
 
 ### SUMMARY
 
