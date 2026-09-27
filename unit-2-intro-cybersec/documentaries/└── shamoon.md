@@ -16,32 +16,32 @@ I've watched the documentary. Link: https://www.youtube.com/watch?v=aNFRZHkT4zE
 
 ### 1. The incident in your own words
 
-In August 2012, Saudi Aramco was attacked using malware called Shamoon. It wiped the hard drives of around 35,000 computers in just a few hours. Shamoon overwrote the data with an image of a burning American flag. The company had to disconnect its systems from the internet and temporarily use paper and faxes to continue working.
+In August 2012, Saudi Aramco was attacked using the Shamoon malware. It completely destroyed (not physically) the memory storage media of 35,000 computers within a few hours and rewrote the data with a picture of a burning American flag. The company had to disconnect all devices from the Internet and switch to paper and fax machines for a while in order to continue working.
 
 ### 2. Who was affected, and how
 
-Saudi Aramco is the national oil company of Saudi Arabia and one of the biggest energy suppliers in the world. Since they produce so much oil, this attack wasn't just a problem for them, but a risk for global oil prices. If Aramco stopped shipping oil, the whole world market would feel the consequences very fast.
+Saudi Aramco is the national oil company of Saudi Arabia and one of the largest energy suppliers in the world. Since they produce a lot of oil, this attack is a problem not only for the company itself, but for the whole world. If Aramco stopped supplying oil, the entire global market would feel the consequences. Such attack could have serious consequences for the global oil market, even if oil production was not actually stopped.
 
 ### 3. The CIA principle
 
-The attack mainly affected availability and integrity. Confidentiality was not the main target because Shamoon was not trying to steal data and read it later. When data is stolen, you still have the original data, but when it is destroyed, you lose access to it and the attacker does not get it either. The computer can become a "brick" (unusable).
+Accessibility and integrity have suffered. Confindentiality wasn't the main issue. Shamoon didn't care about privacy because he didn't steal data to read it later. When the data is stolen, you still have it, and when it is destroyed, neither you nor the attacker gets the data, and your software becomes like a brick.
 
 ### 4. The attack technique – destruction at scale
 
-Shamoon spread so quickly because the attackers had administrator credentials and the internal network did not have enough barriers between computers. I do not remember the exact details of how the attackers got initial access, but the episode discusses possible insider involvement. A wiper destroys data and is used for sabotage, while ransomware usually demands money to give the victim access to their data again.
+Shamoon spread so quickly because it had admin credentials and the internal network had no barriers. I do not remember how the attackers gained initial access. The video discusses the possible involvement of an employee or insider. Wiper wipes out and sabotages, and ransomware demands a ransom to get the data back.
 
 ### 5. The organizational response
 
-Saudi Aramco had to replace tens of thousands of wiped hard drives. They sent representatives to factories in Asia to buy available HDDs on the market, which increased hard-drive prices for a period of time. It showed that disaster recovery isn't just about software backups. A company also needs to be ready to replace hardware quickly.
+They had to replace tens of thousands of wiped-out storage media. They sent representatives to factories in Asia to buy all the available HDDs on the market, which eventually raised global prices for hard drives for a while. Just having backups wasn't enough, because after destroying so many computers, it was still necessary to physically replace the hardware. The preparation itself costs quite a lot, but it is at least some kind of protection that can help save both the devices themselves and monetary losses.
 
 ### 6. What could have helped – defending the organization
 
-Network segmentation means dividing one large network into separate zones or subnets. If Aramco had divided its corporate network into isolated subnets, the malware would not have been able to spread so easily from one office computer to thousands of others. The attack could still have affected some computers, but the damage would have been much smaller.
+Network segmentation is the division of one large network into segments/sectors (zones). For example, you can divide one large network into several separate parts. If Aramco had divided its corporate network into isolated subnets, malware would not have been able to easily jump from one office computer to all the other 35,000 around around the entire enterprise. If the infected computer was located in only one segment, the attack could have remained mostly inside that segment. The scale of the damage would have been reduced, because the attack would have claimed fewer computers than it eventually took.
 
 ### 7. The broader lesson – critical infrastructure as a target
 
-Shamoon showed that attackers can use cyber tools for sabotage against critical infrastructure such as power grids, water systems or oil companies. This is dangerous because an attack on these organizations can cause real physical and economic damage. One organization can be part of a large system, so its shutdown can affect other people and companies.
+The attackers could use the tools as armed sabotage against critical infrastructure such as power grids, water, or oil. Unlike regular data theft, the goal may not be to obtain information or money, but to destroy and disrupt the work of an organization. This is dangerous because it can cause physical and economic losses for the whole world. If such an organization stops working properly, it may affect not only itself, but also the people and other companies that depend on it. One attack on one organization can affect a huge number of other people and companies.
 
 ### 8. My personal takeaway
 
-What surprised me the most was how much manual work was needed to recover from the attack. It also made me understand that backups and recovery plans can be very important in critical situations. Before watching the video, I thought cybersecurity mostly affected software, but now I see that cyberattacks can also cause real-world damage.
+What surprised me the most was how much manual work it costs to restore. Now I think that backups and recovery are very important and critical at the right moments. I used to think that cybersecurity only affects software factors, but after studying the video, I see that cyber attacks are quite capable of causing harm in the real world.
