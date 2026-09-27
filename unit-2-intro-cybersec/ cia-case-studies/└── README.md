@@ -10,7 +10,7 @@
 ## Goal
 To apply the CIA triad to real-world incident scenarios. Also to identify which principle was primarily violated, secondary impacts, and which controls would have prevented or limited the damage.
 
-## Scenario A — The hospital
+## Scenario A - The hospital
 
 ### 1. Primary CIA violation:
 
@@ -34,7 +34,7 @@ Regular offline or isolated backups could help the hospital recover after a rans
 
 The hospital should quickly isolate infected computers and servers from the network. It could then restore systems and data from clean backups. An incident response plan would also help the hospital continue important medical services during the attack.
 
-## Scenario B — The leaked database
+## Scenario B - The leaked database
 
 ### 1. Primary CIA violation:
 
@@ -58,7 +58,7 @@ The retailer should use stronger password hashing such as Argon2, bcrypt or scry
 
 The company should immediately revoke compromised credentials and access tokens. It should investigate what information was exposed and notify affected customers when required. Password resets and stronger authentication should also be used for affected accounts.
 
-## Scenario C — The defaced municipal site
+## Scenario C - The defaced municipal site
 
 ### 1. Primary CIA violation:
 
@@ -82,7 +82,7 @@ The municipality should keep the website, plugins and server software updated. S
 
 The municipality should keep regular and tested backups of the website. It should also monitor the website for unauthorized changes. If the website is changed, a recovery procedure should allow staff to restore the original version quickly.
 
-## Scenario D — The manipulated invoice
+## Scenario D - The manipulated invoice
 
 ### 1. Primary CIA violation:
 
