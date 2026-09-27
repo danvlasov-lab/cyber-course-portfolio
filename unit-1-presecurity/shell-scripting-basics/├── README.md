@@ -76,7 +76,7 @@ ls -la ~/.bashrc*
 ===============================
   Welcome back, varia
   Host: debian-lab
-  Today: ___
+  Today: Sunday, 27 September 2026
 ===============================
 ```
 
