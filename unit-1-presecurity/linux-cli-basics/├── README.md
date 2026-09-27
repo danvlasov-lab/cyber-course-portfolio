@@ -169,4 +169,13 @@ date \>\> report/system-info.txt
 zip \-r report.zip report/  
 unzip \-l report.zip
 
-Source: https://docs.google.com/document/d/1VFg6hKAKhbQV-sDws9Hvn_2FMEU1WoxDjNaCUs8ASEc/edit?tab=t.0
+# Reflection
+
+Which command surprised you? 
+grep surprised me the most, in a good way. With one short command I can find a single line in a huge file like /etc/services, and with a pipe I can filter the output of any other command, for example history | grep "cd ". With -i it ignores case, and together with wc -l it counts matches instead of me reading everything by hand. In security this is how you search logs for failed logins, errors or a suspicious IP address.
+
+Which command will you use most often, and why? 
+Clearly ls and cd. Almost every task starts with moving to the right directory and checking what is inside it. ls -la is especially useful because it also shows hidden files, owners and permissions, which is exactly what you check when something looks wrong on a system.
+
+What is still confusing? 
+Redirection with > and >>. They look almost the same, but > overwrites the file and >> adds to the end of it. One missing arrow can silently delete everything that was in a file, for example when building system-info.txt in Part 12. I still have to stop and think every time.
