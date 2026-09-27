@@ -16,32 +16,36 @@ I've watched the documentary. Link: https://www.youtube.com/watch?v=ttohYNSCkik
 
 ### 1. The incident in your own words
 
-The attackers wanted to steal about 1 billion dollars from Bangladesh Bank. They hacked the bank and used the SWIFT system to send money transfer requests to other accounts. They managed to steal about 81 million dollars. The most unusual thing for me was that they robbed the bank without going inside the building.
+The attackers wanted to steal about 1 billion dollars.The most unusual thing was that they robbed the bank without going inside. They hacked the bank and used SWIFT to send fake money transfer requests. They were able to steal about **81 million dollars. They only received about 81 million dollars, and not the entire amount, because some of the transactions were stopped after errors were found in the messages.
 
 ### 2. The patient approach - months of preparation
 
-The attackers were inside the bank's network for almost one year. During this time, they learned how the bank's computers and systems worked and prepared for the attack. They did not hurry because they wanted the attack to work. I think it is very dangerous when an attacker stays inside a system for a long time because they can study the company and collect information without being noticed.
+They learned how banking computers and systems work. They took their time because they wanted the attack to work.
+
+I consider it very dangerous when an attacker stays inside the system for a long time and waits in the wings, because he is unnoticed by everyone to study and collect data about the company.
 
 ### 3. The CIA principle
 
-The main CIA principle was **integrity**. The attackers changed information in the banking system and created fake payment orders. This is related to integrity because the information in the system was changed without permission. The system showed the fake orders as real.
+it refers to changing the integrity of the data, so that is **Integrity**. The attackers changed the information in the banking system and created fake payment orders. The system would show these orders as real.
 
 ### 4. The attack technique - SWIFT and the printer trick
 
-The attackers used SWIFT to send fake money transfer requests. They also stopped the printer from printing transaction messages. Because of this, the bank workers could not see the transactions quickly. Delaying the detection gave the attackers more time to move the money and hide their actions.
+They used SWIFT to send fake money transfer requests. They stopped the printer from printing transactional messages. The bank's workers couldn't see the transactions so quickly. That was needed to sweep away the evidence.
 
 ### 5. What went wrong for the attackers
 
-The attackers tried to move about 951 million dollars, but they only got about 81 million dollars. Some transactions had mistakes in the messages, including a spelling mistake, so they were stopped. Other banks also noticed problems and stopped some of the transfers. I think a small mistake and luck played a big role in stopping the attack.
+Some transactions had errors in the messages, including spelling errors, so they were stopped. The other banks also noticed the problems and stopped some of the transactions. One small mistake with the spelling of the name could greatly affect the entire operation, because it helped to detect and stop some of the transactions. It was an accident that ruined the whole plan.
 
 ### 6. What could have helped - the defender's perspective
 
-Better monitoring could have helped the bank. If the bank had noticed unusual transactions earlier, workers could have stopped the transfers sooner. This could have reduced the amount of money the attackers were able to steal.
+Better monitoring could help the bank to notice unusual transactions earlier. If the bank had noticed the suspicious transactions earlier, employees could have stopped the transfers faster. This could reduce the amount of money that the attackers were able to steal.
 
 ### 7. The broader lesson - financial crime as cyberattack
 
-Before watching this episode, I mostly thought about cyber attacks as viruses, ransomware or data theft. This attack showed me that cyber attacks can also be used for direct financial theft. Banks need to protect their systems not only from data destruction but also from people trying to steal money. Losing a large amount of money can also cause serious problems for the bank and damage its reputation.
+After this attack, I realized that attacks can also be quite mundane, like this one. Money itself can be the target of a cyberattack because attackers can directly use computer systems to steal money instead of just stealing or destroying data. These were the money of many people who deposited it in this bank. Losing this money means a loss of reputation and big problems for the bank. It is very important, as it helps to plan the attack thoroughly without any flaws.
 
 ### 8. Your personal takeaway
 
-The main thing I learned is that bank attacks do not always happen in person. I thought bank robberies would usually happen in real life, but this attack happened through computer systems. I also learned that attackers can spend a long time preparing before they make an attack. My main takeaway is that we always need to stay alert to these types of attacks.
+The most memorable thing for me in this episode is that the attackers were able to rob the bank through computer systems without entering the bank. I thought they only ever happen in live.
+
+Now I will pay more attention to how attackers can stay inside the system for a long time and prepare an attack, as well as financial attacks through computer systems. That one should always be vigilant against such attacks.
