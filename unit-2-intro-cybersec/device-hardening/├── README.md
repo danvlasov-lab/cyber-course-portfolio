@@ -66,9 +66,9 @@ To apply concrete hardening steps to a personal computer or a lab VM, and docume
 15. **Unused apps removed** - ✅ Done  
     I removed some apps that I do not use anymore.
 
-    * Old games
-    * Old programs
-    * Unused apps
+    . Old games
+    . Old programs
+    . Unused apps
 
 ### Accounts
 
