@@ -101,7 +101,7 @@ Fortinet Training and Certification: https://www.fortinet.com/training-certifica
 
 1) A network specialist should understand cybersecurity, because they work with the network and network equipment that need to be protected.
 
-2) The firewall monitors network traffic and helps protect the network from unwanted traffic.
+2) The firewall monitors network traffic helps protect the network from unwanted traffic.
 
 3) Routers and switches need to be protected because they can be used to change network settings.
 
