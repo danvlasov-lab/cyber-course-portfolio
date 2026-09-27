@@ -25,7 +25,7 @@ ls -la ~ | grep bashrc
 -rw-r--r--  1 varia varia  3526 Sep  8 09:34 .bashrc
 ```
 
-**Answer:** ___ bytes, last modified ___
+**Answer:** 3526 bytes, last modified Sep  8 09:34
 
 **Q2:** Find one section that contains comments explaining what it does. Paste a 3–5 line excerpt and explain in one sentence what that section does.
 
@@ -51,12 +51,13 @@ HISTFILESIZE=2000
 **Q4:** Paste the output. Confirm you have both .bashrc and .bashrc.backup.
 
 ```bash
-$ cp ~/.bashrc ~/.bashrc.backup
-$ ls -la ~/.bashrc*
+cp ~/.bashrc ~/.bashrc.backup
+ls -la ~/.bashrc*
 ```
 
 ```text
-___
+-rw-r--r-- 1 varia varia 3526 Sep 27 20:35 /home/varia/.bashrc
+-rw-r--r-- 1 varia varia 3526 Sep 27 20:46 /home/varia/.bashrc.backup
 ```
 
 **Answer:** Yes, both `.bashrc` and `.bashrc.backup` exist and have the same size.
