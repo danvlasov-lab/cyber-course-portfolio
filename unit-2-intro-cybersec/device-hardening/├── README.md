@@ -50,6 +50,7 @@ To apply concrete hardening steps to a personal computer or a lab VM, and docume
 7. **Disk encryption** - ⚠️ Partial  
    Automatic device encryption is not supported on my computer because of the hardware requirements.
 <img width="2048" height="29" alt="07-disk-encryption-before-and-after" src="https://github.com/user-attachments/assets/f799a7ab-7ca8-4f55-935c-c20cb77194cf" />
+
 8. **Backup** - ⚠️ Partial  
    OneDrive is syncing my files, but I do not have a separate backup yet.
 
@@ -64,7 +65,6 @@ To apply concrete hardening steps to a personal computer or a lab VM, and docume
     **Before:**
    <img width="1280" height="646" alt="10-firewall-before" src="https://github.com/user-attachments/assets/cf6b7ad7-4f93-45b1-aec6-240c62b4ad76" />
    
-
     **After:**
    <img width="1280" height="724" alt="10-firewall-after" src="https://github.com/user-attachments/assets/9e54ae0d-6933-4460-b0e9-e848911fdbd4" />
 
