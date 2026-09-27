@@ -65,12 +65,13 @@ To apply concrete hardening steps to a personal computer or a lab VM, and docume
     **Before:**
    <img width="1280" height="646" alt="10-firewall-before" src="https://github.com/user-attachments/assets/cf6b7ad7-4f93-45b1-aec6-240c62b4ad76" />
    
-    After:
+    **After:**
    <img width="1280" height="724" alt="10-firewall-after" src="https://github.com/user-attachments/assets/9e54ae0d-6933-4460-b0e9-e848911fdbd4" />
 
 12. **Network profile** - ✅ Done  
     My network is set as public. My computer is not discoverable on the network.
 <img width="1190" height="311" alt="11-network-profile-before-after" src="https://github.com/user-attachments/assets/a7bf6bf2-5aed-40db-b9ee-d3b36a95d888" />
+
 13. **Sharing services** - ✅ Done  
     Network discovery and file and printer sharing are turned off.
 
