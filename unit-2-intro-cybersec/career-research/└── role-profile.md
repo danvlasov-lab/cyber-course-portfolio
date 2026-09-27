@@ -26,9 +26,13 @@ He can work for an IT company, a large company, a TV company, or a data center. 
 ### 3. A real job ad I found
 
 **Title:** Network Technician IT/OT
+
 **Employer:** Billerud
+
 **Source:** https://billerud-career.talent-soft.com/job/job-network-technician-it-ot_5687.aspx
+
 **Date posted:** 2026
+
 
 The job ad includes requirements such as:
 
