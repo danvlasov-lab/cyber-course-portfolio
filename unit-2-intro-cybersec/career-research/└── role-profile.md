@@ -90,11 +90,11 @@ Certificates can also help when looking for a job working with networks, but edu
 
 **Sources:**
 
-Cisco Networking Academy: (https://www.cisco.com/site/us/en/learn/training-certifications/training/netacad/index.html)
+Cisco Networking Academy: https://www.cisco.com/site/us/en/learn/training-certifications/training/netacad/index.html
 
-Cisco CCNA: (https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html)
+Cisco CCNA: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html
 
-Fortinet Training and Certification: (https://www.fortinet.com/training-certification)
+Fortinet Training and Certification: https://www.fortinet.com/training-certification
 
 
 ### 7. The cybersecurity-relevant parts of this role:
