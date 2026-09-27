@@ -1,3 +1,14 @@
+# Assignment: Linux CLI Basics
+
+**Date:** 2026-09-18
+
+**Source:** U1-05b Assignment: Linux CLI Basics
+
+**Environment:** My computer
+
+## Goal
+To become comfortable with the essential Linux command-line tools you will use throughout this course. Build the muscle memory for navigation, file manipulation, viewing, searching, redirection, and package management on Debian 13.
+
 # Part 1 Getting your bearings
 
 ![part01-1](screenshots/part01-1.png)
