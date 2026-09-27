@@ -17,80 +17,101 @@ To pick an entry-level tech role you might realistically work in within the next
 
 ### 1. What this role actually is
 
-A Junior Network Technician works with computer networks. The job includes installing and checking different network devices and finding and fixing network problems when something does not work. A technician can work with switches, routers and other network devices. If a network stops working, the technician needs to find where the problem is and try to fix it. I think this job can be interesting because the work can be different every day and network problems are not always the same.
+Junior Network Technician works with a computer network. The work includes installing, checking various network devices, finding and fixing network problems if something does not work. With switches, routers, and other network devices. If a person or company has lost their internet/network, the Junior Network Technician should check the network devices and connections, find the cause of the problem and try to fix it. Every day's work is lost, because network problems are always different.
 
 ### 2. Where I might work
 
-A Junior Network Technician can work in an IT company, a large company, a telecom company or a data center. I could see myself working in either a small or a large IT company. I think both types of companies could give useful experience.
+He can work for an IT company, a large company, a TV company, or a data center. I would imagine myself working for a large or small IT company.
 
 ### 3. A real job ad I found
 
-**Title:** Network Technician IT/OT  
-**Employer:** Billerud  
-**Source:** https://billerud-career.talent-soft.com/job/job-network-technician-it-ot_5687.aspx  
+**Title:** Network Technician IT/OT
+**Employer:** Billerud
+**Source:** https://billerud-career.talent-soft.com/job/job-network-technician-it-ot_5687.aspx
 **Date posted:** 2026
 
 The job ad includes requirements such as:
 
-- Good problem-solving skills
-- Good communication skills
-- Ability to work in a team
-- Ability to work independently
-- Interest in IT and network systems
+Good knowledge of problem solving
+good communication
+ability to work in a team
+ability to work alone
+Interest in IT and network systems
 
 The responsibilities include:
 
-- Working with network systems
-- Maintaining network equipment
-- Helping with network problems
-- Working with IT and OT networks
-- Helping to keep the network secure
+Work with network systems
+maintain network equipment
+help with network problems
+work with IT and OT networks
+help keep the network safe
+
+I am familiar with Good problem solving knowledge, good communication, the ability to work in a team, the ability to work alone, an interest in IT and network systems, Work with network systems, maintain network equipment, help with network problems, help keep the network safe.
+
+Work with IT and OT networks.
 
 This job is not exactly a junior position, but it gives a good example of the skills and responsibilities that can be useful for a Network Technician.
 
-I already know most of these requirements. The part that is new for me is working with IT and OT networks.
-
 ### 4. Salary expectations
 
-For an entry-level Network Technician in Finland, I think **€2,500–€3,200 per month** is a reasonable salary range. I chose this range because I think it is a good salary for this type of technical work.
+For an entry-level Network Technician in Finland, I think €2,500–€3,200 per month. it's a great amount for a good living for such a difficult job.
 
-The salary can depend on experience, location and the company. I think there can also be a difference between Helsinki and smaller cities because salaries can be higher in the capital area, but the requirements can also be higher.
+The amount of salary depends on experience, location, and company. In the capital they will pay much more, but the requirements will be higher.
 
 **Source:** https://palkkavertailu.com/koulutus/verkkoasentaja
 
 ### 5. How people enter this role
 
-One way to enter this job is to study IT or telecommunications at a vocational school. Another way is to study ICT at an AMK. Practical experience is also important because network technicians need to know how to find and fix problems.
+The first way to get to this job is to study IT or telecommunications at a vocational school. Another way is to study ICT at AMK. Practical experience is also important because network techies need to know how to find and fix problems. Internships can also be useful for gaining experience. Certificates can also help when looking for a job working with networks. Special education also can help to get such a job. You can start with a vocational school or an AMK.
 
-An internship can help to get practical experience. Certifications can also help when looking for a job in networking. Another possible way is to start with another IT job, such as IT support or help desk, and then move into networking after getting more experience.
+Practical experience, such as an internship, is important because network techies need to know how to find and fix problems.
+
+Yes, you can get into this field through another IT job, for example, through IT support or help desk, and then switch to networking after gaining experience.
 
 ### 6. Certifications and training that help
 
-- **Cisco Networking Academy** - offers networking courses where students can learn the basics of networking before taking a certification.
+I only know about Cisco Networking Academy, which offers a course where students can study networking before passing certification.
 
-I know about Cisco Networking Academy because it offers courses about networking. I think it could be useful for me because I want to develop my skills in IT and networking.
+I would be interested to get a CCNA, because it is connected to networking and can help develop knowledge in this area.
 
-**Source:** https://www.cisco.com/site/us/en/learn/training-certifications/training/netacad/index.html
+Certificates can also help when looking for a job working with networks, but education and practical experience are also important.
 
-### 7. The cybersecurity-relevant parts of this role
+Sources:
 
-Cybersecurity is an important part of network technician work. A network technician can work with firewalls, which help protect a network from unwanted traffic. Routers, switches and other network devices also need to be protected because someone who gets access to them can change the network configuration.
+Cisco Networking Academy: https://www.cisco.com/site/us/en/learn/training-certifications/training/netacad/index.html
+Cisco CCNA: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html
+Fortinet Training and Certification: https://www.fortinet.com/training-certification
 
-Network equipment and its software should be updated because old software can have security vulnerabilities. Access to network devices should also be limited to authorized people. Monitoring network traffic can help find unusual or suspicious activity. A Network Technician may not be a cybersecurity specialist, but they can still notice problems that could be related to a cyber attack.
+### 7. The cybersecurity-relevant parts of this role:
 
-The cybersecurity topics from this course can also be useful for this job. For example, I learned about passwords, social engineering, different types of cyber attacks and the CIA principles. These topics can help a network technician understand how to protect a network and its users.
+1) A network specialist should understand cybersecurity, because they work with the network and network equipment that need to be protected.
+
+2) The firewall monitors network traffic and helps protect the network from unwanted traffic.
+
+3) Routers and switches need to be protected because they can be used to change network settings.
+
+4) It is important to update network hardware and its software, because old software may have vulnerabilities.
+
+5) Only authorized people should have access to network equipment settings.
+   
+6) Network traffic needs to be monitored to find unusual or suspicious activity.
+
+7) A Network Technician may notice an attack or suspicious activity.
+
+From what we learned in the course, for A Network Technician will need knowledge about passwords, social engineering, different types of cyber attacks, and the principles of the CIA. Also I consider the topics of network security, passwords, social engineering, cyber attacks, and the CIA to be the most related to this profession.
+
 
 ### 8. How this course prepares me - and where the gaps are
 
-This course has taught me many new things about basic cybersecurity. I learned about different types of cyber attacks, passwords, social engineering and the CIA principles. I understand the CIA principles better now and can recognize their main parts.
+I've learned a lot from basic cybersecurity. I learned the types of cyber attacks, passwords, social engineering, and the principles of the CIA. Also I began to understand the principles of the CIA and their signs better.
 
-I think almost all of this knowledge can be useful for a Network Technician. However, I still cannot apply this knowledge very well in real situations. My biggest gap is practical experience in a real environment. I would like to continue developing my skills in IT and networking and get more practical experience.
+I'm not good at putting this knowledge into practice yet. I don't have enough practice in a real environment and I would like to continue developing in the IT and network sphere.
 
 ### 9. Is this what I want?
 
-I chose Junior Network Technician because our course is preparing us for this type of work. We are learning new things about networks and how they work. I chose this role because it is connected to cybersecurity and also to the type of work I am interested in now.
+In our courses, we are preparing for exactly this position. We are constantly learning new things about networks and how they work online.
 
-I like working with networks and understanding how the different processes work. One thing I may not like is that finding and fixing a network problem can sometimes take a lot of time. However, after studying cybersecurity and learning more about this field, I think I would like to continue in this direction and try this type of job in the future.
+I chose this profession because it's related to cybersecurity and what I'm working on now. I like to dig into the web and its processes. The bad part is that it often takes a lot of time to solve the problem. But still I took courses on cybersecurity and I liked this position and direction.
 
 ### Sources
 
