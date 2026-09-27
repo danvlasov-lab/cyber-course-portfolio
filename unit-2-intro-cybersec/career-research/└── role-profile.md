@@ -34,7 +34,7 @@ He can work for an IT company, a large company, a TV company, or a data center. 
 **Date posted:** 2026
 
 
-The job ad includes requirements such as:
+**The job ad includes requirements such as:**
 
 Good knowledge of problem solving
 
@@ -47,7 +47,7 @@ ability to work alone
 Interest in IT and network systems
 
 
-The responsibilities include:
+**The responsibilities include:**
 
 Work with network systems
 
