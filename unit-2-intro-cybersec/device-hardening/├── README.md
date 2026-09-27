@@ -91,10 +91,10 @@ To apply concrete hardening steps to a personal computer or a lab VM, and docume
 
 ## Reflection
 
-The biggest security improvement was checking the firewall, Windows Defender and network settings. These settings will help protect my computer from different future attacks. Before this assignment, I were checking them quite rarely.
+The biggest security improvement was checking the firewall, Windows Defender, and network settings. These settings will help protect my computer from various attacks in the future. Before this assignment, I had checked them quite rarely.
 
-The most inconvenient part was checking all the settings. Some settings were easy to find (like system settings or updates), but others took more time(like Bitlocker activisation). Disk encryption was also a problem because I could not enable it on my computer because of the hardware requirements.
+The most inconvenient part was checking the settings. Some settings were easy to find (like system settings or updates), but others took longer (like activating Bitlocker). Disk encryption was also a problem as I couldn't turn it on on my computer due to hardware requirements.
 
-I found that I do not have a separate backup yet. OneDrive is syncing my files, but I have not made a separate backup or tested restoring a file.
+I've discovered that I don't have a separate backup yet. OneDrive syncs my files, but I have not created a separate backup or tested file recovery.
 
-Now I know more about my computer security and what I need to check in the future. My next step is to make a separate backup and test that I can restore a file from it.
+Now I know more about my computer security and what I need to check in the future and my next step is to make a separate backup and test that I can restore a file from it.
