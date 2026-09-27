@@ -135,10 +135,14 @@ wc -l ~/.bash_history
 tail -n 20 ~/.bash_history
 ```
 
-**Answer:** ___ lines. Last 5:
+**Answer:** 319 lines. Last 5:
 
 ```text
-___
+cd
+ls -la ~ | grep bashrc
+less ~/.bashrc 
+HISTORY
+history
 ```
 
 **Q13:** What are the new values?
@@ -147,12 +151,12 @@ ___
 
 **Q14:** What changes? How many commands does `history` now show?
 
-**Answer:** Only the last 5 commands are shown; older ones are dropped from the current shell's memory.
+**Answer:** The history size dropped to 5. Only the last 5 commands are shown.
 
 **Q15:** Name two reasons why someone with read access to your home folder might care what's in your history file.
 
 **Answer:**
-1. Secrets typed on the command line - passwords, API tokens, `mysql -p<password>`, `curl -H "Authorization: ..."`.
+1. Secrets typed on the command line - passwords, API tokens.
 2. Reconnaissance - it reveals servers, IPs, usernames, file paths and tools I use, which helps an attacker plan the next step.
 
 # Part 6 Your first script
@@ -178,7 +182,14 @@ Created 5 files in test-run-1
 ```
 
 ```text
-___
+total 8
+drwxrwxr-x 2 varia varia 4096 Sep 27 21:21 .
+drwxrwxr-x 8 varia varia 4096 Sep 27 21:21 ..
+-rw-rw-r-- 1 varia varia    0 Sep 27 21:21 file1.txt
+-rw-rw-r-- 1 varia varia    0 Sep 27 21:21 file2.txt
+-rw-rw-r-- 1 varia varia    0 Sep 27 21:21 file3.txt
+-rw-rw-r-- 1 varia varia    0 Sep 27 21:21 file4.txt
+-rw-rw-r-- 1 varia varia    0 Sep 27 21:21 file5.txt
 ```
 
 **Q17:** What does the script say this time? Did it still try to create the 5 files? Does touch overwrite existing files?
