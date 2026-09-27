@@ -97,9 +97,9 @@ alias cyber='cd ~/cyber-course'
 ```
 
 ```bash
-$ ll
-$ cyber
-$ pwd
+ll
+cyber
+pwd
 ```
 
 ```text
@@ -111,7 +111,7 @@ $ pwd
 **Q9:** How many aliases are now defined in your shell?
 
 ```bash
-$ alias | wc -l
+alias | wc -l
 ```
 
 **Answer:** 6 (`egrep`, `fgrep`, `grep`, `ls` from Debian + `ll`, `cyber`)
@@ -131,8 +131,8 @@ $ alias | wc -l
 **Q12:** How many lines are in your history file? Paste the last 5 lines.
 
 ```bash
-$ wc -l ~/.bash_history
-$ tail -n 20 ~/.bash_history
+wc -l ~/.bash_history
+tail -n 20 ~/.bash_history
 ```
 
 **Answer:** ___ lines. Last 5:
@@ -160,9 +160,9 @@ ___
 ![part06](screenshots/part06.png)
 
 ```bash
-$ cd ~/cyber-course/
-$ nano make-files.sh
-$ chmod +x make-files.sh
+cd ~/cyber-course/
+nano make-files.sh
+chmod +x make-files.sh
 ```
 
 # Part 7 Testing your script
@@ -253,7 +253,7 @@ fi
 
 read -p "How many files? " count
 
-if ! [[ "$count" =~ ^[0-9]+$ ]] || [ "$count" -lt 1 ] || [ "$count" -gt 100 ]; then
+if ! [[ "$count" =~ ^[0-9]+]] || [ "$count" -lt 1 ] || [ "$count" -gt 100 ]; then
     echo "Error: number of files must be a whole number from 1 to 100."
     exit 1
 fi
