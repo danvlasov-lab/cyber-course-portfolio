@@ -65,7 +65,7 @@ To apply concrete hardening steps to a personal computer or a lab VM, and docume
     **Before:**
    <img width="1280" height="646" alt="10-firewall-before" src="https://github.com/user-attachments/assets/cf6b7ad7-4f93-45b1-aec6-240c62b4ad76" />
    
-    **After:**
+    After:
    <img width="1280" height="724" alt="10-firewall-after" src="https://github.com/user-attachments/assets/9e54ae0d-6933-4460-b0e9-e848911fdbd4" />
 
 12. **Network profile** - ✅ Done  
