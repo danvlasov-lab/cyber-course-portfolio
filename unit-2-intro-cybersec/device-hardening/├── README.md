@@ -1,3 +1,4 @@
+
 # Assignment: Personal Device Hardening Checklist
 
 **Date:** 2026-09-18
@@ -15,6 +16,7 @@ To apply concrete hardening steps to a personal computer or a lab VM, and docume
 
 1. **OS is supported** - ✅ Done  
    I use Windows 11. It gets security updates.
+<img width="1280" height="168" alt="01-windows-version-before-and-after png" src="https://github.com/user-attachments/assets/74bea33f-86ca-4787-a1b7-bbaab8a28e9f" />
 
 2. **Automatic updates** - ⚠️ Partial  
    Windows Update is working, but I could not confirm the automatic update setting.
