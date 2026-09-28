@@ -4,52 +4,7 @@ Living evidence map for *Kyberturvallisuus 15 ECVET*.
 I update this file as I complete assignments, linking each to the
 competence(s) it demonstrates.
 
-Last updated: 2026-09-21
-
----
-
-## 1. Keskeiset käsitteet — CIA
-*(Core concepts: the CIA triad)*
-
-| Competence | Evidence (assignment + link) | Notes / what it demonstrates |
-|---|---|---|
-| Tuntee CIA käsitteet (knows CIA concepts) |  |  |
-| Ymmärtää saavutettavuuden käsitteen ja siihen kohdistuvat uhat (understands availability and its threats) |  |  |
-| Ymmärtää luottamuksellisuuden käsitteen ja siihen kohdistuvat uhat (understands confidentiality and its threats) |  |  |
-| Ymmärtää eheyden käsitteen ja siihen kohdistuvat uhat (understands integrity and its threats) |  |  |
-
----
-
-## 2. Kyberturvallisuuden ylläpito kotona ja työpaikalla
-*(Maintaining cybersecurity at home and at work)*
-
-| Competence | Evidence (assignment + link) | Notes / what it demonstrates |
-|---|---|---|
-| Osaa tehdä laitteiden suojauksen kannalta tärkeät ohjelmistoasennukset ja asetukset sekä päivittää ne tarvittaessa (can install and configure device security software, and keep it updated) |  |  |
-| Osaa huomioida tietoturvan tiedonsiirrossa ja tallennuksessa (can address security in data transmission and storage) | [U1-04b Cloud Concepts](https://github.com/danvlasov-lab/cyber-course-portfolio/blob/main/unit-1-presecurity/cloud-concepts/%E2%94%94%E2%94%80%E2%94%80%20reflection.md) | Explained the shared responsibility model and how security responsibilities change between IaaS, PaaS and SaaS. |
-| Huomioi laitteiden fyysisen suojauksen kotona, työpaikalla ja matkustettaessa (addresses physical device security at home, at work, and while travelling) |  |  |
-| Tunnistaa sosiaalisen manipuloinnin keinot ja osaa varautua niihin (recognizes social engineering methods and can defend against them) |  |  |
-
----
-
-## 3. Kyberuhkat ja riskitekijät
-*(Cyber threats and risk factors)*
-
-| Competence | Evidence (assignment + link) | Notes / what it demonstrates |
-|---|---|---|
-| Tietää tavanomaiset kyberhyökkäyksen tekniikat ja niihin liittyvät riskit (knows common cyberattack techniques and associated risks) |[U1-02a Map Your Network](https://github.com/danvlasov-lab/cyber-course-portfolio/blob/main/unit-1-presecurity/network-fundamentals/network-profile.md) | Mapped my network, DNS, gateway and listening ports and identified network security risks. | 
-| Tietää tavanomaiset kyberhyökkäyksen tekniikat ja niihin liittyvät riskit (knows common cyberattack techniques and associated risks) |[U1-03f Subnetting Basics](https://github.com/danvlasov-lab/cyber-course-portfolio/blob/main/unit-1-presecurity/subnetting/U1-03f_Subnetting_Basics.md) | Learned how subnet ranges are defined and how attackers can scan networks by subnet.|
-| Osaa tavanomaiset keinot, joilla kyberhyökkäyksen aiheuttamia vahinkoja voi rajoittaa (knows common ways to limit damage from cyberattacks) |  |  |
-
----
-
-## 4. Salausmenetelmät
-*(Encryption methods)*
-
-| Competence | Evidence (assignment + link) | Notes / what it demonstrates |
-|---|---|---|
-| Tuntee salausmenetelmien periaatteen (understands the principle of encryption methods) |  |  |
-| Tietää ja osaa nimetä yleisimmät salausmenetelmät (knows and can name common encryption methods) |  |  |
+Last updated: 2026-09-28
 
 ---
 
