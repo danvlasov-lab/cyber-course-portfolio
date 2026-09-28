@@ -1,4 +1,16 @@
+# Debian 13 Installation via VirtualBox
+
+**Date:** 2026-09-1
+
+**Source:**  U1-04c Assignment: Debian Installation
+
+**Environment:** My computer (Debian UTM)
+
+## Goal
+To build your own Linux virtual machine from scratch, and get comfortable with what a hypervisor actually does.
+
 # My Debian 13 Lab VM
+
 ## VM identity
 
 ## VM name (in VirtualBox/UTM): debian-lab
