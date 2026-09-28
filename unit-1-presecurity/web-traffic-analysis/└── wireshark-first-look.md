@@ -1,7 +1,7 @@
 # Assignment: Wireshark - Cleartext vs Encrypted Traffic
 
 
-**Date:** 2026-09-8
+**Date:** 2026-08-18
 
 **Source:**  U1-03a Assignment: Wireshark - Cleartext vs Encrypted Traffic
 
