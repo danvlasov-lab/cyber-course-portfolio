@@ -45,7 +45,7 @@ Last updated: 2026-09-28
 
 ## My portfolio overall
 
-My portfolio is organized by course units and assignments. Each assignment is stored in its own folder and contains the related task, reflection, analysis or evidence. The competence map connects these assignments to the cybersecurity competences demonstrated by my work.
+My portfolio is organized by course units and assignments. Each assignment is stored in its own folder and contains the related task, reflection, analysis. The competence map connects these assignments to the cybersecurity competences demonstrated by my work.
 
 ## Closing reflection
 
@@ -55,4 +55,8 @@ Filled in at the end of the course:
 - Which competence am I least confident about, and why?
 - One thing I want to keep learning about after this course ends.
 
+  I think the U2-01a CIA Triad Case Studies assignment demonstrates my learning the most because I had to apply confidentiality, integrity and availability to different real-life cybersecurity situations.
 
+  I am least confident about encryption methods because I understand the basic idea of encrypted communication, but I still need more practice with different encryption methods and how they work.
+  
+  I want to keep learning about cyberattacks and how defenders can detect and prevent them. I am especially interested in understanding how attacks happen in real systems and how security controls can reduce the damage.
