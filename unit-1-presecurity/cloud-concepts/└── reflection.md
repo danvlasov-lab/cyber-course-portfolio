@@ -1,3 +1,14 @@
+# Assignment: Cloud Concepts Reflection
+
+**Date:** 2026-09-18
+
+**Source:** U1-04b Assignment: Cloud Concepts
+
+**Environment:** My computer
+
+## Goal
+To watch (or attend) the Cloud Concepts lecture (U1-04a), then write a structured reflection connecting the concepts to your own understanding of IT work - including the entry-level tech roles you're most likely to encounter in the next few years.
+
 ## 1. Cloud in your own words
 
 Cloud is on-demand delivery technology for renting data, resources and etc. Instead of buying physical computers, storing them in your office, and worrying about hardware failures, you are renting processing power, file storage, and software from massive tech companies (like Microsoft or Amazon) over the internet. You only pay for what you actually use.
