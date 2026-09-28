@@ -55,8 +55,9 @@ Filled in at the end of the course:
 - Which competence am I least confident about, and why?
 - One thing I want to keep learning about after this course ends.
 
-  I think the U2-01a CIA Triad Case Studies assignment demonstrates my learning the most because I had to apply confidentiality, integrity and availability to different real-life cybersecurity situations.
-
+  I think the U1-05b Assignment: Linux CLI Basics assignment demonstrates my learning the most because Linux commands are very useful not only on linux systems, but also on MacOs(It based on Linux), and I would like to use them more often after this assignment.
+  
   I am least confident about encryption methods because I understand the basic idea of encrypted communication, but I still need more practice with different encryption methods and how they work.
   
-  I want to keep learning about cyberattacks and how defenders can detect and prevent them. I am especially interested in understanding how attacks happen in real systems and how security controls can reduce the damage.
+  I would like to learn more about cyberattacks, CIA and how defenders can detect and prevent them. I am also interested in understanding how attacks happen in real systems and how security controls can reduce the damage.
+
