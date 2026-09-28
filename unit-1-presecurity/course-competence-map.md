@@ -6,8 +6,6 @@ competence(s) it demonstrates.
 
 Last updated: 2026-09-28
 
----
-
 ## 1. Keskeiset käsitteet — CIA
 *(Core concepts: the CIA triad)*
 
@@ -17,8 +15,6 @@ Last updated: 2026-09-28
 | Ymmärtää saavutettavuuden käsitteen ja siihen kohdistuvat uhat (understands availability and its threats) | [U2-01c Assignment: WannaCry (documentary)](https://github.com/danvlasov-lab/cyber-course-portfolio/blob/main/unit-2-intro-cybersec/documentaries/%E2%94%94%E2%94%80%E2%94%80%20wannacry.md), [U2-02b Assignment: Darknet Diaries Ep. 54 - NotPetya (documentary)](https://github.com/danvlasov-lab/cyber-course-portfolio/blob/main/unit-2-intro-cybersec/documentaries/%E2%94%94%E2%94%80%E2%94%80%20notpetya.md), [U2-04b Assignment: Darknet Diaries Ep. 30 - Shamoon (documentary)](https://github.com/danvlasov-lab/cyber-course-portfolio/blob/main/unit-2-intro-cybersec/documentaries/%E2%94%94%E2%94%80%E2%94%80%20shamoon.md) | I know difference between ransomware and wiper and how attacks can make systems and data unavailable. |
 | Ymmärtää luottamuksellisuuden käsitteen ja siihen kohdistuvat uhat (understands confidentiality and its threats) | [U1-03a Assignment: Wireshark - Cleartext vs Encrypted Traffic](https://github.com/danvlasov-lab/cyber-course-portfolio/blob/main/unit-1-presecurity/web-traffic-analysis/%E2%94%94%E2%94%80%E2%94%80%20wireshark-first-look.md), [U2-01a Assignment: CIA Triad Case Studies](https://github.com/danvlasov-lab/cyber-course-portfolio/blob/main/unit-2-intro-cybersec/cia-case-studies/README.md), [U2-04c Assignment: Darknet Diaries Ep. 86 - The LinkedIn Incident (documentary)](https://github.com/danvlasov-lab/cyber-course-portfolio/blob/main/unit-2-intro-cybersec/documentaries/%E2%94%94%E2%94%80%E2%94%80%20linkedin-incident.md) | I know how to compare cleartext and encrypted traffic. Also I've identified exposure of credentials, personal data, and examined a real credential breach. |
 | Ymmärtää eheyden käsitteen ja siihen kohdistuvat uhat (understands integrity and its threats) | [U2-01a Assignment: CIA Triad Case Studies](https://github.com/danvlasov-lab/cyber-course-portfolio/blob/main/unit-2-intro-cybersec/cia-case-studies/README.md), [U2-02b Assignment: Darknet Diaries Ep. 54 - NotPetya (documentary)](https://github.com/danvlasov-lab/cyber-course-portfolio/blob/main/unit-2-intro-cybersec/documentaries/%E2%94%94%E2%94%80%E2%94%80%20notpetya.md), [U2-02c Assignment: Darknet Diaries Ep. 72 - Bangladesh Bank Heist (documentary)](https://github.com/danvlasov-lab/cyber-course-portfolio/blob/main/unit-2-intro-cybersec/documentaries/%E2%94%94%E2%94%80%E2%94%80%20bangladesh-bank.md) | I know how attackers can modify, destroy or manipulate data and transactions. |
-
----
 
 ## 2. Kyberturvallisuuden ylläpito kotona ja työpaikalla
 *(Maintaining cybersecurity at home and at work)*
@@ -30,8 +26,6 @@ Last updated: 2026-09-28
 | Huomioi laitteiden fyysisen suojauksen kotona, työpaikalla ja matkustettaessa (addresses physical device security at home, at work, and while travelling) | [U2-03b Assignment: Personal Device Hardening Checklist](https://github.com/danvlasov-lab/cyber-course-portfolio/blob/main/unit-2-intro-cybersec/device-hardening/%E2%94%9C%E2%94%80%E2%94%80%20README.md) | I've considered addresses physical security, screen locking and device location. |
 | Tunnistaa sosiaalisen manipuloinnin keinot ja osaa varautua niihin (recognizes social engineering methods and can defend against them) | [U2-02a Social Engineering Tabletop](https://github.com/danvlasov-lab/cyber-course-portfolio/tree/main/unit-2-intro-cybersec/social-engineering-tabletop), [U2-03c Assignment: Darknet Diaries Ep. 87 - Guild of the Grumpy Old Hackers (documentary)](https://github.com/danvlasov-lab/cyber-course-portfolio/blob/main/unit-2-intro-cybersec/documentaries/grumpy-old-hackers.md) | I know how to identifie phishing, vishing, pretexting, tailgating, credential reuse and credential stuffing attack methods. Also I've learned about verification and prevention methods. |
 
----
-
 ## 3. Kyberuhkat ja riskitekijät
 *(Cyber threats and risk factors)*
 
@@ -41,8 +35,6 @@ Last updated: 2026-09-28
 | Tietää tavanomaiset kyberhyökkäyksen teknikkat ja niihin liittyvät riskit (knows common cyberattack techniques and associated risks) | [U1-03f Assignment: Subnetting Basics](https://github.com/danvlasov-lab/cyber-course-portfolio/edit/main/unit-1-presecurity/subnetting/U1-03f_Subnetting_Basics.md), [U2-03c Assignment: Darknet Diaries Ep. 87 - Guild of the Grumpy Old Hackers (documentary)](https://github.com/danvlasov-lab/cyber-course-portfolio/blob/main/unit-2-intro-cybersec/documentaries/grumpy-old-hackers.md), [U2-04c Assignment: Darknet Diaries Ep. 86 - The LinkedIn Incident (documentary)](https://github.com/danvlasov-lab/cyber-course-portfolio/blob/main/unit-2-intro-cybersec/documentaries/%E2%94%94%E2%94%80%E2%94%80%20linkedin-incident.md) | I've learned how network ranges can be scanned and how stolen or reused credentials can be used in attacks. |
 | Osaa tavanomaiset keinot, joilla kyberhyökkäyksen aiheuttamia vahinkoja voi rajoittaa (knows common ways to limit damage from cyberattacks) | [U2-03b Assignment: Personal Device Hardening Checklist](https://github.com/danvlasov-lab/cyber-course-portfolio/blob/main/unit-2-intro-cybersec/device-hardening/%E2%94%9C%E2%94%80%E2%94%80%20README.md), [U2-03b Assignment: Personal Device Hardening Checklist](hhttps://github.com/danvlasov-lab/cyber-course-portfolio/blob/main/unit-2-intro-cybersec/social-engineering-tabletop/%E2%94%94%E2%94%80%E2%94%80%20README.md), [U2-04b Assignment: Darknet Diaries Ep. 30 - Shamoon (documentary)](https://github.com/danvlasov-lab/cyber-course-portfolio/blob/main/unit-2-intro-cybersec/documentaries/%E2%94%94%E2%94%80%E2%94%80%20shamoon.md) | I've covered updates, MFA, backups, restore testing, verification ands incident escalation. |
 
----
-
 ## 4. Salausmenetelmät
 *(Encryption methods)*
 
@@ -50,8 +42,6 @@ Last updated: 2026-09-28
 |---|---|---|
 | Tuntee salausmenetelmien periaatteen (understands the principle of encryption methods) | [U1-03a Assignment: Wireshark - Cleartext vs Encrypted Traffic](https://github.com/danvlasov-lab/cyber-course-portfolio/blob/main/unit-1-presecurity/web-traffic-analysis/%E2%94%94%E2%94%80%E2%94%80%20wireshark-first-look.md) | I've compared HTTP and HTTPS and observed how TLS protects usernames, passwords and other data during transmission by using encryption. |
 | Tietää ja osaa nimetä yleisimmät salausmenetelmät (knows and can name common encryption methods) | [U1-03a Assignment: Wireshark - Cleartext vs Encrypted Traffic](https://github.com/danvlasov-lab/cyber-course-portfolio/blob/main/unit-1-presecurity/web-traffic-analysis/%E2%94%94%E2%94%80%E2%94%80%20wireshark-first-look.md) | I can demonstrate knowledge of HTTPS/TLS as an encrypted communication method. |
-
----
 
 ## My portfolio overall
 
