@@ -59,5 +59,5 @@ Filled in at the end of the course:
   
   I am least confident about encryption methods because I understand the basic idea of encrypted communication, but I still need more practice with different encryption methods and how they work.
   
-  I would like to learn more about cyberattacks, CIA and how defenders can detect and prevent them. I am also interested in understanding how attacks happen in real systems and how security controls can reduce the damage.
+  I would like to learn more about cyberattacks, CIA and how defenders can detect and prevent them. It is really interesting how attacks happen in real systems and how security controls can reduce the damage.
 
