@@ -1,8 +1,8 @@
 # Course Competence Map — Vlasov Danila
 
-Living evidence map for *Kyberturvallisuus 15 ECVET*.
+Living evidence map for Kyberturvallisuus 15 ECVET.
 I update this file as I complete assignments, linking each to the
-competence(s) it demonstrates.
+competences, which it demonstrates.
 
 Last updated: 2026-09-28
 
