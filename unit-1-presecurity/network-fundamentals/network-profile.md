@@ -1,3 +1,14 @@
+# Assignment: Map Your Network
+
+**Date:** 2026-08-17
+
+**Source:** U1-02a Assignment: Map Your Network
+
+**Environment:** My computer
+
+## Goal
+To watch (or attend) the Cloud Concepts lecture (U1-04a), then write a structured reflection connecting the concepts to your own understanding of IT work - including the entry-level tech roles you're most likely to encounter in the next few years.
+
 # Network Profile — MacBook Pro (M1)
 
 ## Identity
