@@ -1,3 +1,4 @@
+
 # Subnetting Basics assignment
 
 **Date:** 2026-09-7
@@ -25,6 +26,8 @@ To get comfortable moving between the four ways an IP address can be written - d
 |248	|	11111000| 
 |0	  |	00000000|
 
+<img width="300" height="282" alt="Снимок экрана 2026-09-28 в 09 59 39" src="https://github.com/user-attachments/assets/99f84c19-9bfb-48b5-b289-2a0958055841" />
+
 
 ### 1.2 - Binary to decimal
 |Binary	|Decimal|
@@ -35,6 +38,8 @@ To get comfortable moving between the four ways an IP address can be written - d
 |00010000	|	 16|
 |11111000	|	 248|
 |11010010	|	 210|
+
+<img width="310" height="181" alt="Снимок экрана 2026-09-28 в 10 00 47" src="https://github.com/user-attachments/assets/67493ea2-39b9-4f30-b20d-bcfeeb9f3fb8" />
 
 
 ### 1.3 - Full-address conversion
@@ -47,12 +52,14 @@ To get comfortable moving between the four ways an IP address can be written - d
 172.16.5.100 → 10101100.00010000.00000101.01100100
 
 
+
 ### And the reverse — write these binary IPs in dotted-decimal:
 
 11000000.10101000.00000001.00000001 → 192.168.1.1
 
 00001010.00001010.00000000.01001011 → 10.10.0.75
 
+<img width="312" height="387" alt="Снимок экрана 2026-09-28 в 10 01 10" src="https://github.com/user-attachments/assets/119959a5-b30a-4051-a8d7-87e86fdc70ed" />
 
 ## Task 2 - Recognize the class and CIDR
 
@@ -69,6 +76,7 @@ To get comfortable moving between the four ways an IP address can be written - d
 
 (Reminder: A = first octet 1–126, B = 128–191, C = 192–223.)
 
+<img width="586" height="327" alt="Снимок экрана 2026-09-28 в 10 01 53" src="https://github.com/user-attachments/assets/68c44863-24d9-4135-9e8e-19ca8e9a120c" />
 
 ### 2.2 - Mask ↔ CIDR ↔ binary
 
@@ -81,6 +89,7 @@ To get comfortable moving between the four ways an IP address can be written - d
 |255.255.248.0 	  | /21	|	11111111.11111111.11111000.00000000|  
 |255.255.255.128	|	/25 |	11111111.11111111.11111111.10000000| 
 
+<img width="314" height="544" alt="Снимок экрана 2026-09-28 в 10 02 10" src="https://github.com/user-attachments/assets/79990a12-3fd2-4a05-9c6c-d226e585ee2e" />
 
 ### 2.3 - Networks and hosts per class
 
@@ -92,6 +101,7 @@ To get comfortable moving between the four ways an IP address can be written - d
 
 |C	  |	/24	          |	2 million nets 254 hosts| 	 
   
+<img width="313" height="190" alt="Снимок экрана 2026-09-28 в 08 10 39" src="https://github.com/user-attachments/assets/de6cf4bc-13fb-4c2a-8080-e45ff0661ece" />
 
 ## Task 3 - The five key values - the main event
 
@@ -179,6 +189,8 @@ subnet mask:       255.255.255.128
   
 (the network doesn't start on a .0 boundary - pay attention to which half of the /24 this is)
 
+<img width="789" height="453" alt="Снимок экрана 2026-09-28 в 10 03 37" src="https://github.com/user-attachments/assets/15b4f0fc-8766-483c-bee9-28800e25c3f8" />
+
 
 ## Task 4 - Which subnet does this host belong to?
 
@@ -217,6 +229,8 @@ Network address: 10.0.0.0
 Broadcast: 10.0.0.3
 
 Valid host? No, because 10.0.0.0 is the network address itself, not a usable host. (In a /30 subnet, the usable host range is only 10.0.0.1 and 10.0.0.2). (yes/no + reason - this one is a trap; think carefully about a /30)
+
+<img width="591" height="410" alt="Снимок экрана 2026-09-28 в 10 03 55" src="https://github.com/user-attachments/assets/53db270f-c90b-42ba-b7bc-b5a8f66e8926" />
 
 
 ## Task 5 - Slicing up a /24
@@ -303,6 +317,8 @@ Reminder - usable hosts per subnet size (fill in from your notes):
 |/29  |	8	              |  6|
 |/30  |	4	              |  2|
 
+<img width="369" height="476" alt="Снимок экрана 2026-09-28 в 10 04 32" src="https://github.com/user-attachments/assets/5ce90ffe-b2a0-43d3-86d1-22bed9bab4ce" />
+
 
 ## Task 6 - IPv6, briefly
 
@@ -335,7 +351,10 @@ Compress:
 
 fe80:0000:0000:0000:0000:0000:0000:0001 → fe80::1
 
+
 ### 6.3 - A conceptual question
 - In your own words, in 2–3 sentences: why do we need IPv6?
   
-We need IPv6 because the older IPv4 standard ran out of unique IP addresses to assign to the billions of phones, computers, and smart devices connected to the internet today. IPv6 provides a practically limitless supply of addresses ($2^{128}$) so every device can have its own permanent, direct connection without relying on workarounds like NAT
+We need IPv6 because IPv4 addresses are exhausted. IPv6 provides 2^128 addresses for direct global connectivity.
+
+<img width="256" height="246" alt="Снимок экрана 2026-09-28 в 10 04 55" src="https://github.com/user-attachments/assets/045bfb32-18aa-4d0f-88b8-456b0d77ff6b" />
