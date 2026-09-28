@@ -1,3 +1,17 @@
+# Assignment: Wireshark - Cleartext vs Encrypted Traffic
+
+
+**Date:** 2026-09-8
+
+**Source:**  U1-03a Assignment: Wireshark - Cleartext vs Encrypted Traffic
+
+**Environment:** Debian VM
+
+## Goal
+
+To observe the difference between unencrypted and encrypted network traffic in a real packet capture, and recognize why protocol choice matters for confidentiality.
+
+
 # Wireshark First Look
 
 ## Part A — the HTTP capture (U1-03a_http_login.pcap):
