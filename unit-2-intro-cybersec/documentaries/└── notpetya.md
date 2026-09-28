@@ -1,4 +1,4 @@
-# Assignment: Documentary  D-arknet Diaries Ep. 54: NotPetya
+# Assignment: Documentary  Darknet Diaries Ep. 54: NotPetya
 
 **Date:** 2026-09-18
 
